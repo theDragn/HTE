@@ -1,0 +1,45 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "drg_tigershark_iv",
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_tigershark_iv",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "mjolnir"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "harpoonpod",
+                "WS0002": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser"
+            }
+        }
+    ]
+}

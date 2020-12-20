@@ -1,0 +1,36 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 14,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "drg_persephone",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "drg_persephone_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ]
+}

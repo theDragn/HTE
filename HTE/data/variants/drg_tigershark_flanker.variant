@@ -1,0 +1,44 @@
+{
+    "displayName": "Flanker",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "drg_tigershark",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "drg_tigershark_flanker",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyblaster",
+                "WS0002": "pulselaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "hurricane"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser"
+            }
+        }
+    ]
+}

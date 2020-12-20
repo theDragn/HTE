@@ -1,0 +1,108 @@
+{
+  "hullName": "Iris",
+  "hullId": "drg_iris",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/iris.png",
+  "style": "HIGH_TECH",
+  "height": 119,
+  "width": 112,
+  "center": [56, 55],
+  "collisionRadius": 63,
+  "shieldCenter": [4.5, 0],
+  "shieldRadius": 76,
+  "viewOffset": 0,
+  "builtInMods": [
+    "magazines",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [27.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-2, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-2, -17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [6, 44]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [6, -44]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53.5, 13.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-53.5, -13.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-54.5, 5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-54.5, -5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -54.5, -37,
+    -20.5, -56,
+    36.5, -35.5,
+    63, -0,
+    36.5, 35.5,
+    -20.5, 56,
+    -54.5, 37
+  ]
+}

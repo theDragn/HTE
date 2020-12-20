@@ -1,0 +1,32 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "drg_moray",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "drg_moray_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gravitonbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "typhoon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "pdlaser"}
+        }
+    ]
+}

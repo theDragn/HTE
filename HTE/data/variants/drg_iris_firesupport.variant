@@ -1,0 +1,33 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 13,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "drg_iris",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "drg_iris_firesupport",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "sabot",
+                "WS0005": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser"
+            }
+        }
+    ]
+}

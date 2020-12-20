@@ -1,0 +1,56 @@
+{
+    "displayName": "Beamer",
+    "fluxCapacitors": 17,
+    "fluxVents": 24,
+    "hullId": "drg_kingfisher",
+    "hullMods": [
+        "advancedoptics",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_kingfisher_beamer",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "sabotpod",
+                "WS0014": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gravitonbeam",
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam",
+                "WS0010": "taclaser",
+                "WS0012": "taclaser",
+                "WS0013": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0015": "lrpdlaser",
+                "WS0016": "lrpdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "displayName": "PD Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "drg_iris",
+    "hullMods": [
+        "advancedoptics",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "drg_iris_pdsupport",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "guardian"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 1,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "drg_bombardier",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_bombardier_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "taclaser",
+                "WS0008": "taclaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "harpoon",
+                "WS0002": "harpoon",
+                "WS0003": "harpoon",
+                "WS0004": "harpoon",
+                "WS0005": "harpoon",
+                "WS0006": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "gravitonbeam",
+                "WS0010": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "pdburst",
+                "WS0012": "pdburst",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

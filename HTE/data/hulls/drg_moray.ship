@@ -1,0 +1,94 @@
+{
+  "hullName": "Moray",
+  "hullId": "drg_moray",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/moray.png",
+  "style": "HIGH_TECH",
+  "height": 128,
+  "width": 88,
+  "center": [44, 64],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 82,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -41,
+      "locations": [-1, -30]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 41,
+      "locations": [-1, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [41, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 180,
+      "locations": [-44, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, 13],
+      "length": 26.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63, -13],
+      "length": 26.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-61, 4],
+      "length": 27,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-61, -4],
+      "length": 27,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -60.5, 35,
+    -6.5, 42,
+    56.5, 23.5,
+    56.5, -23.5,
+    -6.5, -42,
+    -60.5, -35
+  ]
+}

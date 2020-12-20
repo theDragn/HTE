@@ -1,0 +1,44 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 30,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "drg_aphelion",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "variantId": "drg_aphelion_suppression",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gravitonbeam",
+                "WS0002": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "harpoon",
+                "WS0006": "harpoon",
+                "WS0007": "harpoon",
+                "WS0008": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0009": "taclaser",
+                "WS0010": "taclaser"
+            }
+        }
+    ],
+    "wings": ["thunder_wing"]
+}

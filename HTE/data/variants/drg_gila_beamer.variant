@@ -1,0 +1,42 @@
+{
+    "displayName": "Beamer",
+    "fluxCapacitors": 9,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "drg_gila",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "advancedoptics",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "drg_gila_beamer",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "tachyonlance",
+                "WS0002": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 8,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "drg_aphelion",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_aphelion_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "harpoon",
+                "WS0008": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabot",
+                "WS0006": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pulselaser",
+                "WS0002": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser"
+            }
+        }
+    ],
+    "wings": ["xyphos_wing"]
+}

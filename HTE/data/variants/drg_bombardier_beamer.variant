@@ -1,0 +1,60 @@
+{
+    "displayName": "Beamer",
+    "fluxCapacitors": 23,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "drg_bombardier",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "variantId": "drg_bombardier_beamer",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "annihilator",
+                "WS0004": "annihilator",
+                "WS0005": "annihilator",
+                "WS0006": "annihilator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "sabot",
+                "WS0002": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "taclaser",
+                "WS0008": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "phasebeam",
+                "WS0010": "phasebeam",
+                "WS0015": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

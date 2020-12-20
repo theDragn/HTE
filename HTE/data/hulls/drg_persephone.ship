@@ -1,0 +1,116 @@
+{
+  "hullName": "Persephone",
+  "hullId": "drg_persephone",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/persephone.png",
+  "style": "HIGH_TECH",
+  "height": 165,
+  "width": 89,
+  "center": [44.5, 82.5],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 104,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [35.5, 18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -0,
+      "locations": [35.5, -17.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 60,
+      "locations": [4.5, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -60,
+      "locations": [4.5, -21.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-35.5, 0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [71, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 27.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22, -27.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-72.5, 7],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-72.5, -7],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -73.5, -13.5,
+    -26.5, -22.5,
+    -24.5, -34,
+    30.5, -43.5,
+    75.5, -27,
+    75.5, 27,
+    30.5, 43.5,
+    -24.5, 34,
+    -26.5, 22.5,
+    -73.5, 13.5
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"IV_bp":0.25,
+		},
+	},
+	"knownShips":{
+		"hulls":[
+			"drg_gila_iv",
+			"drg_iris_iv",
+			"drg_spire_iv",
+			"drg_tigershark_iv",
+			"drg_persephone_iv",
+			"drg_kingfisher_iv",
+			"drg_gila_iv",
+			"drg_iris_iv",
+			"drg_tigershark_iv",
+			"drg_persephone_iv",
+			"drg_kingfisher_iv",
+			"drg_peregrine",
+			"drg_peregrine_iv",
+		],
+	},
+},	

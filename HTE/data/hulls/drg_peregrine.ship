@@ -1,0 +1,164 @@
+{
+  "hullName": "Peregrine",
+  "hullId": "drg_peregrine",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/peregrine.png",
+  "style": "HIGH_TECH",
+  "height": 222,
+  "width": 162,
+  "center": [81, 104],
+  "collisionRadius": 112,
+  "shieldCenter": [-13, -0],
+  "shieldRadius": 141.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "drg_supercaps"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -30,
+      "locations": [11, -41]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 30,
+      "locations": [11, 41]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -20,
+      "locations": [43, -35]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 20,
+      "locations": [43, 35]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [73, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -0,
+      "locations": [73, 27]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-56.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97.5, -52.5],
+      "length": 29,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97.5, 52.5],
+      "length": 29,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-96.5, -60],
+      "length": 29,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-96.5, 60],
+      "length": 29,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98.5, -43.5],
+      "length": 29,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98.5, 43.5],
+      "length": 29,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70.5, -76],
+      "length": 29,
+      "width": 6,
+      "angle": -160.5,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70.5, 76],
+      "length": 29,
+      "width": 6,
+      "angle": 160.5,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -72, 28,
+    -101, 53.5,
+    -73.5, 85,
+    -29, 59,
+    7, 84.5,
+    117.5, 20.5,
+    39, 14.5,
+    39, -14.5,
+    117.5, -20.5,
+    7, -84.5,
+    -29, -59,
+    -73.5, -85,
+    -101, -53.5,
+    -72, -28
+  ]
+}

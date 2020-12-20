@@ -1,0 +1,65 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 18,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "drg_spire_iv",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_spire_iv",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "plasma",
+                "WS0014": "plasma"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam",
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "gravitonbeam",
+                "WS0012": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0002": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser",
+                "WS0016": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "claw_wing",
+        "claw_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

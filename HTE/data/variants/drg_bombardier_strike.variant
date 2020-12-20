@@ -1,0 +1,58 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 23,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "drg_bombardier",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_bombardier_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "amblaster",
+                "WS0008": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "reaper",
+                "WS0002": "reaper",
+                "WS0003": "reaper",
+                "WS0004": "reaper",
+                "WS0005": "reaper",
+                "WS0006": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "ionbeam",
+                "WS0010": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

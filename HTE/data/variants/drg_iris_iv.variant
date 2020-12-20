@@ -1,0 +1,33 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 13,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "drg_iris_iv",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "drg_iris_iv",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "railgun",
+                "WS0005": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser"
+            }
+        }
+    ]
+}
