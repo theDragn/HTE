@@ -1,8 +1,8 @@
 {
 	"id":"hte",
-	"name":"High Tech Expansion",
+	"name":"High Tech Expansion 1.1.0",
 	"author":"theDragn",
-	"version":"1.0",
+	"version":"1.1.0",
 	"description":"Ya like high-tech? We got high tech! And maybe one low tech, just in case.",
 	"gameVersion":"0.9.1a-RC8",
 	"jars":["jars/HTE.jar"],
