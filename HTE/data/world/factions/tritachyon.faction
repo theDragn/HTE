@@ -23,6 +23,8 @@
 			"drg_paragon_iv",
 			"drg_odyssey_iv",
 			"drg_peregrine_iv",
+			"drg_inequality",
+			"drg_inequality_iv",
 		],
 	},
 	"priorityShips":{
@@ -39,6 +41,7 @@
 			"drg_persephone",
 			"drg_kingfisher",
 			"drg_peregrine",
+			"drg_inequality",
 		],
 	},
 	"hullFrequency":{
@@ -49,7 +52,7 @@
 			"drg_aphelion":10,
 			"drg_bombardier":10,
 			"drg_gila":10,
-			"drg_incursion":10,
+			"drg_incursion":7,
 			"drg_iris":10,
 			"drg_moray":10,
 			"drg_spire":10,
@@ -57,6 +60,7 @@
 			"drg_persephone":10,
 			"drg_kingfisher":10,
 			"drg_peregrine":10,
+			"drg_inequality":10,
 		},
 	},
 },

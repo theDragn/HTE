@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 36,
+    "fluxCapacitors": 26,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_spire",

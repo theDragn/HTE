@@ -12,8 +12,7 @@
   "shieldRadius": 224,
   "viewOffset": 0,
   "builtInMods": [
-    "recovery_shuttles",
-    "expanded_deck_crew"
+    "drg_fighterbays",
   ],
   "weaponSlots": [
     {

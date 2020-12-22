@@ -17,6 +17,7 @@ public class drgFourth extends BaseHullMod {
         SHIELD_DAMAGE_REDUCTION = 5,
         HULL_ARMOR_REDUCTION = 7;
 
+    @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
         stats.getShieldArcBonus().modifyPercent(id, ARC_BONUS);
         stats.getShieldUnfoldRateMult().modifyPercent(id, UNFOLD_BONUS);
@@ -26,6 +27,7 @@ public class drgFourth extends BaseHullMod {
         stats.getHullBonus().modifyPercent(id, HULL_ARMOR_REDUCTION * -1f);
     }
 
+    @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0)
             return (int)ARC_BONUS + "%";
