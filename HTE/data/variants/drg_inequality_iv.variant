@@ -3,7 +3,7 @@
     "fluxCapacitors": 36,
     "fluxVents": 50,
     "goalVariant": true,
-    "hullId": "drg_inequality",
+    "hullId": "drg_inequality_iv",
     "hullMods": [
         "targetingunit",
         "fluxdistributor"
