@@ -1,13 +1,14 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 50,
-    "fluxVents": 40,
+    "fluxCapacitors": 26,
+    "fluxVents": 44,
     "goalVariant": true,
     "hullId": "drg_inequality",
     "hullMods": [
         "targetingunit",
         "hardenedshieldemitter",
-        "magazines"
+        "magazines",
+        "stabilizedshieldemitter"
     ],
     "permaMods": [],
     "variantId": "drg_inequality_strike",
@@ -24,31 +25,31 @@
         {
             "autofire": false,
             "mode": "ALTERNATING",
-            "weapons": {"WS0004": "sabotpod"}
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
             "weapons": {
-                "WS0010": "atropos",
-                "WS0011": "atropos"
+                "WS0010": "heatseeker",
+                "WS0011": "heatseeker"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "pdlaser",
-                "WS0008": "pdlaser"
+                "WS0006": "gravitonbeam",
+                "WS0009": "ionbeam"
             }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "heavyneedler"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS0005": "heavyburst",
-                "WS0006": "heavyburst",
-                "WS0009": "ionbeam"
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
             }
         }
     ]

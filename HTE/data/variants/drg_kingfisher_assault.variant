@@ -1,7 +1,7 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 14,
-    "fluxVents": 30,
+    "fluxCapacitors": 10,
+    "fluxVents": 25,
     "goalVariant": true,
     "hullId": "drg_kingfisher",
     "hullMods": ["targetingunit"],
@@ -17,8 +17,9 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0009": "sabotpod",
-                "WS0014": "sabotpod"
+                "WS0010": "sabot",
+                "WS0012": "sabot",
+                "WS0013": "sabot"
             }
         },
         {
@@ -32,12 +33,7 @@
             "weapons": {
                 "WS0001": "ionbeam",
                 "WS0003": "gravitonbeam",
-                "WS0004": "gravitonbeam",
-                "WS0010": "taclaser",
-                "WS0012": "taclaser",
-                "WS0013": "taclaser",
-                "WS0015": "taclaser",
-                "WS0016": "taclaser"
+                "WS0004": "gravitonbeam"
             }
         },
         {
@@ -47,7 +43,9 @@
                 "WS0005": "pdlaser",
                 "WS0006": "pdlaser",
                 "WS0007": "pdlaser",
-                "WS0008": "pdlaser"
+                "WS0008": "pdlaser",
+                "WS0015": "ioncannon",
+                "WS0016": "ioncannon"
             }
         }
     ]

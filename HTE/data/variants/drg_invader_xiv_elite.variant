@@ -1,6 +1,6 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 18,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_invader_xiv",

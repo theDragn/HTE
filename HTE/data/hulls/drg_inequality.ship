@@ -20,7 +20,7 @@
       "size": "LARGE",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 90,
+      "arc": 100,
       "angle": -60,
       "locations": [58, -29]
     },
@@ -29,7 +29,7 @@
       "size": "LARGE",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 90,
+      "arc": 100,
       "angle": -60,
       "locations": [6, -28],
       "renderOrderMod": 25
@@ -39,7 +39,7 @@
       "size": "LARGE",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 90,
+      "arc": 100,
       "angle": -60,
       "locations": [-14, -76]
     },
@@ -49,7 +49,7 @@
       "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 140,
-      "angle": 45,
+      "angle": 29,
       "locations": [72, 43.5]
     },
     {

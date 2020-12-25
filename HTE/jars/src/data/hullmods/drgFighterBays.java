@@ -8,9 +8,13 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class drgFighterBays extends BaseHullMod {
 
-    public static final int BOMBER_COST_PERCENT = 100;
-    public static final int REFIT_TIME_REDUCTION = 15;
-    public static final int CREW_LOSS_REDUCTION = 25;
+    public static final int 
+        BOMBER_COST_PERCENT = 100,
+        REFIT_TIME_REDUCTION = 15,
+        CREW_LOSS_REDUCTION = 25;
+    
+    // you might be wondering why I use floats some times and ints other times
+    // don't worry, I wonder too
 
     @Override
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -27,7 +31,7 @@ public class drgFighterBays extends BaseHullMod {
     @Override
 	public String getDescriptionParam(int index, HullSize hullSize, ShipAPI ship) {
         if (index == 0) 
-            return (int)REFIT_TIME_REDUCTION + "%";
+            return REFIT_TIME_REDUCTION + "%";
         if (index == 1) 
             return CREW_LOSS_REDUCTION + "%";
         if (index == 2) 

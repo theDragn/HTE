@@ -1,13 +1,10 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 18,
+    "fluxCapacitors": 19,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_kingfisher_iv",
-    "hullMods": [
-        "stabilizedshieldemitter",
-        "targetingunit"
-    ],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "variantId": "drg_kingfisher_iv",
     "weaponGroups": [
@@ -20,27 +17,25 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0009": "sabotpod",
                 "WS0010": "sabot",
                 "WS0012": "sabot",
-                "WS0013": "sabot",
-                "WS0014": "sabotpod"
+                "WS0013": "sabot"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0002": "hil"}
+            "weapons": {"WS0002": "tachyonlance"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "pulselaser",
+                "WS0001": "heavyblaster",
                 "WS0003": "pulselaser",
                 "WS0004": "pulselaser",
-                "WS0015": "ioncannon",
-                "WS0016": "ioncannon"
+                "WS0015": "taclaser",
+                "WS0016": "taclaser"
             }
         },
         {

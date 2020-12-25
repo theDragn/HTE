@@ -2,17 +2,16 @@
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-			"IV_bp":0.25,
+			"IV_bp":0.2,
+		},
+		"hulls":{
+			# IV spires keep spawning in fleets unless I put this here and idk why
+			"drg_spire_iv":0,
+			"drg_tigershark":0.15,
 		},
 	},
 	"knownShips":{
 		"hulls":[
-			"drg_gila_iv",
-			"drg_iris_iv",
-			"drg_spire_iv",
-			"drg_tigershark_iv",
-			"drg_persephone_iv",
-			"drg_kingfisher_iv",
 			"drg_gila_iv",
 			"drg_iris_iv",
 			"drg_tigershark_iv",

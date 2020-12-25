@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 14,
+    "fluxCapacitors": 16,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",

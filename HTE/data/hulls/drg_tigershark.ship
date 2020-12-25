@@ -9,8 +9,11 @@
   "center": [98, 145.5],
   "collisionRadius": 122,
   "shieldCenter": [0, 0],
-  "shieldRadius": 147.5,
+  "shieldRadius": 169,
   "viewOffset": 0,
+  "builtInMods": [
+    "drg_badammofeeder"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",

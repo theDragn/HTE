@@ -17,19 +17,6 @@
             "weapons": {"WS0004": "cyclone"}
         },
         {
-            "autofire": false,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS0001": "sabotpod",
-                "WS0002": "sabotpod"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0003": "heavyblaster"}
-        },
-        {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
@@ -39,6 +26,21 @@
                 "WS0008": "pdlaser",
                 "WS0009": "pdlaser"
             }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "pulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ionbeam"}
         }
     ]
 }

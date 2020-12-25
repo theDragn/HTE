@@ -1,5 +1,11 @@
 {
 	"designTypeColors":{
-		"IV Battlegroup":[0,100,255,255],
-	}
+		"IV Battlegroup":[0,100,255,255]
+	},
+	"graphics": {
+		"misc": {
+		  "drg_harmproj": "graphics/icons/drg_harmprojbuff.png",
+		  "drg_rangeoverclock": "graphics/icons/drg_rangeoverclock.png"
+		}
+	  }
 }

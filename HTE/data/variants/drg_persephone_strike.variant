@@ -1,10 +1,10 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 14,
-    "fluxVents": 7,
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_persephone",
-    "hullMods": ["targetingunit"],
+    "hullMods": [],
     "permaMods": [],
     "variantId": "drg_persephone_strike",
     "weaponGroups": [
@@ -16,7 +16,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0007": "sabotpod"}
+            "weapons": {"WS0007": "typhoon"}
         },
         {
             "autofire": true,

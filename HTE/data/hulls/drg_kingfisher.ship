@@ -71,8 +71,8 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 210,
-      "angle": -105,
+      "arc": 133,
+      "angle": -125,
       "locations": [-42.5, -44.5]
     },
     {
@@ -81,17 +81,8 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 213,
-      "angle": -90,
+      "angle": -51,
       "locations": [20.5, -88.5]
-    },
-    {
-      "id": "WS0009",
-      "size": "MEDIUM",
-      "type": "MISSILE",
-      "mount": "HARDPOINT",
-      "arc": 10,
-      "angle": 0,
-      "locations": [53.5, -94.5]
     },
     {
       "id": "WS0010",
@@ -128,15 +119,6 @@
       "arc": 10,
       "angle": 0,
       "locations": [45.5, 65.5]
-    },
-    {
-      "id": "WS0014",
-      "size": "MEDIUM",
-      "type": "MISSILE",
-      "mount": "HARDPOINT",
-      "arc": 10,
-      "angle": 0,
-      "locations": [53.5, 83.5]
     },
     {
       "id": "WS0015",

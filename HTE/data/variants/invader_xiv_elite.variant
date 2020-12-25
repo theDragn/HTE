@@ -3,7 +3,7 @@
   "hullId": "drg_invader_xiv",
   "displayName": "Elite",
   "goalVariant": true,
-  "fluxCapacitors": 13,
+  "fluxCapacitors": 18,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],

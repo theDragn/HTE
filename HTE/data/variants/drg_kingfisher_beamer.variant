@@ -1,32 +1,31 @@
 {
-    "displayName": "Beamer",
-    "fluxCapacitors": 17,
-    "fluxVents": 24,
+    "displayName": "Strike",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "goalVariant": true,
     "hullId": "drg_kingfisher",
-    "hullMods": [
-        "advancedoptics",
-        "frontemitter"
-    ],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "variantId": "drg_kingfisher_beamer",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0011": "squall"}
+            "weapons": {"WS0011": "cyclone"}
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0009": "sabotpod",
-                "WS0014": "sabotpod"
+                "WS0010": "sabot",
+                "WS0012": "sabot",
+                "WS0013": "sabot"
             }
         },
         {
-            "autofire": true,
+            "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0002": "hil"}
+            "weapons": {"WS0002": "plasma"}
         },
         {
             "autofire": true,
@@ -35,21 +34,18 @@
                 "WS0001": "gravitonbeam",
                 "WS0003": "gravitonbeam",
                 "WS0004": "gravitonbeam",
-                "WS0010": "taclaser",
-                "WS0012": "taclaser",
-                "WS0013": "taclaser"
+                "WS0015": "taclaser",
+                "WS0016": "taclaser"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "lrpdlaser",
-                "WS0006": "lrpdlaser",
-                "WS0007": "lrpdlaser",
-                "WS0008": "lrpdlaser",
-                "WS0015": "lrpdlaser",
-                "WS0016": "lrpdlaser"
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
             }
         }
     ]

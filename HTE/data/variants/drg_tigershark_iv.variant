@@ -1,13 +1,13 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 16,
+    "fluxCapacitors": 13,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_tigershark_iv",
     "hullMods": [
         "targetingunit",
-        "fluxdistributor",
-        "hardenedshieldemitter"
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter"
     ],
     "permaMods": [],
     "variantId": "drg_tigershark_iv",
@@ -15,20 +15,20 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0004": "mjolnir"}
+            "weapons": {"WS0004": "plasma"}
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0001": "harpoonpod",
-                "WS0002": "harpoonpod"
+                "WS0001": "sabotpod",
+                "WS0002": "sabotpod"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0003": "heavyblaster"}
+            "weapons": {"WS0003": "ionbeam"}
         },
         {
             "autofire": true,

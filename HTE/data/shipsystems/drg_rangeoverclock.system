@@ -1,0 +1,21 @@
+{
+	"id":"drg_rangeoverclock",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.drgRangeOverclockAI",
+	
+	"statsScript":"data.shipsystems.scripts.drgRangeOverclock",
+	
+	"weaponGlowColor":[0,255,0,255],
+	"weaponTypes":[ENERGY],
+	
+	
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	# Stian deactivated these two because of audio playback timing issues. See fortressshield.system for more.
+	# Re-enable for testing.
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

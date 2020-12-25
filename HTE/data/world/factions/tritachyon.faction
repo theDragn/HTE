@@ -46,7 +46,7 @@
 	},
 	"hullFrequency":{
 		"tags":{
-			"IV_bp":1.5,
+			"IV_bp":2,
 		},
 		"hulls":{
 			"drg_aphelion":10,
@@ -55,7 +55,7 @@
 			"drg_incursion":7,
 			"drg_iris":10,
 			"drg_moray":10,
-			"drg_spire":10,
+			"drg_spire":5,
 			"drg_tigershark":10,
 			"drg_persephone":10,
 			"drg_kingfisher":10,

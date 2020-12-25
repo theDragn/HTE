@@ -6,11 +6,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class drgFourth extends BaseHullMod {
 
-    public drgFourth() {
-        // identity theft code goes here
-    }
-
-    public static float
+    public static final float
         ARC_BONUS = 20,
         UNFOLD_BONUS = 25,
         UPKEEP_REDUCTION = 20,

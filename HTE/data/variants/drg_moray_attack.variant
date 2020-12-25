@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 15,
+    "fluxCapacitors": 17,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",

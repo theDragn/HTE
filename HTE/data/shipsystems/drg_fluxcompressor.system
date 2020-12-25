@@ -1,0 +1,16 @@
+{
+	"id":"drg_fluxcompressor",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.drgFluxCompressorAI",
+	
+	"statsScript":"data.shipsystems.scripts.drgFluxCompressor",
+	
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":2,	
+	
+	"useSound":"system_plasma_jets",
+	"loopSound":"system_plasma_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+}
