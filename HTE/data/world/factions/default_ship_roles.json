@@ -37,7 +37,7 @@
 		"drg_kingfisher_iv":6,
 		"drg_peregrine_attack":3,
 		"drg_peregrine_skirmish":3,
-		"drg_peregrine_iv":6
+		"drg_peregrine_iv":6,
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
