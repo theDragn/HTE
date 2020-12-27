@@ -1,13 +1,12 @@
 {
     "displayName": "Brawler",
-    "fluxCapacitors": 16,
+    "fluxCapacitors": 12,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_gila",
     "hullMods": [
         "hardenedshieldemitter",
         "targetingunit",
-        "stabilizedshieldemitter",
         "magazines"
     ],
     "permaMods": [],

@@ -1,0 +1,46 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 8,
+    "fluxVents": 13,
+    "goalVariant": false,
+    "hullId": "gryphon",
+    "hullMods": ["eccm"],
+    "permaMods": [],
+    "variantId": "drg_gryphon_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "drg_tawa_battery"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "pilum",
+                "WS 009": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "drg_tawa_rack",
+                "WS 011": "drg_tawa_rack",
+                "WS 012": "drg_tawa_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "dualflak",
+                "WS 003": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        }
+    ]
+}

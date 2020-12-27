@@ -1,0 +1,15 @@
+{
+	"id":"drg_plasma_ftr_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	#"width":45.0,
+	"width":35.0,
+	"fadeTime":0.5,
+	#"hitGlowRadius":38,
+	"fringeColor":[0,0,255,255],
+	"coreColor":[0,162,255,255],
+	#"fringeColor":[255,0,0,255],
+	#"coreColor":[255,100,255,255],	
+}

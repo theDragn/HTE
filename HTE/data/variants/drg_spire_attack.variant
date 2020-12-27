@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 26,
+    "fluxCapacitors": 32,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_spire",
@@ -22,7 +22,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0015": "cyclone"}
+            "weapons": {"WS0015": "squall"}
         },
         {
             "autofire": true,

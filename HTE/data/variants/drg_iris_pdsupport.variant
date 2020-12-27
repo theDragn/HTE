@@ -1,7 +1,7 @@
 {
     "displayName": "PD Support",
-    "fluxCapacitors": 8,
-    "fluxVents": 12,
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
     "goalVariant": true,
     "hullId": "drg_iris",
     "hullMods": [
@@ -14,22 +14,22 @@
         {
             "autofire": true,
             "mode": "LINKED",
+            "weapons": {"WS0001": "guardian"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0004": "taclaser",
-                "WS0005": "taclaser"
+                "WS0004": "heatseeker",
+                "WS0005": "heatseeker"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "guardian"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
             "weapons": {
-                "WS0002": "lrpdlaser",
-                "WS0003": "lrpdlaser"
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser"
             }
         }
     ]

@@ -23,10 +23,10 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0005": "typhoon",
-                "WS0006": "typhoon",
-                "WS0007": "typhoon",
-                "WS0008": "typhoon"
+                "WS0005": "drg_alecto",
+                "WS0006": "drg_alecto",
+                "WS0007": "drg_alecto",
+                "WS0008": "drg_alecto"
             }
         },
         {

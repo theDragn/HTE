@@ -1,11 +1,10 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 9,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_gila_iv",
     "hullMods": [
-        "hardenedshieldemitter",
         "targetingunit",
         "stabilizedshieldemitter"
     ],
@@ -24,8 +23,8 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0003": "sabotpod",
-                "WS0004": "sabotpod"
+                "WS0003": "drg_tawa_pod",
+                "WS0004": "drg_tawa_pod"
             }
         },
         {

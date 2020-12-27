@@ -1,11 +1,10 @@
 {
     "displayName": "General",
     "fluxCapacitors": 10,
-    "fluxVents": 25,
+    "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_gila",
     "hullMods": [
-        "hardenedshieldemitter",
         "targetingunit",
         "stabilizedshieldemitter"
     ],

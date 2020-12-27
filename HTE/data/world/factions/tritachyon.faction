@@ -63,5 +63,11 @@
 			"drg_inequality":10,
 		},
 	},
+	"knownFighters":{
+		"fighters":[
+			"drg_wyvern_wing",
+			"drg_kukri_wing",
+		],
+	},
 },
 

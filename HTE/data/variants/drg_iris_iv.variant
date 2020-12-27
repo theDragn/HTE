@@ -1,32 +1,36 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 13,
-    "fluxVents": 20,
+    "fluxCapacitors": 9,
+    "fluxVents": 11,
     "goalVariant": true,
     "hullId": "drg_iris_iv",
-    "hullMods": [],
+    "hullMods": [
+        "magazines",
+        "advancedoptics",
+        "pointdefenseai"
+    ],
     "permaMods": [],
     "variantId": "drg_iris_iv",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
+            "weapons": {"WS0001": "guardian"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0004": "railgun",
-                "WS0005": "railgun"
+                "WS0004": "reaper",
+                "WS0005": "reaper"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "hil"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
             "weapons": {
-                "WS0002": "pdlaser",
-                "WS0003": "pdlaser"
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser"
             }
         }
     ]

@@ -136,7 +136,7 @@
       "mount": "TURRET",
       "arc": 145,
       "angle": -135,
-      "locations": [-87.5, -98]
+      "locations": [-87, -98]
     },
     {
       "id": "WS0015",
@@ -145,7 +145,7 @@
       "mount": "TURRET",
       "arc": 145,
       "angle": 135,
-      "locations": [-87.5, 98]
+      "locations": [-87, 98]
     },
     {
       "id": "WS0016",
@@ -190,7 +190,7 @@
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
-      "locations": [162.5, -66.5]
+      "locations": [162, -66]
     },
     {
       "id": "WS0021",
@@ -199,12 +199,12 @@
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": -0,
-      "locations": [162.5, 66.5]
+      "locations": [162, 66]
     }
   ],
   "engineSlots": [
     {
-      "location": [-175.5, -12],
+      "location": [-175, -12],
       "length": 44.5,
       "width": 19,
       "angle": 180,
@@ -212,7 +212,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-175.5, 12],
+      "location": [-175, 12],
       "length": 44.5,
       "width": 19,
       "angle": -180,
@@ -220,7 +220,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-154, -68.5],
+      "location": [-154, -68],
       "length": 44.5,
       "width": 19,
       "angle": -168,
@@ -228,7 +228,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-154, 68.5],
+      "location": [-154, 68],
       "length": 44.5,
       "width": 19,
       "angle": 168,
@@ -252,7 +252,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-149.5, 87],
+      "location": [-149, 87],
       "length": 44.5,
       "width": 19,
       "angle": 168,
@@ -260,7 +260,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-149.5, -87],
+      "location": [-149, -87],
       "length": 44.5,
       "width": 19,
       "angle": -168,
@@ -268,7 +268,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-165.5, -27],
+      "location": [-165, -27],
       "length": 44.5,
       "width": 19,
       "angle": 180,
@@ -276,7 +276,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-165.5, 27],
+      "location": [-165, 27],
       "length": 44.5,
       "width": 19,
       "angle": -180,
@@ -284,7 +284,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-169.5, -42],
+      "location": [-169, -42],
       "length": 44.5,
       "width": 19,
       "angle": 180,
@@ -292,7 +292,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-169.5, 42],
+      "location": [-169, 42],
       "length": 44.5,
       "width": 19,
       "angle": -180,

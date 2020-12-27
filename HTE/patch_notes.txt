@@ -1,42 +1,44 @@
-1.1.0 Beta 2: Electric Boogaloo
+1.1.0 Release
 
-Fairly significant balance changes across the board, mostly nerfs.
+This WILL break your save if you have a previous version of HTE installed. It will not break your save if you do not, and can be installed into an existing save.
+(It also shouldn't break your save if there aren't any Kingfishers in your fleet or AI fleets, but no guarantees on that. If you have the most recent beta version, your save will also be fine.)
 
-This *will* break your save (it might not break your save if you don't have any Kingfishers, but no guarantees.)
+The mod now requires Lazylib.
+
+Highlights: New capital warship, six new weapons, two new fighters, lots of Balance(tm). And by balance, I mean nerfs.
+Patch notes are changes from 1.0.
+
+New:
+- Ship: Inequality-class battlecruiser, and its Battlegroup IV variant. It has a funky diagonal broadside and a built-in unique hullmod.
+- Weapon: Alecto Atropos Launcher. Medium missile. Holds 6 shots of 2 torpedoes. Good choice when reliability is more important than sheer damage. Reload time is just barely fast enough to hit a target with a follow-up salvo if your first overloads it.
+- Weapon: Nyx Atropos Salvo. Large missile. Has a very good fire rate, though not quite as good as the Hammer Barrage. Holds 8 shots of 4 torpedoes. Good choice if you're willing to sacrifice the damage and speed of a Hammer Barrage for homing projectiles and more ammo.
+- Weapon: Ahab Harpoon Barrage. Large missile. Has a slow fire rate. Holds 6 shots of 9 missiles. It's 9 harpoons every 18 seconds. What more do you want?
+- Weapon: Tawa Standoff Torpedoes. These torpedoes detonate into a trio of unstable plasma spheroids at the edge of point defense range, making them extremely difficult to intercept. Comes in a dual rack (small), dual launcher (medium, 4 shots of 2 torpedos), and triple launcher (large, 10 shots of 3 torpedos) variant. A good general-purpose weapon, but inefficient compared to anti-shield or anti-armor missiles. Struggles against small, fast, or narrow targets. Costs 5/12/30 OP.
+- Fighter: Kukri Bomber Wing. A Trident bomber wing rebuilt to carry Tawa torpedoes. Generally better than Tridents by themselves, but not better than a Trident/Longbow combo, especially against heavily armored targets. Costs 28 OP. 
+- Fighter: Wyvern Strike Fighter. Carries a Plasma Catapult (a short-range, low-damage version of the Plasma Cannon) and two active flares. Great armor penetration (for a fighter) and a decent shield, but it will quickly stress its flux when firing. Costs 20 OP.
 
 Nerfs:
 - Overall: Most ships had their shield upkeep slightly increased to match vanilla values.
 - Tigershark: Now has practically identical stats to the Aurora, instead of being better in most regards, and got a builtin hullmod that gives it a penalty to ballistic range, rof, and efficiency. Large ballistics should remain a good choice, but shouldn't be the optimal choice in all scenarios. Shield radius has been increased to prevent clipping with the forward large hardpoint.
-- Kingfisher: Lost its two medium missile hardpoints, lost 20 OP, had its flux stats reduced, and has been given a new ship system, Targeting Overclock. This system is a toggle (though it cannot be immediately reactivated), and doubles the range of all energy weapons while active (up to a cap), but generates significant amounts of hard flux and reduces speed by two-thirds. DP reduced to 30.
+- Kingfisher: Lost its two medium missile hardpoints, lost 20 OP, had its flux stats reduced, and has been given a new ship system, Targeting Overclock. This system is a toggle (though it cannot be immediately reactivated), and doubles the range of all energy weapons while active (up to a cap), but generates significant amounts of hard flux and reduces speed by two-thirds. DP reduced to 30. Turn speed increased, though it's still the slowest-turning cruiser in the mod.
 - Aphelion: Fuel capacity and fuel/ly reduced; range is the same. Shield ratio increased to 0.7 to match the Apogee.
-- Incursion: Max turn speed, top speed, and turn acceleration reduced. OP reduced by 20. 
-- Iris: Flux capacity slightly reduced. Speed slightly reduced to push it further into the role of support destroyer.
-
-Buffs:
-- Bombardier: Flux capacity increased, shield arc increased a bit since it's such a wide boy.
-- Gila: Flux capacity increased.
+- Incursion: Max turn speed, top speed, and turn acceleration reduced. OP reduced by 20.
+- Iris: Speed and flux stats reduced. DP increased to 12. Removed prior builtin hullmods. OP reduced by 5. Now has a builtin hullmod that increases PD range significantly, but blocks ITU/DTC and has a hefty penalty for mounting non-missile and non-PD weapons. PPT reduced to 300 seconds, but now has Hardened Subsystems built in. Shield radius increased slightly. You can still use it for things other than point defense, but it won't be nearly as good at it.
+- Invader: Apparently only cost 30 DP to deploy. This was a mistake, and it has been increased to the intended 36 DP. Speed slightly reduced. The XIV variant got 5 extra OP.
+- Spire: DP increased to 50, flux stats reduced, turn speed reduced, OP reduced, builtin hullmods removed and replaced with a weaker custom builtin hullmod.
+- Gila: OP reduced by 12, flux capacity and shield radius increased slightly, speed reduced slightly.
+- Bombardier: Shield arc increased a smidge, since it's such a wide boy. Reduced OP by 10 and adjusted turret arcs. This is a buff. (It's not)
 
 Changes:
 - Overall: Fleet point changes to balance AI usage. Cargo, crew, and fuel capacity have been adjusted on most ships.
-- Overall: Changes to PPT and CR recovery. "Line" ships (Kingfisher, Gila, Iris) get a little extra PPT to make up for their slow speed, and lose less CR from deployment (and thus recover faster). Other ships have been normalized to the standard values for their size and tech level.
-- Spawning: The Tigershark has been removed from the high-tech BP pool and made a rare BP; independents will still use it, but very rarely. The chance of Battlegroup IV ships spawning in independent fleets has been reduced, and they will no longer use Spires. Tri-Tachyon will use Spires and Incursions less frequently and has a better chance of spawning IV variants of all ships, though they don't use direct-fire warships much so they'll still be fairly rare.
-- Moray and Persephone: Mild nerfs to flux capacity, 2 more OP on each. The Moray now has slightly less shield upkeep than the Persephone, to compensate for its lack of a phase skimmer.
-- Peregrine: Has been given a new ship system, Flux Compressor. When activated, it instantly vents a sizeable fraction of your soft flux and a small fraction of your hard flux, and gives you a brief movement bonus that decays over time. Disposing of more flux with the system increases the bonus significantly, but not the duration. Dissipation has been slightly reduced to make it more reliant on its system. Integrated Supercapacitors no longer applies to beams to prevent kiting shenanigans. 
-- Inequality: turret arcs modified; the medium universal and bottom-right medium energy now converge slightly better with the broadside, though they do not converge with each other. Flux capacity reduced.
-- Invader: Max speed reduced slightly, XIV variant got 5 extra OP.
-- Added a threatening loading tip.
-- Cleaned up and commented (some of) my code.
+- Overall: Changes to PPT and CR recovery. "Line" ships (Kingfisher, Gila) get an extra minute of PPT to make up for their slow speed, and lose less CR from deployment (and thus recover faster). Other ships have been normalized to standard values for their size and tech level.
+- Spawning: The Tigershark has been removed from the high-tech BP pool and made a rare BP; independents will still use it, but very rarely. The chance of Battlegroup IV ships spawning in independent fleets has been reduced, and they will no longer use Spires. Tri-Tachyon will use Spires and Incursions less frequently, and has a better chance of spawning IV variants of all ships. (though they don't use direct-fire warships much so they'll still be fairly rare)
+- Moray: Mild flux nerfs, 2 more OP. Has slightly less shield upkeep than the Persephone, and loses less CR from deployment. Increased rear small turret arc by a lot.
+- Persephone: Mild flux nerfs, 2 more OP. Costs 11 DP (from 10). 
+- Peregrine: Has been given a new ship system, Flux Compressor. When activated, it instantly vents a sizeable fraction of your soft flux and a small fraction of your hard flux, and gives you a brief movement bonus that decays over time. Disposing of more flux with the system increases the bonus significantly, but not the duration. Dissipation has been slightly reduced to make it more reliant on its system. Integrated Supercapacitors has had its damage bonus reduced slightly to 66%, and now has a significantly weaker effect on beams. Base speed, acceleration, and shield arc slightly increased.
+- Many updates to variants.
+- Added some loading tips. Only one of them is threatening.
 
-
-1.1.0 Beta 1
-
-New:
-- Inequality-Class Battlecruiser
-- Support for Version Checker
-
-Nerfs:
-- Spire: DP increased to 50, flux stats reduced, builtin hullmods removed and replaced with a weaker custom builtin hullmod.
-- Peregrine: Integrated Supercapacitors had its damage reduced to +66% (from +75%)
-
-Changes:
-- Overall: Battlegroup IV sprites have been lightened up a bit to improve contrast.
+Buffs:
+- Spire sprite redone a bit. It's still a flat wide boy, but the shading isn't as horrific. This is a buff.
+- Fourth Battlegroup had its hullmod values adjusted. Now provides 7% reduced shield damage taken (from 5%) and -5% hull and armor (from -7%).

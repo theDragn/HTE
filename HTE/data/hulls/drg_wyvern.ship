@@ -1,0 +1,59 @@
+{
+  "hullName": "Wyvern",
+  "hullId": "drg_wyvern",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/wyvern.png",
+  "style": "HIGH_TECH",
+  "height": 39,
+  "width": 30,
+  "center": [15, 19.5],
+  "collisionRadius": 21,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-6, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-6, -14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -0],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -17, -10,
+    11, -14.5,
+    11, 14.5,
+    -17, 10
+  ]
+}

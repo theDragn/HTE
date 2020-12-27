@@ -1,0 +1,19 @@
+{
+	"quality":1,
+	"displayName":"Strike Fighter",
+	"hullId":"drg_wyvern",
+	"variantId":"drg_wyvern_fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0001":"drg_plasma_ftr",
+		 		   },
+		},
+	],
+}

@@ -1,13 +1,10 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 23,
-    "fluxVents": 21,
+    "fluxCapacitors": 18,
+    "fluxVents": 25,
     "goalVariant": true,
     "hullId": "drg_bombardier",
-    "hullMods": [
-        "targetingunit",
-        "stabilizedshieldemitter"
-    ],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "variantId": "drg_bombardier_strike",
     "weaponGroups": [

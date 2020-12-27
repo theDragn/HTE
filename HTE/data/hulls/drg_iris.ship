@@ -9,11 +9,11 @@
   "center": [56, 55],
   "collisionRadius": 63,
   "shieldCenter": [4.5, 0],
-  "shieldRadius": 76,
+  "shieldRadius": 83,
   "viewOffset": 0,
   "builtInMods": [
-    "magazines",
-    "targetingunit"
+    "hardened_subsystems",
+    "drg_pdspec"
   ],
   "weaponSlots": [
     {
@@ -23,7 +23,7 @@
       "mount": "TURRET",
       "arc": 230,
       "angle": 0,
-      "locations": [27.5, -0]
+      "locations": [27, -0]
     },
     {
       "id": "WS0002",

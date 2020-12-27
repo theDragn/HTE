@@ -9,7 +9,7 @@
   "center": [112, 78],
   "collisionRadius": 111.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 122.5,
+  "shieldRadius": 130,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HARDPOINT",
       "arc": 15,
       "angle": 0,
-      "locations": [60.5, -32]
+      "locations": [60, -32]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HARDPOINT",
       "arc": 15,
       "angle": -0,
-      "locations": [60.5, 32]
+      "locations": [60, 32]
     },
     {
       "id": "WS0003",

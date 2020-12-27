@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 16,
+    "fluxCapacitors": 14,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",
@@ -16,7 +16,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0003": "typhoon"}
+            "weapons": {"WS0003": "drg_tawa_pod"}
         },
         {
             "autofire": true,

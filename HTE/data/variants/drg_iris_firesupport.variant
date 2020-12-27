@@ -11,22 +11,22 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "tachyonlance"}
+            "weapons": {"WS0001": "guardian"}
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0004": "sabot",
-                "WS0005": "sabot"
+                "WS0004": "harpoon",
+                "WS0005": "harpoon"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0002": "pdlaser",
-                "WS0003": "pdlaser"
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser"
             }
         }
     ]

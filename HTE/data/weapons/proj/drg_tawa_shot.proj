@@ -1,0 +1,17 @@
+{
+	"id":"drg_tawa_shot",
+	"specClass":"projectile",
+	# uncomment this next line if you want to enjoy some bullshit
+	#"onHitEffect":"data.weapons.drgTawaOnHitEffect",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	#"width":45.0,
+	"width":45.0,
+	"fadeTime":0.5,
+	#"hitGlowRadius":38,
+	"fringeColor":[0,0,255,255],
+	"coreColor":[255,100,100,255],
+	#"fringeColor":[255,0,0,255],
+	#"coreColor":[255,100,255,255],	
+}

@@ -38,6 +38,8 @@
 		"drg_peregrine_attack":3,
 		"drg_peregrine_skirmish":3,
 		"drg_peregrine_iv":6,
+		"drg_aphelion_strike":4,
+		"drg_gryphon_assault":3,
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
@@ -60,7 +62,9 @@
 	"carrierLarge":{
 			"drg_spire_attack":2.5,
 			"drg_spire_suppression":2.5,
-			"drg_spire_iv":5,
+			"drg_spire_iv":7,
+			"drg_astral_pls_strike":3,
+			"drg_spire_strike":2.5
 	},	
 }
 

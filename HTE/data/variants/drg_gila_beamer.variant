@@ -1,11 +1,10 @@
 {
     "displayName": "Beamer",
-    "fluxCapacitors": 9,
+    "fluxCapacitors": 14,
     "fluxVents": 19,
     "goalVariant": true,
     "hullId": "drg_gila",
     "hullMods": [
-        "hardenedshieldemitter",
         "stabilizedshieldemitter",
         "advancedoptics",
         "targetingunit"
