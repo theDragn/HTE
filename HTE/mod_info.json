@@ -2,7 +2,7 @@
 	"id":"hte",
 	"name":"High Tech Expansion",
 	"author":"theDragn",
-	"version":"1.1.0",
+	"version":"1.1.1",
 	"description":"Ya like high-tech? We got high tech! And one low tech, just to make it a little fair.",
 	"gameVersion":"0.9.1a-RC8",
 	"jars":["jars/HTE.jar"]

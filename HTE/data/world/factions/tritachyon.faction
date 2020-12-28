@@ -69,5 +69,15 @@
 			"drg_kukri_wing",
 		],
 	},
+	"knownWeapons":{
+		"weapons":[
+			"drg_ahab",
+			"drg_nyx",
+			"drg_alecto",
+			"drg_tawa_rack",
+			"drg_tawa_pod",
+			"drg_tawa_battery",
+		],
+	},
 },
 
