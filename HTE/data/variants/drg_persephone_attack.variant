@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 9,
+    "fluxCapacitors": 17,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_persephone",
@@ -25,8 +25,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "taclaser",
-                "WS0004": "taclaser"
+                "WS0003": "ioncannon",
+                "WS0004": "ioncannon"
             }
         },
         {

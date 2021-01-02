@@ -3,7 +3,7 @@
 	"skinHullId":"drg_inequality_iv",
 	"hullName":"Inequality (IV)",
 	"descriptionId":"drg_inequality",
-	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of shield modifications performed using pre-Collapse industrial technology.",
+	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of exotic shield modifications performed using pre-Collapse industrial technology.",
 	"tags":["IV_bp"],
 	"tech":"IV Battlegroup",
 	"fleetPoints":27,

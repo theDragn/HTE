@@ -1,0 +1,52 @@
+{
+  "id": "drg_plp",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_plp_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.weapons.drgPlasmaLensWeapon",
+  "turretSprite": "graphics/weapons/drg_plp_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/drg_plp_turret_base_glow.png",
+  "hardpointSprite": "graphics/weapons/drg_plp_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/drg_plp_hardpoint_base_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    36,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    46,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": -34,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.15,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      100,
+      150,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "drg_plp_fire"
+}

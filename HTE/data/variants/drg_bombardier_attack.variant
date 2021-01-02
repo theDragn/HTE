@@ -17,6 +17,31 @@
             }
         },
         {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "drg_tawa_rack",
+                "WS0002": "drg_tawa_rack",
+                "WS0003": "drg_tawa_rack",
+                "WS0004": "drg_tawa_rack",
+                "WS0005": "drg_tawa_rack",
+                "WS0006": "drg_tawa_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pulselaser",
+                "WS0010": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "heavyburst"}
+        },
+        {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
@@ -24,29 +49,6 @@
                 "WS0012": "pdlaser",
                 "WS0013": "pdlaser",
                 "WS0014": "pdlaser"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0015": "heavyburst"}
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0009": "pulselaser"}
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0001": "drg_tawa_rack",
-                "WS0002": "drg_tawa_rack",
-                "WS0003": "drg_tawa_rack",
-                "WS0004": "drg_tawa_rack",
-                "WS0005": "drg_tawa_rack",
-                "WS0006": "drg_tawa_rack",
-                "WS0010": "pulselaser"
             }
         }
     ]

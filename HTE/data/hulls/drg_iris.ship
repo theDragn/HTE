@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "hardened_subsystems",
-    "drg_pdspec"
+	"drg_pdspec"
   ],
   "weaponSlots": [
     {

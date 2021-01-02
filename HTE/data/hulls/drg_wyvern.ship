@@ -17,18 +17,9 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 10,
+      "arc": 45,
       "angle": 0,
       "locations": [-3, -0]
-    },
-    {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 45,
-      "locations": [-6, 14]
     },
     {
       "id": "WS0003",
@@ -36,17 +27,43 @@
       "type": "SYSTEM",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -45,
-      "locations": [-6, -14]
+      "angle": 0,
+      "locations": [7, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [11, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [11, -7]
     }
   ],
   "engineSlots": [
     {
-      "location": [-17.5, -0],
-      "length": 20.5,
-      "width": 7,
+      "location": [-11, -9.5],
+      "length": 21.5,
+      "width": 8,
       "angle": 180,
-      "contrailSize": 7,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11, 9.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
       "style": "HIGH_TECH"
     }
   ],

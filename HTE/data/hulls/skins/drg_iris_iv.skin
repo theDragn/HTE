@@ -3,11 +3,11 @@
 	"skinHullId":"drg_iris_iv",
 	"hullName":"Iris (IV)",
 	"descriptionId":"drg_iris",
-	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of shield modifications performed using pre-Collapse industrial technology.",
+	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of exotic shield modifications performed using pre-Collapse industrial technology.",
 	"tags":["IV_bp"],
 	"tech":"IV Battlegroup",
 	"fleetPoints":7,
-	"ordnancePoints":70,
+	"ordnancePoints":80,
 	"baseValueMult":1.75,
 	"spriteName":"graphics/ships/iris_iv.png",
 	"removeWeaponSlots":[], 		# ids

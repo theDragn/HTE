@@ -1,0 +1,17 @@
+{
+	"id":"drg_plp_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"onHitEffect":"data.weapons.proj.drgPlasmaLensOnHitEffect",
+	"length":32.0,
+	"width":32.0,
+	"fadeTime":1,
+	"fringeColor":[255,0,0,0],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,90,90,75],
+	"hitGlowRadius":40,
+	"textureScrollSpeed":16.0,
+	"pixelsPerTexel":5.0,
+}

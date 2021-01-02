@@ -4,7 +4,10 @@
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_persephone_iv",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
     "permaMods": [],
     "variantId": "drg_persephone_iv",
     "weaponGroups": [

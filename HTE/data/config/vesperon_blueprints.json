@@ -25,7 +25,16 @@
 		"drg_invader",
 		"drg_invader_xiv",
 		"drg_inequality",
-		"drg_inequality_iv",
+		"drg_inequality_iv"
+	],
+	"weaponSpecIds": [
+		"drg_tawa_rack",
+		"drg_alecto",
+		"drg_nyx",
+		"drg_ahab",
+		"drg_plp",
+		"drg_tawa_pod",
+		"drg_tawa_battery"
     ]
   }
 }

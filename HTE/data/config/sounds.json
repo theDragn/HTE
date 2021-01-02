@@ -1,0 +1,12 @@
+{
+
+#collapseopen WEAPONS
+
+	# HEAVY BLASTER
+	"drg_plp_fire":
+	[
+		{"file":"sounds/weapon/drg_plp_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/weapon/drg_plp_fire.ogg","pitch":0.98,"volume":1},
+		{"file":"sounds/weapon/drg_plp_fire.ogg","pitch":0.95,"volume":1},
+	]
+}

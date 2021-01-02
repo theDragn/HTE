@@ -5,7 +5,7 @@
 	"variantId":"drg_wyvern_fighter",
 	"fluxVents":0,
 	"fluxCapacitors":0,
-	"mods":[], # array of strings
+	"hullMods":["no_weapon_flux"],
 	
 	# mode is either LINKED or ALTERNATING
 	# slot ids (WS ***) must match what's in the .ship file
@@ -13,6 +13,12 @@
 		{"mode":"ALTERNATING",
 		 "weapons":{
 		 			"WS0001":"drg_plasma_ftr",
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0002":"irpulse_fighter",
+		 			"WS0004":"irpulse_fighter",
 		 		   },
 		},
 	],

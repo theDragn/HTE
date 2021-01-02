@@ -1,3 +1,32 @@
+1.1.2
+
+Now requires MagicLib.
+
+New:
+- Weapon: Plasma Lens Projector. Large energy. Fires a slow, weakly-guided projectile that deals significant HE damage in a line if it connects with the target's hull. Holds two charges, and reloads one every 10 seconds. Nearly unusable against small, fast targets. Synergizes extremely well with autopulses. Known by Tritachyon.
+
+Changes:
+- Name changes to deconflict with other mods and adhere better to vanilla naming patterns.
+-- Invader -> Aggressor
+-- Wyvern -> Khanjali
+- Name changes are display-name only, hull and weapon IDs won't change until a future patch. No sense in breaking saves if I don't have to.
+- Wyvern (now Khanjali): Weapons no longer generate flux. Its Plasma Catapult now has a slow-reloading four-shot magazine and a fast rate of fire. Active flares are now shot forwards instead of to the sides, but the total number of flares has been reduced. Added two IR Pulse Lasers (high-delay). Speed reduced slightly. Shield is now frontal instead of omni, and arc has been reduced.
+- Variants modified to account for changes and additions.
+- New ships and items added to whitelists for Industrial Evolution and Vesperon Combine.
+
+Nerfs:
+- Incursion: Synergy slots converted to missile slots and turret arcs adjusted to reduce forward convergence. Maximum convergence is now 3 large energies, 3 medium energies, and 5 small energies. No more 9 graviton beams on a single target. System changed to Plasma Burn instead of Plasma Thrusters to reduce its ability to escape sticky situations. Maneuverability and flux capacity increased to compensate somewhat. It should now be significantly more dangerous to over-commit.
+
+
+Buffs:
+- Persephone: OP increased by 12.
+- Moray: DP decreased to 9 (from 10).
+- Iris: Has now been released from the PD jail. PD specialization no longer penalizes non-PD weapons and is compatible with DTC/ITU, but caps maximum weapon range at 1200 units. OP increased by 10.
+- Kingfisher: Improved the AI's usage of Targeting Overclock.
+
+1.1.1
+Fixed an error that made the Ahab, Nyx, and Tawa Battery rare exploration drops only. Now the Ahab is part of the missile blueprint package, and the Nyx and Tawa Battery are known by Tritachyon.
+
 1.1.0 Release
 
 This WILL break your save if you have a previous version of HTE installed. It will not break your save if you do not, and can be installed into an existing save.
