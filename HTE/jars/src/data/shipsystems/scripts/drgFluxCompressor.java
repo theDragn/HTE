@@ -13,7 +13,7 @@ public class drgFluxCompressor extends BaseShipSystemScript {
         MAX_FLUX_LEVEL_BOOST = 1.0f,   // maximum boost scaling at this level 
         BASE_SPEED_FLAT = 50f,          // base flat bonus to top speed
         BASE_MANEUVERING_PERCENT = 125f,// base percent bonus to maneuvering
-        BOOST_PERCENT = 2.5f;           // base is multiplied by this at maximum flux level
+        BOOST_PERCENT = 3.0f;           // base is multiplied by this at maximum flux level
 
     private boolean isActive = false;
     private float fluxOnActivation = 0f; // percentage of flux at activation
@@ -35,11 +35,13 @@ public class drgFluxCompressor extends BaseShipSystemScript {
             fluxtracker.setHardFlux(fluxtracker.getHardFlux() * (1 - HARD_FLUX_REDUCTION));
             fluxtracker.setCurrFlux(fluxtracker.getCurrFlux() * (1 - SOFT_FLUX_REDUCTION));
         }
-        stats.getMaxSpeed().modifyFlat(id, BASE_SPEED_FLAT * boostMult * effectLevel);
-        stats.getAcceleration().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * (effectLevel + 0.5f));
-        stats.getDeceleration().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * (effectLevel + 0.5f)); // these effectLevels need to be higher than the others or you just yeet yourself
-        stats.getTurnAcceleration().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * effectLevel);
-        stats.getMaxTurnRate().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * effectLevel);
+        float level = (float)Math.sqrt(effectLevel); // keeps the duration the same but the falloff is a little slower
+
+        stats.getMaxSpeed().modifyFlat(id, BASE_SPEED_FLAT * boostMult * level);
+        stats.getAcceleration().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * (level + 0.5f));
+        stats.getDeceleration().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * (level + 0.5f)); // these effectLevels need to be higher than the others or you just yeet yourself
+        stats.getTurnAcceleration().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * level);
+        stats.getMaxTurnRate().modifyPercent(id, BASE_MANEUVERING_PERCENT * boostMult * level);
     }
     
     @Override

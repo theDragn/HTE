@@ -1,0 +1,57 @@
+{
+  "id": "drg_tpr_l",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_tpr_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/drg_tpr_l_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/drg_tpr_l_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/drg_tpr_l_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/drg_tpr_l_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    0,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    31,
+    -4.5,
+    31,
+    4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    27.5,
+    4.5,
+    27.5,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 34,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.15,
+    "particleCount": 30,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "drg_tpr_fire"
+}

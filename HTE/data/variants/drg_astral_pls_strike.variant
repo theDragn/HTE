@@ -1,8 +1,7 @@
 {
     "displayName": "Plasma Strike",
     "fluxCapacitors": 0,
-    "fluxVents": 2,
-    "goalVariant": false,
+    "fluxVents": 6,
     "hullId": "astral",
     "hullMods": [],
     "permaMods": [],

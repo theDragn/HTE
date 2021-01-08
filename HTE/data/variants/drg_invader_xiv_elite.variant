@@ -1,6 +1,6 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 18,
+    "fluxCapacitors": 31,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_invader_xiv",
@@ -29,15 +29,12 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0020": "mjolnir"}
+            "weapons": {"WS0020": "hephag"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "lightag",
-                "WS0002": "lightag",
-                "WS0003": "lightag",
                 "WS0008": "railgun",
                 "WS0009": "railgun",
                 "WS0012": "railgun",
@@ -48,12 +45,15 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0006": "lightdualmg",
-                "WS0007": "lightdualmg",
-                "WS0010": "lightdualmg",
-                "WS0011": "lightdualmg",
-                "WS0014": "lightdualmg",
-                "WS0015": "lightdualmg"
+                "WS0001": "vulcan",
+                "WS0002": "vulcan",
+                "WS0003": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0010": "vulcan",
+                "WS0011": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
             }
         }
     ]

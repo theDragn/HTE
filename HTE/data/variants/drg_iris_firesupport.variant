@@ -4,14 +4,14 @@
     "fluxVents": 16,
     "goalVariant": true,
     "hullId": "drg_iris",
-    "hullMods": [],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "variantId": "drg_iris_firesupport",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "guardian"}
+            "weapons": {"WS0001": "autopulse"}
         },
         {
             "autofire": false,

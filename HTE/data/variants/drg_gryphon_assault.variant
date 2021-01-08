@@ -1,8 +1,7 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 10,
     "fluxVents": 13,
-    "goalVariant": false,
     "hullId": "gryphon",
     "hullMods": ["eccm"],
     "permaMods": [],

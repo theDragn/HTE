@@ -4,7 +4,6 @@ import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.util.IntervalUtil;
 import org.lwjgl.util.vector.Vector2f;
 import org.lazywizard.lazylib.combat.*;
-//import org.lazywizard.lazylib.MathUtils;
 import java.util.List;
 import java.util.HashMap;
 
@@ -14,7 +13,7 @@ public class drgRangeOverclockAI implements ShipSystemAIScript {
     private static final float 
         SYSTEM_MAX_RANGE = 1600f, // maximum range of weapons when affected by the ship system
         MAX_FLUX_TO_ACTIVATE = 0.33f, // will not activate system if flux is higher than this fraction
-        FLUX_TO_DEACTIVATE = 0.85f; // will deactivate system when flux reaches this fraction
+        FLUX_TO_DEACTIVATE = 0.75f; // will deactivate system when flux reaches this fraction
     
     private final IntervalUtil timer = new IntervalUtil(0.5f, 1f);
     private float averageRangeSystem = 0;
@@ -23,6 +22,10 @@ public class drgRangeOverclockAI implements ShipSystemAIScript {
     private ShipSystemAPI system;
     private ShipAPI ship;
 
+    // used for concern weighting
+    private HashMap<ShipAPI.HullSize, Float> mults = new HashMap<>();
+
+
     @Override
     public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
         // initialize variables
@@ -30,6 +33,11 @@ public class drgRangeOverclockAI implements ShipSystemAIScript {
         fluxTracker = ship.getFluxTracker();
         this.system = system;
         averageRangeSystem = 0;
+        mults.put(ShipAPI.HullSize.CAPITAL_SHIP, 1.5f);
+        mults.put(ShipAPI.HullSize.CRUISER, 1.25f);
+        mults.put(ShipAPI.HullSize.DESTROYER, 1f);
+        mults.put(ShipAPI.HullSize.FRIGATE, 0.75f);
+        mults.put(ShipAPI.HullSize.FIGHTER, 0f); // don't turn on the system to shoot fighters
 
         // figure out the range of our longest-ranged weapon once the system is active
         int weaponCount = 0;
@@ -84,7 +92,7 @@ public class drgRangeOverclockAI implements ShipSystemAIScript {
         // if it is active 
         else if (system.isStateActive())
         {
-            if (fluxTracker.getFluxLevel() > FLUX_TO_DEACTIVATE || nearConcern > farConcern)
+            if (fluxTracker.getFluxLevel() > FLUX_TO_DEACTIVATE || nearConcern > farConcern || farConcern == 0)
             {
                 ship.useSystem();
             }
@@ -94,14 +102,6 @@ public class drgRangeOverclockAI implements ShipSystemAIScript {
     // credit to that tomato guy on discord
     private float getConcernWeight(float range, ShipAPI ship)
     {
-
-        HashMap<ShipAPI.HullSize, Float> mults = new HashMap<>();
-        mults.put(ShipAPI.HullSize.CAPITAL_SHIP, 1.5f);
-        mults.put(ShipAPI.HullSize.CRUISER, 1.25f);
-        mults.put(ShipAPI.HullSize.DESTROYER, 1f);
-        mults.put(ShipAPI.HullSize.FRIGATE, 0.75f);
-        mults.put(ShipAPI.HullSize.FIGHTER, 0f); // don't turn on the system to shoot fighters
-
         float concernWeightTotal = 0f;
         for (ShipAPI enemy : AIUtils.getNearbyEnemies(ship, range)) {
             if (enemy == null || enemy.getFleetMember() == null) {

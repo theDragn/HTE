@@ -1,14 +1,14 @@
 {
-  "hullName": "Wyvern",
+  "hullName": "Khanjali",
   "hullId": "drg_wyvern",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/wyvern.png",
+  "spriteName": "graphics/ships/khanjali.png",
   "style": "HIGH_TECH",
-  "height": 39,
-  "width": 30,
-  "center": [15, 19.5],
+  "height": 37,
+  "width": 32,
+  "center": [16, 18],
   "collisionRadius": 21,
-  "shieldCenter": [0, -0],
+  "shieldCenter": [0.5, -0],
   "shieldRadius": 24,
   "viewOffset": 0,
   "weaponSlots": [
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 45,
       "angle": 0,
-      "locations": [-3, -0]
+      "locations": [11, -0]
     },
     {
       "id": "WS0003",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [7, -0]
+      "locations": [-8.5, -0]
     },
     {
       "id": "WS0002",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": 0,
-      "locations": [11, 7]
+      "locations": [10, 12]
     },
     {
       "id": "WS0004",
@@ -45,32 +45,32 @@
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 10,
-      "angle": -0,
-      "locations": [11, -7]
+      "angle": 0,
+      "locations": [10, -12]
     }
   ],
   "engineSlots": [
     {
-      "location": [-11, -9.5],
-      "length": 21.5,
-      "width": 8,
+      "location": [-16, -8],
+      "length": 17.5,
+      "width": 7,
       "angle": 180,
-      "contrailSize": 8,
+      "contrailSize": 7,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-11, 9.5],
-      "length": 21.5,
-      "width": 8,
+      "location": [-16, 8],
+      "length": 17.5,
+      "width": 7,
       "angle": -180,
-      "contrailSize": 8,
+      "contrailSize": 7,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    -17, -10,
-    11, -14.5,
-    11, 14.5,
-    -17, 10
+    9, 17.5,
+    -17, 11,
+    -17, -11,
+    9, -17.5
   ]
 }

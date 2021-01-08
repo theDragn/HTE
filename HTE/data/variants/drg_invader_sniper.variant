@@ -1,6 +1,6 @@
 {
     "displayName": "Sniper",
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 18,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_invader",
@@ -27,10 +27,8 @@
             "weapons": {
                 "WS0002": "railgun",
                 "WS0003": "railgun",
-                "WS0008": "lightag",
-                "WS0009": "lightag",
-                "WS0012": "railgun",
-                "WS0013": "railgun"
+                "WS0008": "railgun",
+                "WS0009": "railgun"
             }
         },
         {
@@ -47,13 +45,15 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "lightdualmg",
-                "WS0006": "lightmg",
-                "WS0007": "lightmg",
-                "WS0010": "lightdualmg",
-                "WS0011": "lightdualmg",
-                "WS0014": "lightmg",
-                "WS0015": "lightmg"
+                "WS0001": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0010": "vulcan",
+                "WS0011": "vulcan",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
             }
         }
     ]

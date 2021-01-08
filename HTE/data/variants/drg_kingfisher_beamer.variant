@@ -1,17 +1,20 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 7,
-    "fluxVents": 30,
+    "fluxCapacitors": 12,
+    "fluxVents": 21,
     "goalVariant": true,
     "hullId": "drg_kingfisher",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
     "permaMods": [],
     "variantId": "drg_kingfisher_beamer",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0011": "drg_nyx"}
+            "weapons": {"WS0011": "autopulse"}
         },
         {
             "autofire": false,
@@ -25,7 +28,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0002": "plasma"}
+            "weapons": {"WS0002": "drg_plp"}
         },
         {
             "autofire": true,

@@ -1,0 +1,8 @@
+{
+	"knownWeapons":{
+		"weapons":[
+			"drg_tawa_battery",
+			"drg_nyx",
+		],
+	},
+},

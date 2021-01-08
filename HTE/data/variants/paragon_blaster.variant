@@ -1,0 +1,71 @@
+{
+    "displayName": "Blaster",
+    "fluxCapacitors": 20,
+    "fluxVents": 50,
+    "goalVariant": false,
+    "hullId": "paragon",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter",
+        "fluxdistributor",
+        "magazines",
+        "advancedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "paragon_blaster",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "reaper",
+                "WS 014": "reaper",
+                "WS 018": "reaper",
+                "WS 020": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyneedler",
+                "WS 008": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "autopulse",
+                "WS 004": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "gravitonbeam",
+                "WS 006": "gravitonbeam",
+                "WS 009": "gravitonbeam",
+                "WS 010": "gravitonbeam",
+                "WS 011": "pdlaser",
+                "WS 013": "taclaser",
+                "WS 015": "taclaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 019": "taclaser",
+                "WS 021": "taclaser",
+                "WS 022": "pdlaser",
+                "WS 023": "pdlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "drg_plp",
+                "WS 002": "drg_plp"
+            }
+        }
+    ]
+}

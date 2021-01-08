@@ -1,5 +1,19 @@
-1.1.2
+1.1.3
+- Added some variants of vanilla ships that use the Plasma Lens Projector.
+- Actually added the Ahab to the vanilla missile blueprint package this time. For sure.
+- New sprite for the Khanjali Strike Fighter.
+- New weapon: Toroidal Plasma Railgun (medium energy, 12 OP) and Twin Toroidal Plasma Railgun (large energy, 26 OP). One of the oldest types of energy weapon, it uses electric fields to accelerate a tiny ring of plasma to extreme velocities. It has great range (for an energy weapon) and good per-shot damage with a side of EMP, but poor DPS and efficiency. It has relatively low flux usage when compared to other energy guns, so it's a good choice for ships that have energy slots but not high-tech flux stats. The medium is in the base blueprint package, the large is in the hightech package.
 
+Buffs:
+- Tawa Standoff Torpedoes: Second-stage spread reduced (35->30) and EMP damage increased (50->75). Ammo on medium and large launchers increased (8->10 and 30->36). Large launcher OP reduced (30->28). Large launcher reload time increased (12->13).
+- Plasma Lens Projector: Homing improved (23 deg/sec -> 28 deg/sec).
+- Kukri Bomber Wing: OP cost reduced (28->27).
+
+Changes:
+- Plasma Lens Projector: Now deals 1000 damage on initial hit and 3x 500 damage in a line. (Combining the first hit of the original 4x 500 line with the initial projectile). This is technically a buff, but in reality it makes the AI catch the projectile on its shields much more often, so it's more of a nerf.
+- Persean League now knows the blueprints for the large Tawa and large Atropos, though they won't use them very often.
+
+1.1.2
 Now requires MagicLib.
 
 New:
@@ -15,14 +29,14 @@ Changes:
 - New ships and items added to whitelists for Industrial Evolution and Vesperon Combine.
 
 Nerfs:
-- Incursion: Synergy slots converted to missile slots and turret arcs adjusted to reduce forward convergence. Maximum convergence is now 3 large energies, 3 medium energies, and 5 small energies. No more 9 graviton beams on a single target. System changed to Plasma Burn instead of Plasma Thrusters to reduce its ability to escape sticky situations. Maneuverability and flux capacity increased to compensate somewhat. It should now be significantly more dangerous to over-commit.
+- Incursion: Synergy slots converted to missile slots and turret arcs adjusted to reduce forward convergence. Maximum convergence is now 3 large energies, 3 medium energies, and 5 small energies. No more 9 graviton beams on a single target. System changed to Plasma Burn instead of Plasma Thrusters to reduce its ability to escape sticky situations. Maneuverability and flux capacity increased to compensate somewhat. It should now be significantly more dangerous to over-commit. Cleaned up the sprite a bit.
 
 
 Buffs:
 - Persephone: OP increased by 12.
 - Moray: DP decreased to 9 (from 10).
 - Iris: Has now been released from the PD jail. PD specialization no longer penalizes non-PD weapons and is compatible with DTC/ITU, but caps maximum weapon range at 1200 units. OP increased by 10.
-- Kingfisher: Improved the AI's usage of Targeting Overclock.
+- Kingfisher: Improved the AI's usage of Targeting Overclock. Arc of the large energy turret slightly reduced (this is a buff, it helps the AI)
 
 1.1.1
 Fixed an error that made the Ahab, Nyx, and Tawa Battery rare exploration drops only. Now the Ahab is part of the missile blueprint package, and the Nyx and Tawa Battery are known by Tritachyon.

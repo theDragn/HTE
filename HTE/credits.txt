@@ -1,7 +1,11 @@
-helmut- bombardier, incursion, granite
-passwalker- peregrine, gila, iris
+Sprites:
+
+helmut- bombardier, incursion
 AxleMC131- moray
 Vinya: Aphelion
 DrakonST- invader, invader XIV
-the one who shall not be named (no that's not their name, they just don't want to be named)- kingfisher, tigershark
-theDragn- everything else
+the one who shall not be named (no that's not their name, they just don't want to be named)- kingfisher, tigershark, peregrine, gila, iris
+
+Coding:
+Nicke535's homing projectile script
+Every mod author who releases source code for letting me cheat off them

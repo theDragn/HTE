@@ -16,6 +16,7 @@
 		"drg_persephone_attack":5,
 		"drg_persephone_strike":5,
 		"drg_persephone_iv":10,
+		"medusa_outdated":3,
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
@@ -40,12 +41,14 @@
 		"drg_peregrine_iv":6,
 		"drg_aphelion_strike":4,
 		"drg_gryphon_assault":3,
+		"falcon_suppression":3,
+		"apogee_outdated":4,
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
-		"drg_incursion_assault":3,
-		"drg_incursion_beamer":3,
-		"drg_incursion_iv":3,
+		"drg_incursion_assault":4,
+		"drg_incursion_beamer":4,
+		"drg_incursion_iv":4,
 		"drg_invader_xiv_elite":4,
 		"drg_invader_attack":4,
 		"drg_invader_strike":4,
@@ -56,15 +59,20 @@
 		"drg_inequality_iv":5,
 		"drg_odyssey_iv":8,
 		"drg_paragon_iv":8,
+		"paragon_outdated":3,
+		"paragon_blaster":3,
 		"fallback":{"combatLarge":1},
 	},
 	# carriers
+	"carrierMedium":{
+		"heron_heavy":4,
+	},
 	"carrierLarge":{
 			"drg_spire_attack":2.5,
 			"drg_spire_suppression":2.5,
 			"drg_spire_iv":7,
 			"drg_astral_pls_strike":3,
 			"drg_spire_strike":2.5
-	},	
+	},
 }
 

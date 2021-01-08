@@ -1,7 +1,7 @@
 {
     "displayName": "PD Support",
     "fluxCapacitors": 7,
-    "fluxVents": 8,
+    "fluxVents": 18,
     "goalVariant": true,
     "hullId": "drg_iris",
     "hullMods": [

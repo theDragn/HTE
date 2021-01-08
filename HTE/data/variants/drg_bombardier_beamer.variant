@@ -1,12 +1,12 @@
 {
     "displayName": "Suppression",
-    "fluxCapacitors": 19,
-    "fluxVents": 13,
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_bombardier",
     "hullMods": [
-        "advancedoptics",
-        "targetingunit"
+        "targetingunit",
+        "stabilizedshieldemitter"
     ],
     "permaMods": [],
     "variantId": "drg_bombardier_beamer",
@@ -35,14 +35,10 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0009": "gravitonbeam",
-                "WS0010": "gravitonbeam"
+                "WS0009": "drg_tpr_m",
+                "WS0010": "drg_tpr_m",
+                "WS0015": "drg_tpr_m"
             }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0015": "phasebeam"}
         },
         {
             "autofire": true,

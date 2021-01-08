@@ -6,7 +6,7 @@
     "hullId": "heron",
     "hullMods": [],
     "permaMods": [],
-    "variantId": "drg_heron_heavy",
+    "variantId": "heron_heavy",
     "weaponGroups": [
         {
             "autofire": true,

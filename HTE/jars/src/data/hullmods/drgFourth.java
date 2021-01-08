@@ -10,8 +10,8 @@ public class drgFourth extends BaseHullMod {
         ARC_BONUS = 20,
         UNFOLD_BONUS = 25,
         UPKEEP_REDUCTION = 20,
-        SHIELD_DAMAGE_REDUCTION = 5,
-        HULL_ARMOR_REDUCTION = 7;
+        SHIELD_DAMAGE_REDUCTION = 7,
+        HULL_ARMOR_REDUCTION = 5;
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
