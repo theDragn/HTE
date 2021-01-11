@@ -78,6 +78,7 @@
 			"drg_tawa_pod",
 			"drg_tawa_battery",
 			"drg_plp",
+			"drg_arc_l",
 		],
 	},
 },

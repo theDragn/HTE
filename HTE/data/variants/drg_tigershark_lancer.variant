@@ -1,6 +1,6 @@
 {
     "displayName": "Lancer",
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 13,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_tigershark",
@@ -33,8 +33,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "pdlaser",
-                "WS0006": "pdlaser",
+                "WS0005": "drg_arc_s",
+                "WS0006": "drg_arc_s",
                 "WS0007": "pdlaser",
                 "WS0008": "pdlaser",
                 "WS0009": "pdlaser"

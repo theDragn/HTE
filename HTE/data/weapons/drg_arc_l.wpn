@@ -1,0 +1,38 @@
+{
+  "id": "drg_arc_l",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_dummy_proj",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.weapons.drgArcEmitterLargeWeapon",
+  "turretSprite": "graphics/weapons/drg_arc_l_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/drg_arc_l_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/drg_arc_l_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/drg_arc_l_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "autocharge": true,
+  "glowColor": [
+    0,
+    0,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    20,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    32,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "textureType": ROUGH,
+  "fireSoundTwo": "system_emp_emitter_impact"
+}

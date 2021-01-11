@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 28,
+    "fluxCapacitors": 20,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_tigershark",
@@ -20,10 +20,10 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "pdlaser",
-                "WS0006": "pdlaser",
-                "WS0007": "pdlaser",
-                "WS0008": "pdlaser",
+                "WS0005": "drg_arc_s",
+                "WS0006": "drg_arc_s",
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s",
                 "WS0009": "pdlaser"
             }
         },

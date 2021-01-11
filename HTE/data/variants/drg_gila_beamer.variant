@@ -1,6 +1,6 @@
 {
     "displayName": "Beamer",
-    "fluxCapacitors": 14,
+    "fluxCapacitors": 10,
     "fluxVents": 19,
     "goalVariant": true,
     "hullId": "drg_gila",
@@ -32,8 +32,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "pdlaser",
-                "WS0006": "pdlaser",
+                "WS0005": "drg_arc_s",
+                "WS0006": "drg_arc_s",
                 "WS0007": "pdlaser"
             }
         }

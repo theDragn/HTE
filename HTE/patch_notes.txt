@@ -1,3 +1,12 @@
+1.2.0: You Are Going to Space Brazil
+- Adds Fourth Battlegroup as a proper faction with their own lore. Nexerelin compatible and all that good stuff. They have a system down in the southwestern area of the map, and are generally friendly to any of the tech-oriented factions. They're willing to work with other polities- they aren't a boss faction like IX Battlegroup, unless you decide to get on their bad side. 
+- Removed IV Battlegroup hulls from independents and Tritachyon, since they now have an actual faction.
+- Added a High-Value Bounty that uses a unique reskin of the Inequality. Commodore Ricardo sends his regards.
+
+1.1.4
+- New weapon: Light Arc Emitter (small energy), Arc Emitter (medium energy), and Heavy Arc Emitter (large energy). They fire arcs at random hostile targets within a 120 degree cone, dealing decent energy and EMP damage with a relatively low firerate. The medium emitter has a chance to create a secondary chain, and the large has a chance to create multiple chains that increases as long as it's firing. The small and medium are in the hightech blueprint package, the large is rare and known by Tritachyon and Remnants.
+- Remnant fleets will now occasionally use the Plasma Lens Projector, Nyx Atropos Salvo, and Tawa Standoff Torpedo Battery.
+
 1.1.3
 - Added some variants of vanilla ships that use the Plasma Lens Projector.
 - Actually added the Ahab to the vanilla missile blueprint package this time. For sure.

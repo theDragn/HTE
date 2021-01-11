@@ -4,7 +4,7 @@
 	# uncomment this next line if you want to enjoy some bullshit
 	#"onHitEffect":"data.weapons.drgTawaOnHitEffect",
 	"spawnType":"PLASMA",
-	"collisionClass":"PROJECTILE_FF",
+	"collisionClass":"PROJECTILE_NO_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
 	#"width":45.0,
 	"width":45.0,
