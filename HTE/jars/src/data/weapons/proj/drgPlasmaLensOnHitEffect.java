@@ -28,7 +28,7 @@ public class drgPlasmaLensOnHitEffect implements OnHitEffectPlugin {
     private static final Color LENS_FLARE_CORE_COLOR = Color.RED;
     private static final int 
         NUM_LENS_FLARES = 3,
-        NUM_EXPLOSIONS = 4;
+        NUM_EXPLOSIONS = 3;
 
 
     // damaging explosion graphics are too big and take away from the sparkles
@@ -66,14 +66,14 @@ public class drgPlasmaLensOnHitEffect implements OnHitEffectPlugin {
                     // get projectile location and velocity, normalize it
                     Vector2f projectileVelocity = projectile.getVelocity();
                     projectileVelocity = projectileVelocity.normalise(projectileVelocity);
-
-                    for (int i = 1; i <= NUM_EXPLOSIONS; i++)
+                    engine.addSmoothParticle(point, new Vector2f(), 350, 1.5f, 0.25f, LENS_FLARE_FRINGE_COLOR);
+                    engine.addSmoothParticle(point, new Vector2f(), 300, 2f, 0.1f, LENS_FLARE_CORE_COLOR);
+                    for (int i = 0; i <= NUM_EXPLOSIONS; i++)
                     {
                         Vector2f explosionLoc = new Vector2f(point.getX() + projectileVelocity.getX() * i * EXPLOSION_DISTANCE, point.getY() + projectileVelocity.getY() * i * EXPLOSION_DISTANCE);
                         //engine.spawnDamagingExplosion(explosionSpec, sourceShip, explosionLoc);
                         engine.spawnExplosion(explosionLoc, new Vector2f(projectile.getVelocity().getX() * 250f, projectile.getVelocity().getY() * 250f), new Color(225, 200, 50, 200), explosionDamage / 70f, 0.5f);
                         engine.applyDamage(target, explosionLoc, explosionDamage, DamageType.HIGH_EXPLOSIVE, 0, false, false, sourceShip);
-
                         for (int j = 0; j < NUM_LENS_FLARES; j++)
                         {
                             MagicLensFlare.createSharpFlare(engine, (ShipAPI)target, MathUtils.getRandomPointInCircle(explosionLoc, 50), LENS_FLARE_THICKNESS, LENS_FLARE_LENGTH, 0, LENS_FLARE_FRINGE_COLOR, LENS_FLARE_CORE_COLOR);

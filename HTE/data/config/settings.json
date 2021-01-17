@@ -4,8 +4,8 @@
 	},
 	"graphics": {
 		"misc": {
-		  "drg_harmproj": "graphics/icons/drg_harmprojbuff.png",
-		  "drg_rangeoverclock": "graphics/icons/drg_rangeoverclock.png"
+		  "drg_harmproj": "graphics/icons/buffs/drg_harmprojbuff.png",
+		  "drg_rangeoverclock": "graphics/icons/systems/drg_rangeoverclock.png"
 		},
 		"fx":{
 			"trails_trail_clean":"graphics/trails/fx/trails_clean.png",
@@ -15,7 +15,11 @@
 			"trails_trail_contrail":"graphics/trails/fx/trails_contrail.png",
 			"trails_trail_twin":"graphics/trails/fx/trails_twin.png",
 			"trails_trail_foggy":"graphics/trails/fx/trails_foggy.png"
-		}
+		},
+		"blueprint_packages":{
+            "drg_iv_bp_package":"graphics/icons/cargo/iv_bp.png",
+            "drg_xiv_bp_package":"graphics/icons/cargo/bp_hegXIV.png"
+        }	
 	}
 }
 

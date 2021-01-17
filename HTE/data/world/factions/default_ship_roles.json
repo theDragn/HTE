@@ -5,6 +5,7 @@
 		"fallback":{"combatSmall":1},
 	},
 	"combatSmall":{
+		"drg_scarab_iv":5,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
@@ -61,6 +62,8 @@
 		"drg_paragon_iv":8,
 		"paragon_outdated":3,
 		"paragon_blaster":3,
+		"radiant_bombardment":2,
+		"radiant_bugzapper":1,
 		"fallback":{"combatLarge":1},
 	},
 	# carriers

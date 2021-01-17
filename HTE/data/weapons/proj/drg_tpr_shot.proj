@@ -4,12 +4,13 @@
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.weapons.proj.drgTPROnHitEffect",
 	"length":55.0,
 	"width":35.0,
 	"fadeTime":0.3,
 	"fringeColor":[25,100,175,255],
 	"coreColor":[225,225,255,200],
-	"textureType":"ROUGH",  # only needed for BEAM spawnType
-	"textureScrollSpeed":-256.0,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":1.0,
 	"pixelsPerTexel":1.0
 }

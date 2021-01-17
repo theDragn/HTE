@@ -1,7 +1,7 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 8,
-    "fluxVents": 27,
+    "fluxCapacitors": 4,
+    "fluxVents": 22,
     "goalVariant": true,
     "hullId": "drg_aphelion",
     "hullMods": [
@@ -42,7 +42,8 @@
                 "WS0003": "pdlaser",
                 "WS0004": "pdlaser",
                 "WS0009": "pdlaser",
-                "WS0010": "pdlaser"
+                "WS0010": "pdlaser",
+                "WS0017": "pdlaser"
             }
         }
     ],

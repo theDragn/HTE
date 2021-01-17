@@ -1,6 +1,6 @@
 {
     "displayName": "Suppressor",
-    "fluxCapacitors": 30,
+    "fluxCapacitors": 21,
     "fluxVents": 17,
     "goalVariant": true,
     "hullId": "drg_aphelion",
@@ -38,6 +38,11 @@
                 "WS0009": "taclaser",
                 "WS0010": "taclaser"
             }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "pdlaser"}
         }
     ],
     "wings": ["thunder_wing"]

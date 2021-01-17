@@ -8,7 +8,7 @@
 	"tech":"IV Battlegroup",
 	"fleetPoints":33,
 	"ordnancePoints":350,
-	"baseValueMult":1.75,
+	"baseValueMult":1.6,
 	"spriteName":"graphics/ships/incursion_iv.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file

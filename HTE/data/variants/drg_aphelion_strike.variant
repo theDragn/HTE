@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 11,
+    "fluxCapacitors": 2,
     "fluxVents": 17,
     "goalVariant": true,
     "hullId": "drg_aphelion",
@@ -38,6 +38,11 @@
                 "WS0009": "taclaser",
                 "WS0010": "taclaser"
             }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "pdlaser"}
         }
     ],
     "wings": ["drg_kukri_wing"]

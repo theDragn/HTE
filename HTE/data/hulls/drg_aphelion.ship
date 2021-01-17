@@ -20,8 +20,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 180,
-      "angle": 79.5,
+      "arc": 105,
+      "angle": 40,
       "locations": [59, 23]
     },
     {
@@ -29,8 +29,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 180,
-      "angle": -79.5,
+      "arc": 105,
+      "angle": -40,
       "locations": [59, -23]
     },
     {
@@ -38,7 +38,7 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 110,
       "angle": -31,
       "locations": [109, -22]
     },
@@ -47,7 +47,7 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 110,
       "angle": 31,
       "locations": [109, 22]
     },
@@ -92,8 +92,8 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 200,
-      "angle": -90,
+      "arc": 130,
+      "angle": -53,
       "locations": [-42, -41]
     },
     {
@@ -101,8 +101,8 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 200,
-      "angle": 90,
+      "arc": 130,
+      "angle": 53,
       "locations": [-42, 41]
     },
     {
@@ -141,7 +141,7 @@
       "type": "SYSTEM",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": 46.5,
+      "angle": 80,
       "locations": [85, 35.5]
     },
     {
@@ -150,7 +150,7 @@
       "type": "SYSTEM",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -46.5,
+      "angle": -80,
       "locations": [85, -35.5]
     },
     {
@@ -170,6 +170,15 @@
       "arc": 0,
       "angle": -46.5,
       "locations": [101, -29.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-86, -0]
     }
   ],
   "engineSlots": [

@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class drgHarmProj extends BaseHullMod {
     
-    public static final String HP_ICON = "graphics/icons/drg_harmprojbuff.png";
+    public static final String HP_ICON = "graphics/icons/buffs/drg_harmprojbuff.png";
     public static final String HP_BUFFID1 = "drg_harmproj1";
     public static final String HP_BUFFID2 = "drg_harmproj2";
     public static final String HP_NAME = "Harmonic Energy Projector";

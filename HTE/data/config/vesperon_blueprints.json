@@ -36,7 +36,14 @@
 		"drg_tawa_pod",
 		"drg_tawa_battery",
 		"drg_tpr_m",
-		"drg_tpr_l"
+		"drg_tpr_l",
+		"drg_arc_l",
+		"drg_arc_m",
+		"drg_arc_s"
+	],
+	"fighterWingIds": [
+		"drg_wyvern_wing",
+		"drg_kukri_wing"	
     ]
   }
 }
