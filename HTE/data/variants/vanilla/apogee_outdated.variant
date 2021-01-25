@@ -1,0 +1,48 @@
+{
+    "displayName": "Outdated",
+    "fluxCapacitors": 6,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "apogee",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "apogee_outdated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "drg_tpr_l"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "drg_nyx"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "sabot"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "taclaser",
+                "WS 007": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lrpdlaser",
+                "WS 002": "lrpdlaser",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst"
+            }
+        }
+    ]
+}

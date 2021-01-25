@@ -1,0 +1,61 @@
+{
+  "variantId": "drg_aggressor_xiv_elite",
+  "hullId": "drg_aggressor_xiv",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+	"WS0018": "tpc",
+	"WS0019": "tpc",
+	}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "typhoon",
+        "WS0005": "typhoon",
+        "WS0016": "typhoon",
+        "WS0017": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0010": "lightdualmg",
+        "WS0011": "lightdualmg",
+        "WS0014": "lightdualmg",
+        "WS0015": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag",
+        "WS0003": "lightag",
+        "WS0008": "railgun",
+        "WS0009": "railgun",
+        "WS0012": "railgun",
+        "WS0013": "railgun",
+        "WS0020": "mjolnir"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

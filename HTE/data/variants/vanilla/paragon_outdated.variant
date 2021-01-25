@@ -1,0 +1,68 @@
+{
+    "displayName": "Bug Zapper",
+    "fluxCapacitors": 27,
+    "fluxVents": 50,
+    "hullId": "paragon",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "fluxdistributor",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "variantId": "paragon_outdated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyneedler",
+                "WS 008": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "reaper",
+                "WS 014": "reaper",
+                "WS 018": "reaper",
+                "WS 020": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "drg_arc_l",
+                "WS 002": "drg_arc_l",
+                "WS 003": "drg_arc_l",
+                "WS 004": "drg_arc_l"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "lrpdlaser",
+                "WS 013": "lrpdlaser",
+                "WS 015": "lrpdlaser",
+                "WS 016": "lrpdlaser",
+                "WS 017": "lrpdlaser",
+                "WS 019": "lrpdlaser",
+                "WS 021": "lrpdlaser",
+                "WS 022": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "drg_arc_m",
+                "WS 006": "drg_arc_m",
+                "WS 009": "drg_arc_m",
+                "WS 010": "drg_arc_m",
+                "WS 023": "pdlaser"
+            }
+        }
+    ]
+}

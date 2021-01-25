@@ -1,0 +1,60 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 30,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "drg_aggressor",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "drg_aggressor_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "tpc",
+                "WS0019": "tpc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "annihilatorpod",
+                "WS0005": "annihilatorpod",
+                "WS0016": "annihilatorpod",
+                "WS0017": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0020": "hephag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightag",
+                "WS0003": "lightag",
+                "WS0008": "railgun",
+                "WS0009": "railgun",
+                "WS0012": "railgun",
+                "WS0013": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualmg",
+                "WS0006": "lightmg",
+                "WS0007": "lightmg",
+                "WS0010": "lightdualmg",
+                "WS0011": "lightdualmg",
+                "WS0014": "lightmg",
+                "WS0015": "lightmg"
+            }
+        }
+    ]
+}

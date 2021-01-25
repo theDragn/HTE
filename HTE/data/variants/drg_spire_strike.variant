@@ -54,9 +54,9 @@
         }
     ],
     "wings": [
-        "drg_wyvern_wing",
-        "drg_wyvern_wing",
-        "drg_wyvern_wing",
+        "drg_khanjali_wing",
+        "drg_khanjali_wing",
+        "drg_khanjali_wing",
         "broadsword_wing"
     ]
 }

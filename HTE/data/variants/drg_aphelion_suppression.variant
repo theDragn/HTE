@@ -40,7 +40,7 @@
             }
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {"WS0017": "pdlaser"}
         }

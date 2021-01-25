@@ -1,3 +1,4 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
 Targeting Overclock,drg_rangeoverclock,500,,,,,,,,,2,,1,10,TRUE,,TRUE,TRUE,,,,,,,graphics/icons/systems/drg_rangeoverclock.png
 Flux Compressor,drg_fluxcompressor,,,,,,,,,,,1,4,20,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Weapon Overdrive,drg_hvb_system,,,,,,,,,,,5,,15,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png

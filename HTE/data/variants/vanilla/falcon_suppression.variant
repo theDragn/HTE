@@ -1,0 +1,46 @@
+{
+    "displayName": "Suppression",
+    "fluxCapacitors": 10,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "falcon",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "falcon_suppression",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyac",
+                "WS 008": "heavyac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "harpoon",
+                "WS 002": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "drg_tpr_m",
+                "WS 006": "drg_tpr_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 009": "lrpdlaser",
+                "WS 010": "lrpdlaser"
+            }
+        }
+    ]
+}

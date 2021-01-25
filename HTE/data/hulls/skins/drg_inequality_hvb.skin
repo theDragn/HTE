@@ -1,0 +1,34 @@
+{
+	"baseHullId":"drg_inequality",
+	"skinHullId":"drg_inequality_hvb",
+	"hullName":"Inequality (CO)",
+	"descriptionId":"drg_inequality",
+	"descriptionPrefix":"This prototype vessel is an advanced redesign of the Inequality-class battlecruiser intended for covert operations in hostile space.",
+	"tags":[],
+	"tech":"Covert Ops",
+	"fleetPoints":30,
+	"ordnancePoints":285,
+	"baseValueMult":2,
+	"systemId":"drg_hvb_system",
+	"spriteName":"graphics/ships/inequality_hvb.png",
+	"builtInMods":["drg_covops","drg_missileforge"],
+	"builtInWeapons":{
+     },
+    "weaponSlotChanges":{
+	   "WS0001":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS0002":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS0003":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS0010":{
+		  "type": "ENERGY"
+	   },
+	   "WS0011":{
+		  "type": "ENERGY"
+	   },
+    },
+}

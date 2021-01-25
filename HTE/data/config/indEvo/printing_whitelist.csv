@@ -4,15 +4,15 @@ drg_incursion
 drg_iris
 drg_gila
 drg_bombardier
-drg_invader
+drg_aggressor
 drg_aphelion
 drg_moray
 drg_tigershark
 drg_kingfisher
 drg_spire
 drg_peregrine
-drg_invader
-drg_invader_xiv
+drg_aggressor
+drg_aggressor_xiv
 drg_gila_iv
 drg_incursion_iv
 drg_iris_iv
@@ -24,3 +24,5 @@ drg_tigershark_iv
 drg_persephone_iv
 drg_kingfisher_iv
 drg_inequality
+drg_inequality_iv
+drg_inequality_hvb

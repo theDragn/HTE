@@ -1,0 +1,26 @@
+{
+	"baseHullId":"shrike",
+	"skinHullId":"drg_shrike_hvb",
+	"hullName":"Shrike (CO)",
+	"descriptionId":"shrike",  # optional
+	"descriptionPrefix":"This prototype vessel is an advanced redesign of the Shrike-class destroyer intended for covert operations in hostile space.",
+	"tags":[],
+	"tech":"Covert Ops",
+	"baseValueMult":2,
+	"builtInMods":["drg_covops","drg_missileforge"],
+	"ordnancePoints":85,
+	"spriteName":"graphics/ships/shrike_hvb.png",
+    "weaponSlotChanges":{
+	   "WS 000":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS 001":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS 002":{
+		  "type": "UNIVERSAL"
+	   }
+	},
+	"builtInWeapons":{
+    },
+}

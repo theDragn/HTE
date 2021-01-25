@@ -5,5 +5,6 @@
 	"version":"1.1.5",
 	"description":"Ya like high-tech? We got high tech!",
 	"gameVersion":"0.9.1a-RC8",
-	"jars":["jars/HTE.jar"]
+	"jars":["jars/HTE.jar"],
+	"modPlugin":"drgModPlugin"
 }

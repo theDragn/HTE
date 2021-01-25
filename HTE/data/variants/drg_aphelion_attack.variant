@@ -1,13 +1,10 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 4,
+    "fluxCapacitors": 14,
     "fluxVents": 22,
     "goalVariant": true,
     "hullId": "drg_aphelion",
-    "hullMods": [
-        "targetingunit",
-        "hardenedshieldemitter"
-    ],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "variantId": "drg_aphelion_attack",
     "weaponGroups": [
@@ -39,13 +36,19 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "pdlaser",
-                "WS0004": "pdlaser",
-                "WS0009": "pdlaser",
-                "WS0010": "pdlaser",
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "drg_arc_s",
+                "WS0004": "drg_arc_s",
                 "WS0017": "pdlaser"
             }
         }
     ],
-    "wings": ["xyphos_wing"]
+    "wings": ["drg_kaskara_wing"]
 }

@@ -22,10 +22,11 @@
 		"drg_paragon_iv",
 		"drg_odyssey_iv",
 		"drg_peregrine_iv",
-		"drg_invader",
-		"drg_invader_xiv",
+		"drg_aggressor",
+		"drg_aggressor_xiv",
 		"drg_inequality",
-		"drg_inequality_iv"
+		"drg_inequality_iv",
+		"drg_scarab_iv"
 	],
 	"weaponSpecIds": [
 		"drg_tawa_rack",
@@ -42,8 +43,9 @@
 		"drg_arc_s"
 	],
 	"fighterWingIds": [
-		"drg_wyvern_wing",
-		"drg_kukri_wing"	
+		"drg_khanjali_wing",
+		"drg_kukri_wing",
+		"drg_kaskara_wing"	
     ]
   }
 }

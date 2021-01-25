@@ -1,0 +1,50 @@
+{
+  "hullName": "Kaskara",
+  "hullId": "drg_kaskara",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/kaskara.png",
+  "style": "HIGH_TECH",
+  "height": 37,
+  "width": 28,
+  "center": [14, 16.5],
+  "collisionRadius": 18.5,
+  "shieldCenter": [-2, -1.5],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, -5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, 2.5],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16.5, -6.5],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    19, -3.5,
+    -4.5, -17,
+    -17.5, -8.5,
+    -15.5, 11,
+    1.5, 10
+  ]
+}

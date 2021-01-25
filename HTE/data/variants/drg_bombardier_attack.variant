@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 13,
     "fluxVents": 21,
     "goalVariant": true,
     "hullId": "drg_bombardier",
@@ -12,8 +12,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "taclaser",
-                "WS0008": "taclaser"
+                "WS0009": "pulselaser",
+                "WS0010": "pulselaser"
             }
         },
         {
@@ -31,15 +31,15 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "WS0009": "pulselaser",
-                "WS0010": "pulselaser"
-            }
+            "weapons": {"WS0015": "drg_arc_m"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0015": "heavyburst"}
+            "weapons": {
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s"
+            }
         },
         {
             "autofire": true,

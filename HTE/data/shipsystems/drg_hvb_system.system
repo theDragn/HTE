@@ -1,0 +1,13 @@
+{
+	"id":"drg_hvb_system",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.drgWeaponOverdrive",
+	
+	"weaponGlowColor":[255,200,0,155],
+	"weaponTypes":[BALLISTIC,ENERGY,MISSILE],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

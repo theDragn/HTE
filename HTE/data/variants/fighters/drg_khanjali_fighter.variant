@@ -1,0 +1,25 @@
+{
+	"quality":1,
+	"displayName":"Strike Fighter",
+	"hullId":"drg_khanjali",
+	"variantId":"drg_khanjali_fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":["no_weapon_flux"],
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0001":"drg_plasma_ftr",
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0002":"irpulse_fighter",
+		 			"WS0004":"irpulse_fighter",
+		 		   },
+		},
+	],
+}

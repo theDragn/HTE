@@ -13,22 +13,9 @@
 			"drg_persephone",
 			"drg_kingfisher",
 			"drg_peregrine",
-			"drg_gila_iv",
-			"drg_incursion_iv",
-			"drg_iris_iv",
-			"drg_spire_iv",
-			"drg_tigershark_iv",
-			"drg_persephone_iv",
-			"drg_kingfisher_iv",
-			"drg_paragon_iv",
-			"drg_odyssey_iv",
-			"drg_peregrine_iv",
-			"drg_inequality",
-			"drg_inequality_iv",
 		],
 	},
 	"priorityShips":{
-		"tags":["IV_bp"],
 		"hulls":[
 			"drg_aphelion",
 			"drg_bombardier",
@@ -46,7 +33,7 @@
 	},
 	"hullFrequency":{
 		"tags":{
-			"IV_bp":2,
+			"IV_bp":1.5,
 		},
 		"hulls":{
 			"drg_aphelion":10,
@@ -65,7 +52,7 @@
 	},
 	"knownFighters":{
 		"fighters":[
-			"drg_wyvern_wing",
+			"drg_khanjali_wing",
 			"drg_kukri_wing",
 		],
 	},

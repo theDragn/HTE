@@ -1,11 +1,13 @@
 {
 	"designTypeColors":{
-		"IV Battlegroup":[0,100,255,255]
+		"IV Battlegroup":[0,100,255,255],
+		"Custom":[255,255,0,255]
 	},
 	"graphics": {
 		"misc": {
 		  "drg_harmproj": "graphics/icons/buffs/drg_harmprojbuff.png",
-		  "drg_rangeoverclock": "graphics/icons/systems/drg_rangeoverclock.png"
+		  "drg_rangeoverclock": "graphics/icons/systems/drg_rangeoverclock.png",
+		  "ricardo":"graphics/portraits/ricardo_hvb.png"
 		},
 		"fx":{
 			"trails_trail_clean":"graphics/trails/fx/trails_clean.png",

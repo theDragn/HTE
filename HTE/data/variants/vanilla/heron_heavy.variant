@@ -1,0 +1,34 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 3,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "heron",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "heron_heavy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "drg_khanjali_wing",
+        "drg_kaskara_wing",
+        "broadsword_wing"
+    ]
+}

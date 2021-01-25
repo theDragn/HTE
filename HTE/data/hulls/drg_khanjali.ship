@@ -1,0 +1,76 @@
+{
+  "hullName": "Khanjali",
+  "hullId": "drg_khanjali",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/khanjali.png",
+  "style": "HIGH_TECH",
+  "height": 37,
+  "width": 32,
+  "center": [16, 18],
+  "collisionRadius": 21,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [10, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [10, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -8],
+      "length": 17.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, 8],
+      "length": 17.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    9, 17.5,
+    -17, 11,
+    -17, -11,
+    9, -17.5
+  ]
+}
