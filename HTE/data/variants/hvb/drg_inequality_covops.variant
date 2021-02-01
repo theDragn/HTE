@@ -1,8 +1,7 @@
 {
     "displayName": "Covert Ops",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 38,
     "fluxVents": 50,
-    "goalVariant": false,
     "hullId": "drg_inequality_hvb",
     "hullMods": [
         "targetingunit",
@@ -13,17 +12,17 @@
     "variantId": "drg_inequality_covops",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0002": "plasma"}
+            "weapons": {
+                "WS0001": "mark9",
+                "WS0003": "mark9"
+            }
         },
         {
-            "autofire": false,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS0001": "drg_tawa_battery",
-                "WS0003": "drg_tawa_battery"
-            }
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hil"}
         },
         {
             "autofire": true,

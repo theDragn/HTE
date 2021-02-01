@@ -163,6 +163,38 @@
       "angle": 180,
       "contrailSize": 30,
       "style": "HIGH_TECH"
+    },
+    {
+      "location": [-100, 21],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-104.5, 37],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-102, -32],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-105, -48],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
     }
   ],
   "bounds": [

@@ -1,7 +1,7 @@
 {
     "displayName": "Plasma Strike",
     "fluxCapacitors": 0,
-    "fluxVents": 7,
+    "fluxVents": 2,
     "hullId": "astral",
     "hullMods": [],
     "permaMods": [],
@@ -19,6 +19,7 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
+                "WS 013": "gravitonbeam",
                 "WS 014": "gravitonbeam",
                 "WS 015": "gravitonbeam",
                 "WS 024": "gravitonbeam"

@@ -1,0 +1,25 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "drg_scute",
+    "hullMods": [
+        "hardened_subsystems",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_scute_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "drg_arc_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "salamanderpod"}
+        }
+    ]
+}

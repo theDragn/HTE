@@ -1,8 +1,9 @@
 {
-	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
-	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmall":{
 		"drg_scarab_iv":4,
+		"drg_scute_attack":4,
+		"drg_scute_support":4,
+		"drg_scute_lancer":4,
 	},
 	"combatMedium":{
 		"drg_iris_firesupport":5,

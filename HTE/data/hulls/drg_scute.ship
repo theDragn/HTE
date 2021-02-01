@@ -1,0 +1,109 @@
+{
+  "hullName": "Scute",
+  "hullId": "drg_scute",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/scute.png",
+  "style": "HIGH_TECH",
+  "height": 105,
+  "width": 66,
+  "center": [33, 52.5],
+  "collisionRadius": 53,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 68.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "drg_harmproj"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49.5, 9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49.5, -9],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36, 19],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36, -19],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17.5, 31],
+      "length": 30,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-17.5, -31],
+      "length": 30,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -49.5, 12,
+    -35.5, 18.5,
+    -38, 30.5,
+    -20, 26.5,
+    -5.5, 34.5,
+    51, 11.5,
+    51, -11.5,
+    -5.5, -34.5,
+    -20, -26.5,
+    -38, -30.5,
+    -35.5, -18.5,
+    -49.5, -12
+  ]
+}

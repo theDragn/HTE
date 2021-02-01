@@ -1,6 +1,6 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 17,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_kingfisher_iv",
@@ -11,7 +11,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0011": "drg_ahab"}
+            "weapons": {"WS0011": "squall"}
         },
         {
             "autofire": false,
@@ -31,9 +31,11 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "drg_tpr_m",
-                "WS0003": "drg_tpr_m",
-                "WS0004": "drg_tpr_m"
+                "WS0001": "pulselaser",
+                "WS0003": "pulselaser",
+                "WS0004": "pulselaser",
+                "WS0015": "ioncannon",
+                "WS0016": "ioncannon"
             }
         },
         {
@@ -43,9 +45,7 @@
                 "WS0005": "pdlaser",
                 "WS0006": "pdlaser",
                 "WS0007": "pdlaser",
-                "WS0008": "pdlaser",
-                "WS0015": "taclaser",
-                "WS0016": "taclaser"
+                "WS0008": "pdlaser"
             }
         }
     ]

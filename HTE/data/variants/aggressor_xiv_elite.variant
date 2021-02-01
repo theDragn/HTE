@@ -2,7 +2,7 @@
   "variantId": "drg_aggressor_xiv_elite",
   "hullId": "drg_aggressor_xiv",
   "displayName": "Elite",
-  "goalVariant": true,
+  "goalVariant": false,
   "fluxCapacitors": 18,
   "fluxVents": 50,
   "quality": 1,

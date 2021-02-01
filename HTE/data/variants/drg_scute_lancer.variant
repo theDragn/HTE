@@ -1,0 +1,22 @@
+{
+    "displayName": "Lancer",
+    "fluxCapacitors": 4,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "drg_scute",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "drg_scute_lancer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "phasebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "sabotpod"}
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "startShipsCombatSmall":[
+      ["drg_persephone_attack", "drg_scute_attack", "drg_scute_lancer"],
+    ],
+    "startShipsCombatLarge":[
+      ["drg_tigershark_strike", "drg_scute_attack", "drg_scute_lancer"],
+      ["drg_bombardier_attack", "drg_moray_attack"],
+    ],
+    "startShipsSuper":[["drg_medusa_covops"],["drg_shrike_covops"]],
+}
