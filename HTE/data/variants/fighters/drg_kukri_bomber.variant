@@ -19,8 +19,8 @@
 		},
 		{"mode":"ALTERNATING",
 		 "weapons":{
-		 			"WS 004":"drg_tawa_single",
-		 			"WS 005":"drg_tawa_single",
+		 			"WS 002":"drg_tawa_single",
+		 			#"WS 005":"drg_tawa_single",
 		 		   },
 		},
 		{"mode":"ALTERNATING",

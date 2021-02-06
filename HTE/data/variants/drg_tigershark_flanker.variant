@@ -1,6 +1,6 @@
 {
     "displayName": "Flanker",
-    "fluxCapacitors": 14,
+    "fluxCapacitors": 21,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_tigershark",
@@ -14,30 +14,36 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "WS0001": "heavyblaster",
-                "WS0002": "pulselaser"
-            }
+            "weapons": {"WS0004": "hil"}
         },
         {
             "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0004": "hurricane"}
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "sabotpod",
+                "WS0002": "sabotpod"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0003": "ionbeam"}
+            "weapons": {"WS0003": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS0005": "drg_arc_s",
-                "WS0006": "drg_arc_s",
-                "WS0007": "pdlaser",
-                "WS0008": "pdlaser",
-                "WS0009": "pdlaser"
+                "WS0006": "drg_arc_s"
             }
         }
     ]

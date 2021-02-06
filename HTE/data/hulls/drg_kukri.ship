@@ -1,87 +1,56 @@
 {
     "bounds": [
-        10,
-        12,
-        10,
-        -12,
-        -8,
-        -15,
-        -13,
+        8,
+        14,
+        19,
         0,
-        -7,
-        15
+        6,
+        -9,
+        -2,
+        -4,
+        -12,
+        -5,
+        -11,
+        5,
+        0,
+        5
     ],
     "center": [
-        19,
-        15
+        15,
+        16
     ],
-    "collisionRadius": 36,
-    "engineSlots": [
-        {
-            "angle": 180,
-            "contrailSize": 64,
-            "length": 16,
-            "location": [
-                -14,
-                11
-            ],
-            "style": "HIGH_TECH",
-            "width": 8
-        },
-        {
-            "angle": 180,
-            "contrailSize": 64,
-            "length": 24,
-            "location": [
-                -14,
-                0
-            ],
-            "style": "HIGH_TECH",
-            "width": 12
-        },
-        {
-            "angle": 180,
-            "contrailSize": 64,
-            "length": 16,
-            "location": [
-                -14,
-                -11
-            ],
-            "style": "HIGH_TECH",
-            "width": 8
-        }
-    ],
+    "collisionRadius": 39,
+    "coversColor": "",
+    "engineSlots": [{
+        "angle": 180,
+        "contrailSize": 64,
+        "length": 40,
+        "location": [
+            -13,
+            0
+        ],
+        "style": "HIGH_TECH",
+        "width": 12
+    }],
     "height": 34,
     "hullId": "drg_kukri",
     "hullName": "Kukri",
     "hullSize": "FIGHTER",
     "shieldCenter": [
-        0,
+        4,
         0
     ],
-    "shieldRadius": 30,
-    "spriteName": "graphics/ships/trident.png",
+    "shieldRadius": 35,
+    "spriteName": "graphics/ships/dagger_trp.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [
         {
-            "angle": 90,
-            "arc": 210,
+            "angle": 0,
+            "arc": 360,
             "id": "WS 001",
             "locations": [
-                -1,
-                10
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "ENERGY"
-        },
-        {
-            "angle": 180,
-            "arc": 120,
-            "id": "WS 002",
-            "locations": [
-                -3,
+                2,
                 0
             ],
             "mount": "HIDDEN",
@@ -89,41 +58,17 @@
             "type": "ENERGY"
         },
         {
-            "angle": -90,
-            "arc": 210,
-            "id": "WS 003",
-            "locations": [
-                -1,
-                -10
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "ENERGY"
-        },
-        {
             "angle": 0,
             "arc": 5,
-            "id": "WS 004",
+            "id": "WS 002",
             "locations": [
                 7,
-                8
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "MISSILE"
-        },
-        {
-            "angle": 0,
-            "arc": 5,
-            "id": "WS 005",
-            "locations": [
-                7,
-                -8
+                0
             ],
             "mount": "HIDDEN",
             "size": "SMALL",
             "type": "MISSILE"
         }
     ],
-    "width": 38
+    "width": 26
 }

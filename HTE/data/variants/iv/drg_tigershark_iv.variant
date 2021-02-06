@@ -2,7 +2,6 @@
     "displayName": "Elite",
     "fluxCapacitors": 12,
     "fluxVents": 30,
-    "goalVariant": true,
     "hullId": "drg_tigershark_iv",
     "hullMods": [
         "targetingunit",

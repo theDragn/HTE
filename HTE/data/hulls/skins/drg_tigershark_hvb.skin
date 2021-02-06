@@ -1,0 +1,29 @@
+{
+	"baseHullId":"drg_tigershark",
+	"skinHullId":"drg_tigershark_hvb",
+	"hullName":"Tigershark (CO)",
+	"descriptionId":"drg_tigershark",
+	"descriptionPrefix":"This prototype vessel is an advanced redesign of the Tigershark-class cruiser intended for covert operations in hostile space.",
+	"tags":[],
+	"tech":"Covert Ops",
+	"ordnancePoints":167,
+	"baseValueMult":2,
+	"systemId":"drg_hvb_system",
+	"spriteName":"graphics/ships/tigershark_hvb.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["drg_badammofeeder"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["drg_covops","drg_missileforge"],
+	"weaponSlotChanges":{
+	   "WS0001":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS0002":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS0003":{
+		  "type": "HYBRID"
+	   },
+	},
+}

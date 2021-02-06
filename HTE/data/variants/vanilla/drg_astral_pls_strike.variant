@@ -1,12 +1,21 @@
 {
-    "displayName": "Plasma Strike",
+    "displayName": "Plasma",
     "fluxCapacitors": 0,
-    "fluxVents": 2,
+    "fluxVents": 7,
     "hullId": "astral",
     "hullMods": [],
     "permaMods": [],
     "variantId": "drg_astral_pls_strike",
     "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "gravitonbeam",
+                "WS 015": "gravitonbeam",
+                "WS 023": "gravitonbeam"
+            }
+        },
         {
             "autofire": false,
             "mode": "ALTERNATING",
@@ -18,12 +27,7 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "WS 013": "gravitonbeam",
-                "WS 014": "gravitonbeam",
-                "WS 015": "gravitonbeam",
-                "WS 024": "gravitonbeam"
-            }
+            "weapons": {"WS 024": "gravitonbeam"}
         },
         {
             "autofire": true,
@@ -36,13 +40,18 @@
                 "WS 007": "pdlaser",
                 "WS 008": "pdlaser"
             }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 013": "gravitonbeam"}
         }
     ],
     "wings": [
         "drg_kukri_wing",
         "drg_kukri_wing",
-        "longbow_wing",
-        "longbow_wing",
+        "drg_kukri_wing",
+        "drg_kukri_wing",
         "drg_kukri_wing",
         "drg_kukri_wing"
     ]

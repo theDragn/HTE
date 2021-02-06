@@ -1,0 +1,20 @@
+{
+	"baseHullId":"drg_tigershark",
+	"skinHullId":"drg_tigershark_ak",
+	"hullName":"Tigershark (AK)",
+	"descriptionId":"drg_tigershark",
+	"descriptionPrefix":"This ship has been refit by the fringe Luddic tech-heretic cult known as the Ashen Keepers. Along with a flashy paintjob, it has received extensive defensive upgrades designed to benefit them in their eternal crusade against the more mainstream Luddic sects of the Path and Church of Galactic Redemption. Unfortunately, these refits - performed with readily available equipment by enthusiastic but undertrained enginseers - require frequent maintenance and have significantly increased the running costs of the vessel.",
+	"tags":["vayra_ashen_bulwark","ashen_rare"],
+	"tech":"Ashen Keepers",
+	"fleetPoints":19,
+	"ordnancePoints":167,
+	"baseValueMult":1.6,
+	"spriteName":"graphics/ships/tigershark_ak.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+     },
+}

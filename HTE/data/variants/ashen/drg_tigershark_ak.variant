@@ -1,0 +1,44 @@
+{
+    "displayName": "Ashen",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "hullId": "drg_tigershark_ak",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_tigershark_ak",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "drg_nyx"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pulselaser",
+                "WS0003": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "displayName": "Ashen",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "hullId": "drg_spire_ak",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_spire_ak",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "autopulse",
+                "WS0014": "autopulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "drg_ahab"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam",
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "gravitonbeam",
+                "WS0012": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0002": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser",
+                "WS0016": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "drg_khanjali_wing",
+        "drg_khanjali_wing",
+        "drg_khanjali_wing",
+        "claw_wing"
+    ]
+}

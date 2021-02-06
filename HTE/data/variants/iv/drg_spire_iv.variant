@@ -1,10 +1,13 @@
 {
     "displayName": "Elite",
     "fluxCapacitors": 19,
-    "fluxVents": 50,
+    "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_spire_iv",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
     "permaMods": [],
     "variantId": "drg_spire_iv",
     "weaponGroups": [

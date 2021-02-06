@@ -1,0 +1,22 @@
+{
+    "displayName": "Ashen",
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "drg_scute_ak",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "drg_scute_ak",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "phasebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "sabotpod"}
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Vibe Check",
+    "fluxCapacitors": 7,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "drover",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "variantId": "drover_test",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vulcan",
+                "WS 001": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "sabot",
+                "WS 003": "sabot",
+                "WS 004": "sabot",
+                "WS 005": "sabot"
+            }
+        }
+    ],
+    "wings": [
+        "drg_kaskara_wing",
+        "thunder_wing"
+    ]
+}

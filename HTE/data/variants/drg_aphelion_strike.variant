@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 2,
+    "fluxCapacitors": 10,
     "fluxVents": 17,
     "goalVariant": true,
     "hullId": "drg_aphelion",

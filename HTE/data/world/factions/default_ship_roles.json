@@ -4,6 +4,7 @@
 		"drg_scute_attack":4,
 		"drg_scute_support":4,
 		"drg_scute_lancer":4,
+		"drg_scute_ak":5
 	},
 	"combatMedium":{
 		"drg_iris_firesupport":5,
@@ -40,6 +41,7 @@
 		"drg_gryphon_assault":3,
 		"falcon_suppression":3,
 		"apogee_outdated":4,
+		"drg_tigershark_ak":5
 	},
 	"combatCapital":{
 		"drg_incursion_assault":4,
@@ -58,14 +60,14 @@
 		"paragon_outdated":3,
 		"paragon_blaster":3,
 		"radiant_bombardment":2,
-		"radiant_bugzapper":1,
+		"radiant_bugzapper":1
 	},
 	# carriers
 	"carrierSmall":{
 		"condor_Strike":4,
 		"condor_Attack":3,
 		"condor_Support":3,
-		"drover_fighter":4,
+		"drover_fighter":4
 	},
 	"carrierMedium":{
 		"heron_heavy":4,
@@ -73,6 +75,7 @@
 	"carrierLarge":{
 			"drg_spire_attack":2.5,
 			"drg_spire_suppression":2.5,
+			"drg_spire_ak":7,
 			"drg_spire_iv":7,
 			"drg_astral_pls_strike":3,
 			"drg_spire_strike":2.5
