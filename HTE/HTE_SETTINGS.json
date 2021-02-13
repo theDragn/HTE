@@ -1,0 +1,54 @@
+{
+    # HTE settings file
+    
+    # MARKET/PROCGEN STUFF
+
+    # set to false to disable the specialty market at Svarog
+    # this gets checked on system generation, so turning it off mid-save won't do anything
+    "svarogOutpostMarketEnabled":true,      # default = true
+    
+    # set to false to disable spawning the Zarmazd system on a new game
+    "zarmazdSystemEnabled":true,            # default = true
+    
+    # you'll need a new save for new coordinates to take effect
+    "zarmazdX":4250,
+    "zarmazdY":-23000,
+
+    # Tariff for hulls, weapons, and fighter LPCs sold at Svarog Shipyards.
+    "svarogSpecialtyMarketTariff":1.25,     # default = 1.25
+
+    # controls frequency of various hull sizes and types for sale at Svarog Shipyards.
+    # the weight for a ship is effectively hull_size_weight * tag_weight
+    "svarogWeightFrigate":1,
+    "svarogWeightDestroyer":2,
+    "svarogWeightCruiser":2,
+    "svarogWeightCapital":1,
+    "svarogWeightIV":5,
+    "svarogWeightXIV":2,
+    "svarogWeightHightech":2,
+    "svarogWeightMidline":1,
+    "svarogWeightRare":0, # can be any ship with the rare_bp tag, even mod factions, so it might be immersion-breaking to have this enabled depending on your mods.
+
+    # minimum number of weapons, fighter LPCs, and hulls Svarog will have for sale (maximum is generally a few more)
+    # hardcoded as a mix of Persean League and Tritachyon weapons/fighters for now
+    "svarogNumWeapons":20,                  # default = 20
+    "svarogNumWings":10,                    # default = 10
+    "svarogNumHulls":15,                    # default = 15
+
+    # AI STUFF
+    # If you have suggestions for AI behavior, feel free to let me know on discord or the forums
+
+    # Minimum time in seconds between AI update checks for ship systems (only systems from HTE)
+    # Lower values will improve AI responsiveness at a performance cost. (How much is the performance cost? Dunno, 0.1 works fine on my machine but I have a pretty beefy computer.)
+    # You probably shouldn't set this to zero.
+    "aiUpdateInterval":0.5,                 # default = 0.5
+
+    # Flux percentage at which the AI will trigger the flux compressor
+    "aiFluxCompressorThreshold":0.75,       # default = 0.75
+
+    # Maximum flux percentage at which the AI will activate the range overclock
+    "aiRangeOverclockActivateMax":0.33,     # default = 0.33
+
+    # Flux percentage at which the AI will always turn off the range overclock, regardless of enemy positioning
+    "aiRangeOverclockDeactivateAt":0.75      # default = 0.75
+}

@@ -1,0 +1,28 @@
+{
+	"knownShips":{
+		"tags":["IV_bp"],
+		"hulls":[
+			"drg_gloom",
+			"drg_tigershark",
+			"drg_inequality",
+			"drg_spire",
+			"drg_incursion"
+		],
+	},
+	"knownFighters":{
+		"fighters":[
+			"drg_kukri",
+			"drg_khanjali"
+		],
+	},
+	"knownWeapons":{
+		"weapons":[
+			"drg_nyx",
+			"drg_tawa_battery",
+			"drg_plp",
+			"drg_tpr_l",
+			"drg_arc_l"
+		]
+	}
+}
+

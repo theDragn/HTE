@@ -62,7 +62,6 @@
 		"radiant_bombardment":2,
 		"radiant_bugzapper":1
 	},
-	# carriers
 	"carrierSmall":{
 		"condor_Strike":4,
 		"condor_Attack":3,
@@ -70,7 +69,7 @@
 		"drover_fighter":4
 	},
 	"carrierMedium":{
-		"heron_heavy":4,
+		"heron_heavy":4
 	},
 	"carrierLarge":{
 			"drg_spire_attack":2.5,
@@ -80,5 +79,8 @@
 			"drg_astral_pls_strike":3,
 			"drg_spire_strike":2.5
 	},
+	"phaseLarge":{
+		"drg_gloom_support":2.5
+	}
 }
 

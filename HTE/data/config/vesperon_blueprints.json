@@ -26,7 +26,10 @@
 		"drg_aggressor_xiv",
 		"drg_inequality",
 		"drg_inequality_iv",
-		"drg_scarab_iv"
+		"drg_scarab_iv",
+		"drg_scute_ak",
+		"drg_tigershark_ak",
+		"drg_spire_ak"
 	],
 	"weaponSpecIds": [
 		"drg_tawa_rack",

@@ -1,0 +1,3 @@
+id,name,faction,desc,script,icon,order
+drg_SvarogMarket,"Svarog
+Shipyards",independent,"Svarog Shipyards has access to pre-collapse industrial equipment, and takes contracts from major polities in the sector to produce Domain-spec hulls and weapons. Frequently, extra production runs are sold off to trusted third parties for a hefty price.",plugins.drgSvarogMarketPlugin,,1312

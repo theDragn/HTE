@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+generateHTE,commands.generateHTE,campaign,generateHTE,"Generates the Zarmazd system, if it does not already exist in this save."
