@@ -1,34 +1,38 @@
 {
     "displayName": "Covert Ops",
-    "fluxCapacitors": 7,
-    "fluxVents": 20,
+    "fluxCapacitors": 24,
+    "fluxVents": 24,
     "hullId": "drg_medusa_hvb",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter"
+    ],
     "permaMods": [],
     "variantId": "drg_medusa_covops",
     "weaponGroups": [
         {
-            "autofire": true,
-            "mode": "LINKED",
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS 006": "hveldriver",
-                "WS 007": "hveldriver"
+                "WS 002": "amblaster",
+                "WS 003": "amblaster"
             }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS 008": "atropos",
-                "WS 009": "atropos"
+                "WS 006": "sabotpod",
+                "WS 007": "sabotpod"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 002": "taclaser",
-                "WS 003": "taclaser"
+                "WS 008": "irpulse",
+                "WS 009": "irpulse"
             }
         },
         {

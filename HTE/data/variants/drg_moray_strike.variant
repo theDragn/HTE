@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 14,
+    "fluxCapacitors": 12,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",
@@ -11,7 +11,7 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "gravitonbeam"}
+            "weapons": {"WS0001": "ionpulser"}
         },
         {
             "autofire": false,

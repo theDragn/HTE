@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 15,
+    "fluxCapacitors": 13,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_persephone",
@@ -26,10 +26,14 @@
         {
             "autofire": true,
             "mode": "LINKED",
+            "weapons": {"WS0005": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
             "weapons": {
                 "WS0003": "pdlaser",
-                "WS0004": "pdlaser",
-                "WS0005": "pdlaser"
+                "WS0004": "pdlaser"
             }
         }
     ]

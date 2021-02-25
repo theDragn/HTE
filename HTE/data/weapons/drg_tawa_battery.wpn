@@ -7,12 +7,15 @@
   "turretSprite": "graphics/weapons/drg_tawa_battery_turret_base.png",
   "hardpointSprite": "graphics/weapons/drg_tawa_battery_hardpoint_base.png",
   "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
   "turretOffsets": [
-    19,
+    15,
     10,
-    19,
+    15,
     0,
-    19,
+    15,
     -10
   ],
   "turretAngleOffsets": [
@@ -21,11 +24,11 @@
     0
   ],
   "hardpointOffsets": [
-    26,
+    23,
     10,
-    26,
+    23,
     0,
-    26,
+    23,
     -10
   ],
   "hardpointAngleOffsets": [
@@ -46,7 +49,10 @@
     "blowbackLength": 22,
     "blowbackSpread": 15,
     "particleColor": [
-  159,116,218,105
+      159,
+      116,
+      218,
+      105
     ]
   },
   "textureType": ROUGH,

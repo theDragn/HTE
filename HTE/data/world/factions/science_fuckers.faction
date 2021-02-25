@@ -11,8 +11,8 @@
 	},
 	"knownFighters":{
 		"fighters":[
-			"drg_kukri",
-			"drg_khanjali"
+			"drg_kukri_wing",
+			"drg_khanjali_wing"
 		],
 	},
 	"knownWeapons":{

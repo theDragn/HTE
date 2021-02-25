@@ -88,7 +88,7 @@
       "id": "WS0010",
       "size": "SMALL",
       "type": "SYNERGY",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
       "locations": [46, -76]

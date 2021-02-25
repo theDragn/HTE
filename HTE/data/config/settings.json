@@ -20,8 +20,8 @@
 			"trails_trail_foggy":"graphics/trails/fx/trails_foggy.png"
 		},
 		"blueprint_packages":{
-            "drg_iv_bp_package":"graphics/icons/cargo/iv_bp.png",
-            "drg_xiv_bp_package":"graphics/icons/cargo/bp_hegXIV.png"
+            "drg_iv_package":"graphics/icons/cargo/iv_bp.png",
+            "drg_xiv_package":"graphics/icons/cargo/bp_hegXIV.png"
         }	
 	}
 }

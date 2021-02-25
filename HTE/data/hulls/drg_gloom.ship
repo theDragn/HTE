@@ -69,7 +69,7 @@
     {
       "id": "WS0006",
       "size": "SMALL",
-      "type": "SYNERGY",
+      "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
@@ -78,7 +78,7 @@
     {
       "id": "WS0007",
       "size": "SMALL",
-      "type": "SYNERGY",
+      "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": -0,

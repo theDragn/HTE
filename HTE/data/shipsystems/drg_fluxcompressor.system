@@ -2,7 +2,7 @@
 	"id":"drg_fluxcompressor",
 	"type":"STAT_MOD",
 	"aiType":"CUSTOM",
-	"aiScript":"data.shipsystems.scripts.ai.drgFluxCompressorAI",
+	"aiScript":"data.shipsystems.scripts.ai.drgFluxCompressAI",
 	
 	"statsScript":"data.shipsystems.scripts.drgFluxCompressor",
 	

@@ -57,10 +57,8 @@
 		"drg_inequality_iv":5,
 		"drg_odyssey_iv":8,
 		"drg_paragon_iv":8,
-		"paragon_outdated":3,
 		"paragon_blaster":3,
-		"radiant_bombardment":2,
-		"radiant_bugzapper":1
+		"radiant_bombardment":2
 	},
 	"carrierSmall":{
 		"condor_Strike":4,

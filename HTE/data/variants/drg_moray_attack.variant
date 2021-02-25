@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 10,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",
@@ -24,7 +24,7 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0004": "pdlaser"}
+            "weapons": {"WS0004": "pdburst"}
         }
     ]
 }

@@ -1,12 +1,15 @@
 {
     "displayName": "Covert Ops",
-    "fluxCapacitors": 10,
-    "fluxVents": 30,
+    "fluxCapacitors": 36,
+    "fluxVents": 36,
     "hullId": "drg_tigershark_hvb",
     "hullMods": [
         "stabilizedshieldemitter",
         "targetingunit",
-        "hardenedshieldemitter"
+        "hardenedshieldemitter",
+        "extendedshieldemitter",
+        "fluxdistributor",
+        "solar_shielding"
     ],
     "permaMods": [],
     "variantId": "drg_tigershark_covops",
@@ -27,7 +30,7 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0003": "pulselaser"}
+            "weapons": {"WS0003": "heavyblaster"}
         },
         {
             "autofire": true,

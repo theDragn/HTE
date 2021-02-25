@@ -1,9 +1,14 @@
 {
     "displayName": "Covert Ops",
-    "fluxCapacitors": 16,
-    "fluxVents": 20,
+    "fluxCapacitors": 24,
+    "fluxVents": 24,
     "hullId": "drg_shrike_hvb",
-    "hullMods": [],
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "targetingunit",
+        "fluxdistributor"
+    ],
     "permaMods": [],
     "variantId": "drg_shrike_covops",
     "weaponGroups": [
