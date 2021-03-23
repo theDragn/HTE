@@ -1,0 +1,52 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 17,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "drg_flamingo_iv",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "drg_flamingo_iv",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "sabot",
+                "WS0012": "sabot",
+                "WS0013": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pulselaser",
+                "WS0003": "pulselaser",
+                "WS0004": "pulselaser",
+                "WS0015": "ioncannon",
+                "WS0016": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
+            }
+        }
+    ]
+}

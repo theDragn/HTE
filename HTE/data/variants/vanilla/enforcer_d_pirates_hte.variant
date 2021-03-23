@@ -1,0 +1,45 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "hullId": "enforcer_d_pirates",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "enforcer_d_pirates_hte",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hveldriver",
+                "WS 004": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "drg_kneecapper_s",
+                "WS 007": "drg_kneecapper_s",
+                "WS 008": "drg_kneecapper_s",
+                "WS 009": "drg_kneecapper_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 005": "flak"
+            }
+        }
+    ]
+}

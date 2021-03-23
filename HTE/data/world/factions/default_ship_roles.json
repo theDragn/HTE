@@ -4,7 +4,9 @@
 		"drg_scute_attack":4,
 		"drg_scute_support":4,
 		"drg_scute_lancer":4,
-		"drg_scute_ak":5
+		"drg_scute_ak":5,
+		"brawler_hte":3,
+		"glimmer_hte":3
 	},
 	"combatMedium":{
 		"drg_iris_firesupport":5,
@@ -16,6 +18,10 @@
 		"drg_persephone_strike":5,
 		"drg_persephone_iv":10,
 		"medusa_outdated":3,
+		"buffalo2_hte":3,
+		"enforcer_d_pirates_hte":3,
+		"fulgent_hte":3,
+		"mule_d_pirates_hte":3
 	},
 	"combatLarge":{
 		"drg_aphelion_attack":3,
@@ -31,9 +37,9 @@
 		"drg_tigershark_lancer":3,
 		"drg_tigershark_strike":3,
 		"drg_tigershark_iv":9,
-		"drg_kingfisher_assault":3,
-		"drg_kingfisher_beamer":3,
-		"drg_kingfisher_iv":6,
+		"drg_flamingo_assault":3,
+		"drg_flamingo_beamer":3,
+		"drg_flamingo_iv":6,
 		"drg_peregrine_attack":3,
 		"drg_peregrine_skirmish":3,
 		"drg_peregrine_iv":6,
@@ -48,23 +54,26 @@
 		"drg_incursion_beamer":4,
 		"drg_incursion_iv":4,
 		"drg_aggressor_xiv_elite":4,
-		"drg_aggressor_attack":4,
-		"drg_aggressor_strike":4,
-		"drg_aggressor_sniper":4,
-		"drg_inequality_strike":5,
-		"drg_inequality_suppression":5,
-		"drg_inequality_attack":5,
-		"drg_inequality_iv":5,
+		"drg_aggressor_attack":3,
+		"drg_aggressor_strike":3,
+		"drg_aggressor_sniper":3,
+		"drg_aggressor_suppression":3,
+		"drg_equality_strike":5,
+		"drg_equality_suppression":5,
+		"drg_equality_attack":5,
+		"drg_equality_iv":5,
 		"drg_odyssey_iv":8,
 		"drg_paragon_iv":8,
-		"paragon_blaster":3,
-		"radiant_bombardment":2
+		"paragon_blaster":4,
+		"radiant_bombardment":4,
+		"atlas2_hte":4
 	},
 	"carrierSmall":{
 		"condor_Strike":4,
 		"condor_Attack":3,
 		"condor_Support":3,
-		"drover_fighter":4
+		"drover_fighter":4,
+		"scintilla_hte":4
 	},
 	"carrierMedium":{
 		"heron_heavy":4
@@ -75,7 +84,8 @@
 			"drg_spire_ak":7,
 			"drg_spire_iv":7,
 			"drg_astral_pls_strike":3,
-			"drg_spire_strike":2.5
+			"drg_spire_strike":2.5,
+			"legion_hte":4
 	},
 	"phaseLarge":{
 		"drg_gloom_support":2.5

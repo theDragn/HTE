@@ -1,0 +1,33 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "glimmer",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "glimmer_hte",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "drg_tpr_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "drg_kneecapper_s",
+                "WS 005": "drg_kneecapper_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "drg_arc_s",
+                "WS 003": "drg_arc_s"
+            }
+        }
+    ]
+}

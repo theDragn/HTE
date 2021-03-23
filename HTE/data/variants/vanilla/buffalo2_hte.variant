@@ -1,0 +1,42 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "buffalo2",
+    "hullMods": ["reinforcedhull"],
+    "permaMods": [],
+    "variantId": "buffalo2_hte",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "drg_kneecapper_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "drg_kneecapper_s",
+                "WS 005": "drg_kneecapper_s",
+                "WS 006": "drg_kneecapper_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "irpulse",
+                "WS 007": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 003": "vulcan"
+            }
+        }
+    ]
+}

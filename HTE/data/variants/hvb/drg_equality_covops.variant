@@ -1,0 +1,63 @@
+{
+    "displayName": "Covert Ops",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "hullId": "drg_equality_hvb",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "drg_equality_covops",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "drg_plp",
+                "WS0004": "drg_plp"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "squall",
+                "WS0006": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "autopulse",
+                "WS0002": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "hveldriver",
+                "WS0016": "hveldriver",
+                "WS0017": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser",
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

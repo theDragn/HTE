@@ -3,7 +3,7 @@
 		"hulls":[
 			"drg_spire",
 			"drg_tigershark",
-			"drg_inequality",
+			"drg_equality",
 			"drg_tigershark_ak",
 			"drg_scute_ak",
 			"drg_spire_ak",
@@ -13,7 +13,7 @@
 		"hulls":[
 			"drg_spire",
 			"drg_tigershark",
-			"drg_inequality",
+			"drg_equality",
 			"drg_tigershark_ak",
 			"drg_scute_ak",
 			"drg_spire_ak",

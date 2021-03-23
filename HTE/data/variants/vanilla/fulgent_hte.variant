@@ -1,0 +1,47 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "fulgent",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "fulgent_hte",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "drg_kneecapper_m",
+                "WS 004": "drg_kneecapper_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "drg_kneecapper_s",
+                "WS 010": "drg_kneecapper_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "taclaser",
+                "WS 001": "drg_tpr_m",
+                "WS 002": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "drg_arc_s",
+                "WS 006": "drg_arc_s",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser"
+            }
+        }
+    ]
+}

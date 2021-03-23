@@ -45,14 +45,14 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS 001": "drg_plp"}
+            "weapons": {"WS 003": "plasma"}
         },
         {
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
                 "WS 000": "drg_plp",
-                "WS 003": "plasma"
+                "WS 001": "drg_plp",
             }
         }
     ]

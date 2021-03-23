@@ -2,7 +2,7 @@
     "displayName": "Elite",
     "fluxCapacitors": 19,
     "fluxVents": 20,
-    "goalVariant": true,
+    "goalVariant": false,
     "hullId": "drg_spire_iv",
     "hullMods": [
         "targetingunit",

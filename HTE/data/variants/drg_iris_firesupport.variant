@@ -1,7 +1,7 @@
 {
     "displayName": "Fire Support",
     "fluxCapacitors": 13,
-    "fluxVents": 16,
+    "fluxVents": 18,
     "goalVariant": true,
     "hullId": "drg_iris",
     "hullMods": ["targetingunit"],
@@ -25,8 +25,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0002": "lrpdlaser",
-                "WS0003": "lrpdlaser"
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser"
             }
         }
     ]

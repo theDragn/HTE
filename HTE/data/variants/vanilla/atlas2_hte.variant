@@ -1,0 +1,45 @@
+{
+    "displayName": "Sniper",
+    "fluxCapacitors": 15,
+    "fluxVents": 50,
+    "hullId": "atlas2",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "atlas2_hte",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "hellbore",
+                "WS 009": "mark9"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "drg_ahab",
+                "WS 013": "drg_ahab"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "hveldriver",
+                "WS 017": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan",
+                "WS 010": "vulcan",
+                "WS 011": "vulcan"
+            }
+        }
+    ]
+}

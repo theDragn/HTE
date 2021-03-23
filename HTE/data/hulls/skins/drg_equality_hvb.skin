@@ -1,0 +1,58 @@
+{
+	"baseHullId":"drg_equality",
+	"skinHullId":"drg_equality_hvb",
+	"hullName":"Equality (CO)",
+	"descriptionId":"drg_equality",
+	"descriptionPrefix":"This prototype vessel is an advanced redesign of the Inequality-class battlecruiser intended for covert operations in hostile space.",
+	"tags":[],
+	"tech":"Covert Ops",
+	"fleetPoints":30,
+	"ordnancePoints":315,
+	"baseValueMult":2,
+	"spriteName":"graphics/ships/equality_hvb.png",
+	"builtInMods":["drg_covops","drg_missileforge","drg_heavyweaponintegration"],
+	"removeBuiltInMods":["drg_heavyenergyintegration"],
+	"builtInWeapons":{
+     },
+    "weaponSlotChanges":{
+	   "WS0001":{
+		  "type": "HYBRID",
+		  "angle":0,
+		  "arc":90
+	   },
+	   "WS0002":{
+		  "type": "HYBRID",
+		  "angle":0,
+		  "arc":90
+	   },
+	   "WS0003":{
+		  "type": "HYBRID",
+		  "angle":-30,
+		  "arc":120
+	   },
+	   "WS0004":{
+		  "type": "HYBRID",
+		  "angle":30,
+		  "arc":120
+	   },
+	   "WS0005":{
+		  "type": "UNIVERSAL",
+		  "angle":-135,
+		  "arc":150
+	   },
+	   "WS0006":{
+		  "type": "UNIVERSAL",
+		  "angle":135,
+		  "arc":150
+	   },
+	   "WS0015":{
+		  "type": "UNIVERSAL",
+	   },
+	   "WS0016":{
+		  "type": "UNIVERSAL"
+	   },
+	   "WS0017":{
+		  "type": "UNIVERSAL"
+	   },
+    },
+}

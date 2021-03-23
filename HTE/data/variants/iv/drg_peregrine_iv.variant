@@ -2,7 +2,7 @@
     "displayName": "Elite",
     "fluxCapacitors": 15,
     "fluxVents": 30,
-    "goalVariant": true,
+    "goalVariant": false,
     "hullId": "drg_peregrine_iv",
     "hullMods": ["targetingunit"],
     "permaMods": [],

@@ -1,0 +1,20 @@
+{
+	"baseHullId":"drg_equality",
+	"skinHullId":"drg_equality_iv",
+	"hullName":"Equality (IV)",
+	"descriptionId":"drg_equality",
+	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of exotic shield modifications performed using pre-Collapse industrial technology.",
+	"tags":["IV_bp"],
+	"tech":"IV Battlegroup",
+	"fleetPoints":27,
+	"ordnancePoints":315,
+	"baseValueMult":1.6,
+	"spriteName":"graphics/ships/equality_iv.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["drg_fourth"],
+	"builtInWeapons":{
+     },
+}

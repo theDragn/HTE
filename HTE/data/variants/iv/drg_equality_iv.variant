@@ -1,0 +1,50 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "hullId": "drg_equality_iv",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "variantId": "drg_equality_iv",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "plasma",
+                "WS0002": "plasma",
+                "WS0003": "plasma",
+                "WS0004": "plasma",
+                "WS0005": "plasma",
+                "WS0006": "plasma"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "sabotpod",
+                "WS0016": "sabotpod",
+                "WS0017": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser",
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

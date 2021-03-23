@@ -6,7 +6,11 @@
 	"graphics": {
 		"misc": {
 		  "drg_harmproj": "graphics/icons/buffs/drg_harmprojbuff.png",
-		  "drg_rangeoverclock": "graphics/icons/systems/drg_rangeoverclock.png",
+		  "drg_rangeoverclock": "graphics/icons/buffs/drg_rangeoverclock.png",
+		  "drg_systemswapbuff": "graphics/icons/buffs/drg_systemswapbuff.png",
+		  "drg_adaptive1":"graphics/hullmods/adaptive/adaptive_engines.png",
+		  "drg_adaptive2":"graphics/hullmods/adaptive/adaptive_weapons.png",
+		  "drg_adaptive3":"graphics/hullmods/adaptive/adaptive_shields.png",
 		  "ricardo":"graphics/portraits/ricardo_hvb.png",
 		  "jimbo":"graphics/portraits/jimbo_connolly.png"
 		},

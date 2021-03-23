@@ -2,7 +2,7 @@
     "displayName": "Elite",
     "fluxCapacitors": 31,
     "fluxVents": 50,
-    "goalVariant": true,
+    "goalVariant": false,
     "hullId": "drg_odyssey_iv",
     "hullMods": ["targetingunit"],
     "permaMods": [],

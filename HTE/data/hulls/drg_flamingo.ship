@@ -1,0 +1,211 @@
+{
+  "hullName": "Flamingo",
+  "hullId": "drg_flamingo",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/kingfisher.png",
+  "style": "HIGH_TECH",
+  "height": 233,
+  "width": 222,
+  "center": [105.5, 107.5],
+  "collisionRadius": 130,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 151,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": 0,
+      "locations": [76, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [28, 13]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [0, 48]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -69,
+      "locations": [0, -59]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": 60,
+      "locations": [20, 77]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 148,
+      "angle": 131.5,
+      "locations": [-42, 33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": -125,
+      "locations": [-42, -44]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": -51,
+      "locations": [20, -88]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46, -76]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [53, -40]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [120, -1]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [46, 65]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": -15,
+      "locations": [-5, -29]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 30,
+      "locations": [-26, 5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-107, 2.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, -5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, -13.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-100, 21],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-104.5, 37],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-102, -32],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-105, -48],
+      "length": 37.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    123, 5.5,
+    32, 48,
+    54.5, 105,
+    -52, 42.5,
+    -104, 54.5,
+    -104, -68,
+    -53.5, -50,
+    48.5, -119,
+    62, -24
+  ]
+}
