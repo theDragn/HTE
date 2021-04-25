@@ -1,10 +1,10 @@
 {
     # HTE settings file
     
-    # MARKET/PROCGEN STUFF
+    # PROCGEN STUFF
 
     # set to false to disable the specialty market at Svarog
-    # this gets checked on system generation, so turning it off mid-save won't do anything
+    # this only gets checked on system generation, so turning it off mid-save won't do anything
     "svarogOutpostMarketEnabled":true,      # default = true
     
     # set to false to disable spawning the Zarmazd system on a new game
@@ -14,33 +14,43 @@
     "zarmazdX":4250,
     "zarmazdY":-23000,
 
+    # SPECIALTY MARKET STUFF
+    # this only affects the special market on Svarog, not the standard ones
+
     # Tariff for hulls, weapons, and fighter LPCs sold at Svarog Shipyards.
-    "svarogSpecialtyMarketTariff":1.25,     # default = 1.25
+    "svarogSpecialtyMarketTariff":1.25,     # default = 1.25, which is a 125% tariff.
 
     # controls frequency of various hull sizes and types for sale at Svarog Shipyards.
     # the weight for a ship is effectively hull_size_weight * tag_weight
-    "svarogWeightFrigate":1,
-    "svarogWeightDestroyer":2,
-    "svarogWeightCruiser":2,
-    "svarogWeightCapital":1,
-    "svarogWeightIV":5,
-    "svarogWeightXIV":2,
-    "svarogWeightHightech":2,
-    "svarogWeightMidline":1,
-    "svarogWeightRare":0, # can be any ship with the rare_bp tag, even mod factions, so it might be immersion-breaking to have this enabled depending on your mods.
+    "svarogHullWeights":{
+        "frigate":1,
+        "destroyer":2,
+        "cruiser":2,
+        "capital":1
+    },
+    # ships that have one or more of these tags will be sold at Svarog
+    # you can add more tags here if you want
+    # if a ship has multiple tags it'll use whichever one gives it the highest weighting
+    # you could always add in rare_bp, just for fun
+    "svarogTagWeights":{
+        "IV_bp":5,
+        "XIV_bp":2,
+        "hightech_bp":2,
+        "midline_bp":1
+    },
 
     # minimum number of weapons, fighter LPCs, and hulls Svarog will have for sale (maximum is generally a few more)
-    # hardcoded as a mix of Persean League and Tritachyon weapons/fighters for now
+    # hardcoded as a mix of Persean League and Tritachyon weapons/fighters
     "svarogNumWeapons":20,                  # default = 20
     "svarogNumWings":10,                    # default = 10
-    "svarogNumHulls":15,                    # default = 15
+    "svarogNumHulls":7,                     # default = 7. Minimum number of hulls, max amount will be double this.
 
     # AI STUFF
     # If you have suggestions for AI behavior, feel free to let me know on discord or the forums
 
     # Minimum time in seconds between AI update checks for ship systems (only systems from HTE)
     # Lower values will improve AI responsiveness at a performance cost. (How much is the performance cost? Dunno, 0.1 works fine on my machine but I have a pretty beefy computer.)
-    # You probably shouldn't set this to zero.
+    # If you set this to zero, it'll update every frame. (Or maybe not at all, idk)
     "aiUpdateInterval":0.5,                 # default = 0.5
 
     # Flux percentage at which the AI will trigger the flux compressor

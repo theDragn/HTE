@@ -2,9 +2,19 @@
 	"id":"hte",
 	"name":"High Tech Expansion",
 	"author":"theDragn",
-	"version":"1.3.0",
+	"version":"1.4.3",
 	"description":"Adds a number of high-tech ships and weapons.",
-	"gameVersion":"0.9.1a-RC8",
+	"gameVersion":"0.95a-RC15",
 	"jars":["jars/HTE.jar"],
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib"
+        },
+		{
+			"id": "MagicLib",
+            "name": "MagicLib"
+		}
+    ],
 	"modPlugin":"plugins.drgModPlugin"
 }

@@ -1,0 +1,43 @@
+{
+    "displayName": "Covert Ops",
+    "fluxCapacitors": 16,
+    "fluxVents": 24,
+    "hullId": "drg_shrike_hvb",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_shrike_co_start",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "phasebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "drg_alecto"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "railgun",
+                "WS 002": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "pdlaser",
+                "WS 007": "pdlaser"
+            }
+        }
+    ]
+}

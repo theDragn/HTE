@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 11,
     "fluxVents": 17,
     "goalVariant": true,
     "hullId": "drg_aphelion",
@@ -9,6 +9,7 @@
         "advancedoptics"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_aphelion_strike",
     "weaponGroups": [
         {

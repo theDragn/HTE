@@ -6,7 +6,7 @@
 	
 	"statsScript":"data.shipsystems.scripts.drgSystemSwap",
 	
-	"useSound":"system_high_energy_focus_activate",
+	"useSound":"gun_out_of_ammo",
 	
 	"outOfUsesSound":"gun_out_of_ammo",	
 }

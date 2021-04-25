@@ -1,36 +1,18 @@
 {
     "displayName": "General",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 19,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_gila",
     "hullMods": [
         "targetingunit",
-        "stabilizedshieldemitter"
+        "stabilizedshieldemitter",
+        "magazines"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_gila_general",
     "weaponGroups": [
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0001": "tachyonlance"}
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0002": "plasma"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0004": "ionbeam"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0003": "gravitonbeam"}
-        },
         {
             "autofire": true,
             "mode": "LINKED",
@@ -39,6 +21,26 @@
                 "WS0006": "pdlaser",
                 "WS0007": "pdlaser"
             }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "typhoon"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "typhoon"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "autopulse"}
         }
     ]
 }

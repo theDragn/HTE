@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 0,
+    "fluxCapacitors": 10,
     "fluxVents": 23,
     "goalVariant": true,
     "hullId": "drg_flamingo",
@@ -10,6 +10,7 @@
         "magazines"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_flamingo_beamer",
     "weaponGroups": [
         {

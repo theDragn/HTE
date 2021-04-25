@@ -1,11 +1,12 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 11,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",
     "hullMods": ["missleracks"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_moray_attack",
     "weaponGroups": [
         {

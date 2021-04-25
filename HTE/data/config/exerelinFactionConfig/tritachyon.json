@@ -6,5 +6,5 @@
       ["drg_tigershark_strike", "drg_scute_attack", "drg_scute_lancer"],
       ["drg_bombardier_attack", "drg_moray_attack"],
     ],
-    "startShipsSuper":[["drg_medusa_covops"],["drg_shrike_covops"]],
+    "startShipsSuper":[["drg_medusa_co_start"],["drg_shrike_co_start"]],
 }

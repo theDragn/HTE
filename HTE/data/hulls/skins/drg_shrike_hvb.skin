@@ -8,7 +8,7 @@
 	"tech":"Covert Ops",
 	"baseValueMult":2,
 	"builtInMods":["drg_covops","drg_missileforge"],
-	"ordnancePoints":85,
+	"ordnancePoints":90,
 	"spriteName":"graphics/ships/shrike_hvb.png",
     "weaponSlotChanges":{
 	   "WS 000":{

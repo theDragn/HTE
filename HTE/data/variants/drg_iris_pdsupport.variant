@@ -1,11 +1,12 @@
 {
     "displayName": "PD Support",
-    "fluxCapacitors": 5,
+    "fluxCapacitors": 10,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_iris",
     "hullMods": [],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_iris_pdsupport",
     "weaponGroups": [
         {

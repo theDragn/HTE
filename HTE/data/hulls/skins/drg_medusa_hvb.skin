@@ -8,7 +8,7 @@
 	"tech":"Covert Ops",
 	"baseValueMult":2,
 	"builtInMods":["drg_covops","drg_missileforge"],
-	"ordnancePoints":85,
+	"ordnancePoints":100,
 	"spriteName":"graphics/ships/medusa_hvb.png",
     "weaponSlotChanges":{
 	   "WS 006":{

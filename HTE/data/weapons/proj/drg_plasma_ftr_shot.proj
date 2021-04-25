@@ -12,4 +12,5 @@
 	"coreColor":[0,162,255,255],
 	#"fringeColor":[255,0,0,255],
 	#"coreColor":[255,100,255,255],	
+	"passThroughMissiles":true,	
 }

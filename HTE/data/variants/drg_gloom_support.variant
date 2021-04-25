@@ -1,11 +1,12 @@
 {
     "displayName": "Utility",
-    "fluxCapacitors": 6,
-    "fluxVents": 25,
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_gloom",
-    "hullMods": ["fluxbreakers"],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_gloom_support",
     "weaponGroups": [
         {
@@ -15,10 +16,10 @@
         },
         {
             "autofire": false,
-            "mode": "ALTERNATING",
+            "mode": "LINKED",
             "weapons": {
-                "WS0006": "sabot",
-                "WS0007": "sabot"
+                "WS0006": "lightneedler",
+                "WS0007": "lightneedler"
             }
         },
         {

@@ -32,11 +32,11 @@
 		"drg_gila_beamer":3,
 		"drg_gila_brawler":3,	
 		"drg_gila_general":3,
-		"drg_gila_iv":9,
+		"drg_gila_iv":10,
 		"drg_tigershark_flanker":3,
 		"drg_tigershark_lancer":3,
 		"drg_tigershark_strike":3,
-		"drg_tigershark_iv":9,
+		"drg_tigershark_iv":10,
 		"drg_flamingo_assault":3,
 		"drg_flamingo_beamer":3,
 		"drg_flamingo_iv":6,
@@ -52,7 +52,7 @@
 	"combatCapital":{
 		"drg_incursion_assault":4,
 		"drg_incursion_beamer":4,
-		"drg_incursion_iv":4,
+		"drg_incursion_iv":10,
 		"drg_aggressor_xiv_elite":4,
 		"drg_aggressor_attack":3,
 		"drg_aggressor_strike":3,
@@ -61,9 +61,9 @@
 		"drg_equality_strike":5,
 		"drg_equality_suppression":5,
 		"drg_equality_attack":5,
-		"drg_equality_iv":5,
-		"drg_odyssey_iv":8,
-		"drg_paragon_iv":8,
+		"drg_equality_iv":10,
+		"drg_odyssey_iv":10,
+		"drg_paragon_iv":10,
 		"paragon_blaster":4,
 		"radiant_bombardment":4,
 		"atlas2_hte":4
@@ -88,7 +88,7 @@
 			"legion_hte":4
 	},
 	"phaseLarge":{
-		"drg_gloom_support":2.5
+		"drg_gloom_support":2
 	}
 }
 

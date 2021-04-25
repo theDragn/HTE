@@ -1,11 +1,12 @@
 {
     "displayName": "Skirmish",
-    "fluxCapacitors": 14,
+    "fluxCapacitors": 16,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_peregrine",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_peregrine_skirmish",
     "weaponGroups": [
         {

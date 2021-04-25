@@ -1,11 +1,12 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 12,
+    "fluxCapacitors": 13,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_moray",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_moray_strike",
     "weaponGroups": [
         {

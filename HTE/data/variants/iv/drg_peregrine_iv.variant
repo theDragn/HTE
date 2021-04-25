@@ -1,11 +1,14 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 15,
+    "fluxCapacitors": 7,
     "fluxVents": 30,
-    "goalVariant": false,
     "hullId": "drg_peregrine_iv",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "frontemitter"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_peregrine_iv",
     "weaponGroups": [
         {

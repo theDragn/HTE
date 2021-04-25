@@ -1,7 +1,41 @@
 trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
-trails_drg_plp_3,drg_plp_shot,trails_trail_zappy,10,0.1,0,0.8,60,25,"[255,120,120]","[255,120,120]",0.4,300,800,30,0,1,TRUE,FALSE,TRUE,15,80,0.6,0,0,200,TRUE,FALSE
-trails_drg_plp_2,drg_plp_shot,trails_trail_zappy,10,0.1,0,0.8,45,20,"[255,0,0]","[255,120,120]",0.4,300,800,30,0,1,TRUE,FALSE,TRUE,15,80,0.4,0,0,200,TRUE,FALSE
-trails_drg_plp_3,drg_plp_shot,trails_trail_smooth,10,0,0.05,0.15,60,30,"[255,120,120]","[100,100,25]",0.5,-1,0,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,FALSE
-trails_drg_tpr_1,drg_tpr_shot,trails_trail_smooth,100,0,0.5,0.3,10,3,"[128,128,255]","[0,0,128]",0.4,-1,0,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,FALSE
-trails_drg_tpr_2,drg_tpr_shot,trails_trail_zappy,10,0.1,0,0.8,7,3,"[120,120,255]","[180,190,255]",0.4,-1,0,30,0,1,TRUE,FALSE,TRUE,15,80,0.6,0,0,200,TRUE,FALSE
-trails_drg_tpr_3,drg_tpr_shot,trails_trail_zappy,10,0.1,0,0.8,7,3,"[120,120,255]","[180,190,255]",0.4,-1,0,30,0,1,TRUE,FALSE,TRUE,15,80,0.4,0,0,200,TRUE,FALSE
+drg_plp_1,drg_plp_shot,trail_zappy,10,0.1,0,0.8,60,25,"[255,120,120]","[255,120,120]",0.4,300,800,30,0,1,TRUE,TRUE,TRUE,15,80,0.6,0,0,200,TRUE,FALSE
+drg_plp_2,drg_plp_shot,trail_zappy,10,0.1,0,0.8,45,20,"[255,0,0]","[255,120,120]",0.4,300,800,30,0,1,TRUE,TRUE,TRUE,15,80,0.4,0,0,200,TRUE,FALSE
+drg_plp_3,drg_plp_shot,trail_smooth,10,0,0.05,0.15,60,30,"[255,120,120]","[100,100,25]",0.5,-1,0,30,0,1,TRUE,TRUE,TRUE,0,0,0,0,0,0,FALSE,FALSE
+drg_tpr_1,drg_tpr_shot,trail_smooth,100,0,0.5,0.3,10,3,"[128,128,255]","[0,0,128]",0.4,-1,0,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,FALSE
+drg_tpr_2,drg_tpr_shot,trail_zappy,10,0.1,0,0.8,7,3,"[120,120,255]","[180,190,255]",0.4,-1,0,30,0,1,TRUE,FALSE,TRUE,15,80,0.6,0,0,200,TRUE,FALSE
+drg_tpr_3,drg_tpr_shot,trail_zappy,10,0.1,0,0.8,7,3,"[120,120,255]","[180,190,255]",0.4,-1,0,30,0,1,TRUE,FALSE,TRUE,15,80,0.4,0,0,200,TRUE,FALSE
+drg_tawa_shot,drg_tawa_shot,base_trail_zapWithCore,10,0.1,0,0.8,30,15,"[255,120,255]","[0,0,255]",0.4,300,800,30,0,1,TRUE,TRUE,TRUE,15,80,0.2,0,0,0,FALSE,FALSE
+drg_kneecapper3,drg_kneecapper_bomblet,trail_smooth,10,0,0,0.4,12,1,"[255,255,255]","[255,255,255]",0.5,300,800,0,0,1,TRUE,TRUE,TRUE,10,60,0.6,0,0,0,FALSE,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String projectile: projectile ID,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String sprite: sprite ID in data\config\settings.json: in the graphics\fx category,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float minLength: minimal segment length. Saves performances especially when time warp in involved,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   !!!! Can be set to a negative value to triggers a more optimized SLOW MODE for projectiles with speeds below 500. !!!!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float fadeIn: fade in time in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float duration: full opacity duration in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float fadeOut: fadeout time in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float sizeIn: initial width,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float sizeOut: final width,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Color colorIn: initial color,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Color colorOut: final color,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float opacity: maximum opacity clamp,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float textLength: texture length in pixels,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float textScroll: texture scroll speed in pixels per seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float distance: distance behind the proj the trail spawns,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float dispersion: amount of randomization per second in su,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float drift: amount of sideway compensation for drifting projectiles,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean fadeOnFadeOut: forced fadeout if the proj fades,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean angleAdjustment reorient the trail in the direction of the velocity rather than the proj facing. ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   !!!! Must be FALSE for BALLISTIC_AS_BEAM projs !!!!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean additive: normal or additive blending,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float velocityIn: speed at which the trail segments are emited at in su,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float velocityOut: final speed of the trail segments,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float randomVelocity: randomize both velocityIn and out in that proportion.,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float angle: offset angle of the trail relative to the projectile orientation after corrections if any (default 0 for directly backward),,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float rotationIn: initial angular momentum of the trail segments relative to the projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float rotationOut: final angular momentum of the trail segments,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean randomRotation: randomize the angular momentums. ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   Can be used to create non-linear dispersion effects when used with various velocities and angular momentums,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean renderBelowExplosions: render the trail under explosions and other particle effects. Mostly used with non additive trails,,,,,,,,,,,,,,,,,,,,,,,,,,,

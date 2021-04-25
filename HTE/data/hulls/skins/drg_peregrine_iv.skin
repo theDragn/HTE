@@ -7,7 +7,7 @@
 	"tags":["IV_bp"],
 	"tech":"IV Battlegroup",
 	"fleetPoints":17,
-	"ordnancePoints":110,
+	"ordnancePoints":112,
 	"baseValueMult":1.6,
 	"spriteName":"graphics/ships/peregrine_iv.png",
 	"removeWeaponSlots":[], 		# ids

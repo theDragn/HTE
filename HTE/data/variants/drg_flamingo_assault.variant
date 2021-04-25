@@ -1,11 +1,15 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 11,
     "fluxVents": 25,
     "goalVariant": true,
     "hullId": "drg_flamingo",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_flamingo_assault",
     "weaponGroups": [
         {

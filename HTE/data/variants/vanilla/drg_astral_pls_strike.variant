@@ -1,10 +1,11 @@
 {
     "displayName": "Plasma",
-    "fluxCapacitors": 0,
-    "fluxVents": 7,
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
     "hullId": "astral",
-    "hullMods": [],
+    "hullMods": ["missleracks"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_astral_pls_strike",
     "weaponGroups": [
         {
@@ -20,8 +21,8 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS 011": "squall",
-                "WS 012": "squall"
+                "WS 011": "hurricane",
+                "WS 012": "hurricane"
             }
         },
         {
@@ -49,9 +50,9 @@
     ],
     "wings": [
         "drg_kukri_wing",
-        "drg_kukri_wing",
-        "drg_kukri_wing",
-        "drg_kukri_wing",
+        "dagger_wing",
+        "longbow_wing",
+        "longbow_wing",
         "drg_kukri_wing",
         "drg_kukri_wing"
     ]

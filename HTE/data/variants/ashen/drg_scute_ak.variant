@@ -2,10 +2,10 @@
     "displayName": "Ashen",
     "fluxCapacitors": 7,
     "fluxVents": 8,
-    "goalVariant": true,
     "hullId": "drg_scute_ak",
     "hullMods": ["missleracks"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_scute_ak",
     "weaponGroups": [
         {

@@ -3,7 +3,7 @@
 	"skinHullId":"drg_scarab_iv",
 	"hullName":"Scarab (IV)",
 	"descriptionId":"scarab",
-	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of exotic shield modifications performed using pre-Collapse industrial technology. This vessel has significant modifications to its weapon hardpoints in addition to the standard 4th Battlegroup shield enhancements.",
+	"descriptionPrefix":"Built to the specifications of the elite 4th Domain Battlegroup, this vessel is a prime example of the Domain Navy's 'invincible wall' doctrine, particularly exhibited by a series of exotic shield modifications performed using pre-Collapse industrial technology. This vessel has minor modifications to its weapon hardpoints in addition to the standard 4th Battlegroup shield enhancements.",
 	"tags":["IV_bp"],
 	"tech":"IV Battlegroup",
 	"fleetPoints":6,
@@ -18,11 +18,8 @@
 	"builtInWeapons":{
      },
     "weaponSlotChanges":{
-	   "WS 005":{
+	   "WS 001":{
 		  "type": "UNIVERSAL"
-	   },
-	   "WS 010":{
-		  "type": "UNIVERSAL"
-	   },
+	   }
     },
 }

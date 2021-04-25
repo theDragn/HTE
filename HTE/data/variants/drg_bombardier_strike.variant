@@ -1,11 +1,12 @@
 {
-    "displayName": "Strike",
-    "fluxCapacitors": 18,
+    "displayName": "Disabler",
+    "fluxCapacitors": 6,
     "fluxVents": 25,
     "goalVariant": true,
     "hullId": "drg_bombardier",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_bombardier_strike",
     "weaponGroups": [
         {
@@ -20,12 +21,12 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0001": "reaper",
-                "WS0002": "reaper",
-                "WS0003": "reaper",
-                "WS0004": "reaper",
-                "WS0005": "reaper",
-                "WS0006": "reaper"
+                "WS0001": "sabot",
+                "WS0002": "sabot",
+                "WS0003": "sabot",
+                "WS0004": "sabot",
+                "WS0005": "sabot",
+                "WS0006": "sabot"
             }
         },
         {

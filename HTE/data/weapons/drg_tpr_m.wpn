@@ -4,6 +4,7 @@
   "projectileSpecId": "drg_tpr_shot",
   "type": "ENERGY",
   "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.drgTPREffects",
   "turretSprite": "graphics/weapons/drg_tpr_m_turret_base.png",
   "turretGlowSprite": "graphics/weapons/drg_tpr_m_turret_glow.png",
   "hardpointSprite": "graphics/weapons/drg_tpr_m_hardpoint_base.png",

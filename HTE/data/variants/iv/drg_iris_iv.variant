@@ -1,11 +1,11 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 11,
     "fluxVents": 20,
-    "goalVariant": true,
     "hullId": "drg_iris_iv",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_iris_iv",
     "weaponGroups": [
         {

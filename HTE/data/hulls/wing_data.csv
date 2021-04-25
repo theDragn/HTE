@@ -1,4 +1,4 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 drg_khanjali_wing,drg_khanjali_fighter,"fighter6, fighter, high, rare_bp",3,0.25,7,20,V,4000,500,,2,FIGHTER,Strike Fighter,15,10000,,,,,,,,,,,,,1
-drg_kukri_wing,drg_kukri_bomber,"bomber6, bomber, high, rare_bp",3,0.25,8,19,V,4000,2000,750,2,BOMBER,Bomber,18,15000,,,,,,,,,,,,,2
+drg_kukri_wing,drg_kukri_bomber,"bomber6, bomber, high, rare_bp",3,0.25,8,18,V,4000,2000,750,2,BOMBER,Bomber,18,15000,,,,,,,,,,,,,2
 drg_kaskara_wing,drg_kaskara_fighter,"fighter6, fighter, high, hightech_bp",1,0.5,6,17,V,4000,500,,2,FIGHTER,Assault,15,9000,,,,,,,,,,,,,3

@@ -1,11 +1,12 @@
 {
     "displayName": "Fire Support",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 18,
     "fluxVents": 18,
     "goalVariant": true,
     "hullId": "drg_iris",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_iris_firesupport",
     "weaponGroups": [
         {

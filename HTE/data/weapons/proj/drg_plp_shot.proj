@@ -4,6 +4,7 @@
 	"spawnType":"PLASMA",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"passThroughMissiles":true,
 	"onHitEffect":"data.weapons.proj.drgPlasmaLensOnHitEffect",
 	"length":32.0,
 	"width":32.0,

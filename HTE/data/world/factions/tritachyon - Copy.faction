@@ -18,22 +18,29 @@
 		],
 	},
 	"priorityShips":{
+		"tags":["IV_bp"],
 		"hulls":[
-			"drg_equality",
-			"drg_spire",
+			"drg_aphelion",
+			"drg_bombardier",
+			"drg_gila",
 			"drg_incursion",
-			"drg_equality_iv",
-			"drg_spire_iv",
-			"drg_incursion_iv",
-			"drg_paragon_iv",
-			"drg_odyssey_iv"
+			"drg_iris",
+			"drg_moray",
+			"drg_spire",
+			"drg_tigershark",
+			"drg_persephone",
+			"drg_flamingo",
+			"drg_peregrine",
+			"drg_equality",
+			"drg_gloom"
 		],
 	},
 	"hullFrequency":{
 		"tags":{
-			"IV_bp":0.995, #there's something fucky going on here, it's 100% IV hulls if you make this 1.0 or remove it.
+			"IV_bp":2.5,
 		},
 		"hulls":{
+			"drg_aphelion":10,
 			"drg_bombardier":10,
 			"drg_gila":10,
 			"drg_incursion":7,

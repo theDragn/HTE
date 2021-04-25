@@ -2,13 +2,13 @@
     "displayName": "Elite",
     "fluxCapacitors": 9,
     "fluxVents": 30,
-    "goalVariant": true,
     "hullId": "drg_gila_iv",
     "hullMods": [
         "targetingunit",
         "stabilizedshieldemitter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_gila_iv",
     "weaponGroups": [
         {

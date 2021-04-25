@@ -1,11 +1,12 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 13,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_persephone",
-    "hullMods": [],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_persephone_attack",
     "weaponGroups": [
         {

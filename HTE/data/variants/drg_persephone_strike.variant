@@ -1,11 +1,12 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 17,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "drg_persephone",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_persephone_strike",
     "weaponGroups": [
         {

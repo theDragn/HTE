@@ -15,13 +15,13 @@
 		  "jimbo":"graphics/portraits/jimbo_connolly.png"
 		},
 		"fx":{
-			"trails_trail_clean":"graphics/trails/fx/trails_clean.png",
-			"trails_trail_fuzzy":"graphics/trails/fx/trails_fuzzy.png",
-			"trails_trail_smooth":"graphics/trails/fx/trails_smooth.png",
-			"trails_trail_zappy":"graphics/trails/fx/trails_zappy.png",
-			"trails_trail_contrail":"graphics/trails/fx/trails_contrail.png",
-			"trails_trail_twin":"graphics/trails/fx/trails_twin.png",
-			"trails_trail_foggy":"graphics/trails/fx/trails_foggy.png"
+			"trail_clean":"graphics/trails/fx/trails_clean.png",
+			"trail_fuzzy":"graphics/trails/fx/trails_fuzzy.png",
+			"trail_smooth":"graphics/trails/fx/trails_smooth.png",
+			"trail_zappy":"graphics/trails/fx/trails_zappy.png",
+			"trail_contrail":"graphics/trails/fx/trails_contrail.png",
+			"trail_twin":"graphics/trails/fx/trails_twin.png",
+			"trail_foggy":"graphics/trails/fx/trails_foggy.png"
 		},
 		"blueprint_packages":{
             "drg_iv_package":"graphics/icons/cargo/iv_bp.png",

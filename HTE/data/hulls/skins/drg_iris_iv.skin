@@ -7,7 +7,7 @@
 	"tags":["IV_bp"],
 	"tech":"IV Battlegroup",
 	"fleetPoints":7,
-	"ordnancePoints":80,
+	"ordnancePoints":85,
 	"baseValueMult":1.6,
 	"spriteName":"graphics/ships/iris_iv.png",
 	"removeWeaponSlots":[], 		# ids

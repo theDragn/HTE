@@ -1,11 +1,12 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 11,
+    "fluxCapacitors": 13,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_peregrine",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_peregrine_attack",
     "weaponGroups": [
         {
