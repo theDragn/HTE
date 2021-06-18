@@ -1,6 +1,6 @@
 {
     "displayName": "Suppression",
-    "fluxCapacitors": 15,
+    "fluxCapacitors": 29,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_equality",
@@ -11,18 +11,17 @@
         "extendedshieldemitter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_equality_suppression",
     "weaponGroups": [
         {
             "autofire": true,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
                 "WS0001": "tachyonlance",
                 "WS0002": "tachyonlance",
                 "WS0003": "tachyonlance",
-                "WS0004": "tachyonlance",
-                "WS0005": "tachyonlance",
-                "WS0006": "tachyonlance"
+                "WS0004": "tachyonlance"
             }
         },
         {
@@ -46,6 +45,14 @@
                 "WS0012": "irpulse",
                 "WS0013": "irpulse",
                 "WS0014": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "guardian",
+                "WS0006": "guardian"
             }
         }
     ]

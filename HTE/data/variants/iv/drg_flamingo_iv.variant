@@ -1,6 +1,6 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 29,
+    "fluxCapacitors": 27,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "drg_flamingo_iv",
@@ -18,29 +18,23 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0010": "drg_kneecapper_s",
-                "WS0012": "drg_kneecapper_s",
-                "WS0013": "drg_kneecapper_s"
+                "WS0010": "sabot",
+                "WS0012": "sabot",
+                "WS0013": "sabot"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0002": "autopulse"}
+            "weapons": {"WS0002": "tachyonlance"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "phasebeam",
-                "WS0003": "phasebeam",
-                "WS0004": "phasebeam"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
+                "WS0001": "pulselaser",
+                "WS0003": "pulselaser",
+                "WS0004": "pulselaser",
                 "WS0015": "ioncannon",
                 "WS0016": "ioncannon"
             }

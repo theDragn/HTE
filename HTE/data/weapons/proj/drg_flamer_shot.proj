@@ -1,0 +1,20 @@
+{
+	"id":"drg_flamer_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.weapons.drgFlamerEffects",
+	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"width":40.0,
+	"hitGlowRadius":0,
+	"fadeTime":0.25,
+	"fringeColor":[255,138,0,100],
+	"coreColor":[255,60,0,100],
+	#"coreColor":[255,255,255,50],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+	
+}

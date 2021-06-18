@@ -42,16 +42,19 @@
 		"drg_flamingo_iv":6,
 		"drg_peregrine_attack":3,
 		"drg_peregrine_skirmish":3,
+		"drg_peregrine_overdriven":1,
 		"drg_peregrine_iv":6,
 		"drg_aphelion_strike":4,
 		"drg_gryphon_assault":3,
 		"falcon_suppression":3,
 		"apogee_outdated":4,
+		"apogee_overdriven":2,
 		"drg_tigershark_ak":5
 	},
 	"combatCapital":{
-		"drg_incursion_assault":4,
-		"drg_incursion_beamer":4,
+		"drg_incursion_assault":3,
+		"drg_incursion_beamer":3,
+		"drg_incursion_flamer":3,
 		"drg_incursion_iv":10,
 		"drg_aggressor_xiv_elite":4,
 		"drg_aggressor_attack":3,
@@ -66,6 +69,7 @@
 		"drg_paragon_iv":10,
 		"paragon_blaster":4,
 		"radiant_bombardment":4,
+		"radiant_assault":4,
 		"atlas2_hte":4
 	},
 	"carrierSmall":{
@@ -76,7 +80,8 @@
 		"scintilla_hte":4
 	},
 	"carrierMedium":{
-		"heron_heavy":4
+		"heron_heavy":3,
+		"heron_flamer":3
 	},
 	"carrierLarge":{
 			"drg_spire_attack":2.5,

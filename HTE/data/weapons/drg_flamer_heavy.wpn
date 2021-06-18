@@ -1,0 +1,42 @@
+{
+  "id": "drg_flamer_heavy",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_flamer_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.weapons.drgFlamerEffects",
+  "turretSprite": "graphics/weapons/drg_flamer_heavy_turret_base.png",
+  "hardpointSprite": "graphics/weapons/drg_flamer_heavy_hardpoint_base.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    20.5,
+    -7,
+    20.5,
+    7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    23,
+    -5,
+    23,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "textureType": ROUGH,
+  "noImpactSounds": true
+}

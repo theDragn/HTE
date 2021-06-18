@@ -1,6 +1,10 @@
 {
     # HTE settings file
     
+    # setting this to true will disable particle effects for plasma streamers (and other graphics-heavy effects, if I add more and forget to update this file).
+    # Should probably set it to true if you don't have a dedicated GPU.
+    "lowGraphicsMode":false,
+
     # PROCGEN STUFF
 
     # set to false to disable the specialty market at Svarog
@@ -43,7 +47,7 @@
     # hardcoded as a mix of Persean League and Tritachyon weapons/fighters
     "svarogNumWeapons":20,                  # default = 20
     "svarogNumWings":10,                    # default = 10
-    "svarogNumHulls":7,                     # default = 7. Minimum number of hulls, max amount will be double this.
+    "svarogNumHulls":4,                     # default = 7. Minimum number of hulls, max amount will be double this.
 
     # AI STUFF
     # If you have suggestions for AI behavior, feel free to let me know on discord or the forums

@@ -1,11 +1,15 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 7,
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "drg_scute",
-    "hullMods": [],
+    "hullMods": [
+        "fluxdistributor",
+        "extendedshieldemitter"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_scute_attack",
     "weaponGroups": [
         {
@@ -16,7 +20,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0001": "drg_tawa_pod"}
+            "weapons": {"WS0001": "drg_alecto"}
         }
     ]
 }

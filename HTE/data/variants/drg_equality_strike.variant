@@ -1,6 +1,6 @@
 {
     "displayName": "Bombardment",
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 33,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "drg_equality",
@@ -11,6 +11,7 @@
         "hardenedshieldemitter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_equality_strike",
     "weaponGroups": [
         {
@@ -20,9 +21,7 @@
                 "WS0001": "drg_tpr_l",
                 "WS0002": "drg_tpr_l",
                 "WS0003": "drg_tpr_l",
-                "WS0004": "drg_tpr_l",
-                "WS0005": "drg_tpr_l",
-                "WS0006": "drg_tpr_l"
+                "WS0004": "drg_tpr_l"
             }
         },
         {
@@ -32,6 +31,14 @@
                 "WS0015": "drg_kneecapper_m",
                 "WS0016": "drg_kneecapper_m",
                 "WS0017": "drg_kneecapper_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "guardian",
+                "WS0006": "guardian"
             }
         },
         {

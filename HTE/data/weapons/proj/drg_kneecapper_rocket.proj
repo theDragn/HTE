@@ -46,7 +46,7 @@
                 "canSplitEarly":false,
                 "splitSound":"annihilator_fire",
                 "numShots":5,
-                "damage":80,
+                "damage":50,
                 "impact":0,
                 "emp":400,
                 "damageType":ENERGY,

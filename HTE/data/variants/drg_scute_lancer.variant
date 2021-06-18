@@ -1,11 +1,12 @@
 {
     "displayName": "Lancer",
-    "fluxCapacitors": 4,
-    "fluxVents": 8,
+    "fluxCapacitors": 10,
+    "fluxVents": 7,
     "goalVariant": true,
     "hullId": "drg_scute",
     "hullMods": ["missleracks"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_scute_lancer",
     "weaponGroups": [
         {

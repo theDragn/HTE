@@ -1,0 +1,43 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "hullId": "apogee",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "apogee_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "amblaster",
+                "WS 007": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "drg_nyx"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "drg_flamer_heavy"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst"
+            }
+        }
+    ]
+}

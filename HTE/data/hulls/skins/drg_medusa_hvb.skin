@@ -3,7 +3,7 @@
 	"skinHullId":"drg_medusa_hvb",
 	"hullName":"Medusa (CO)",
 	"descriptionId":"medusa",  # optional
-	"descriptionPrefix":"This prototype vessel is an advanced redesign of the Medusa-class destroyer intended for covert operations in hostile space.",
+	"descriptionPrefix":"This prototype vessel is an advanced refit of a Medusa-class destroyer, clearly intended for covert operations in hostile space.",
 	"tags":[],
 	"tech":"Covert Ops",
 	"baseValueMult":2,

@@ -1,0 +1,35 @@
+{
+    "displayName": "Flame",
+    "fluxCapacitors": 3,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "heron",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "heron_flamer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "drg_blaze_wing",
+        "drg_blaze_wing",
+        "drg_blaze_wing"
+    ]
+}

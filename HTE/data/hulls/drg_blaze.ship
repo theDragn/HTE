@@ -1,0 +1,40 @@
+{
+  "hullName": "Blaze",
+  "hullId": "drg_blaze",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/blaze/blaze.png",
+  "style": "HIGH_TECH",
+  "height": 33,
+  "width": 30,
+  "center": [15, 15.5],
+  "collisionRadius": 21,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [10, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -0],
+      "length": 17.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -12.5, 16.5,
+    -12.5, -16.5,
+    16.5, -0
+  ]
+}

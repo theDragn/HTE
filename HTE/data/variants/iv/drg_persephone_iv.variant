@@ -2,6 +2,7 @@
     "displayName": "Elite",
     "fluxCapacitors": 19,
     "fluxVents": 20,
+    "goalVariant": true,
     "hullId": "drg_persephone_iv",
     "hullMods": ["missleracks"],
     "permaMods": [],

@@ -7,7 +7,7 @@
 	"tags":["vayra_ashen_bulwark","ashen"],
 	"tech":"Ashen Keepers",
 	"fleetPoints":6,
-	"ordnancePoints":43,
+	"ordnancePoints":48,
 	"baseValueMult":1.6,
 	"spriteName":"graphics/ships/scute_ak.png",
 	"removeWeaponSlots":[], 		# ids

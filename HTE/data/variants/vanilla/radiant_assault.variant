@@ -1,0 +1,68 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 19,
+    "fluxVents": 50,
+    "hullId": "radiant",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "radiant_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "drg_flamer_heavy",
+                "WS 001": "drg_flamer_heavy"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "cyclone",
+                "WS 004": "cyclone"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "sabotpod",
+                "WS 006": "sabotpod",
+                "WS 007": "sabotpod",
+                "WS 008": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "drg_plp"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "ioncannon",
+                "WS 013": "ioncannon",
+                "WS 014": "ioncannon",
+                "WS 015": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ]
+}

@@ -52,6 +52,7 @@
 		"fighters":[
 			"drg_khanjali_wing",
 			"drg_kukri_wing",
+			"drg_blaze_wing",
 		],
 	},
 	"knownWeapons":{
@@ -64,6 +65,8 @@
 			"drg_tawa_battery",
 			"drg_plp",
 			"drg_arc_l",
+			"drg_flamer",
+			"drg_flamer_heavy",
 		],
 	},
 },

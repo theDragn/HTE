@@ -1,0 +1,19 @@
+{
+	"quality":1,
+	"displayName":"Fighter",
+	"hullId":"drg_blaze",
+	"variantId":"drg_blaze_drone",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":["no_weapon_flux"],
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0001":"drg_flamer_ftr",
+		 		   },
+		}
+	],
+}
