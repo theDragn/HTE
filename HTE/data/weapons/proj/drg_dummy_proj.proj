@@ -1,4 +1,5 @@
 {
+# fired from arc emitters and then immediately deleted, since they need to fire a projectile
 	"id":"drg_dummy_proj",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC_AS_BEAM",
