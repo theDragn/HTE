@@ -18,7 +18,7 @@ Gloom,drg_gloom,Phase Cruiser,High Tech,flarelauncher_active,17,7000,1300,10000,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Aggressor,drg_aggressor,Battlecruiser,Low Tech,ammofeed,22,13000,1350,14500,,600,225,,40,50,25,10,10,2500,FRONT,,180,0.4,1,,,500,1000,200,300,10,30,8,300000,3,12,720,0.25,40,40,COMBAT,"rare_bp, hist1t",,0.4,2,4,1343
-Equality,drg_equality,Adaptive Battleship,High Tech,drg_subsystemrealignment,28,11000,1100,21000,,1150,305,,35,12,18,8,8,2200,OMNI,,180,0.35,0.6,,,300,400,225,200,8,25,7,400000,5,20,720,0.25,55,55,COMBAT,"rare_bp, hist1t",,0.4,2,2,1351
+Equality,drg_equality,Adaptive Battleship,High Tech,drg_subsystemrealignment,28,11000,1100,21000,,1150,305,,35,12,18,8,8,2200,OMNI,,180,0.35,0.7,,,300,400,225,200,8,25,7,400000,5,20,720,0.25,55,55,COMBAT,"rare_bp, hist1t",,0.4,2,2,1351
 Spire,drg_spire,Battlecarrier,High Tech,reservewing,29,11000,1000,25000,,1050,300,4,40,12,12,5,5,2500,OMNI,,180,0.4,0.8,,,400,800,250,200,8,25,7,400000,4,20,720,0.25,55,55,COMBAT,"rare_bp, merc, hist1t",,0.4,2,2,1349
 Incursion,drg_incursion,Battleship,High Tech,microburn,30,17000,1500,22000,,1250,340,,35,12,12,6,6,3000,FRONT,,180,0.25,0.8,,,400,1000,300,300,10,30,7,550000,4,20,720,0.25,55,55,COMBAT,"rare_bp, hist1t",,0.6,2,4,1338
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

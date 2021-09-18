@@ -15,7 +15,7 @@
 			"drg_peregrine",
 			"drg_equality",
 			"drg_gloom"
-		],
+		]
 	},
 	"priorityShips":{
 		"hulls":[
@@ -27,12 +27,9 @@
 			"drg_incursion_iv",
 			"drg_paragon_iv",
 			"drg_odyssey_iv"
-		],
+		]
 	},
 	"hullFrequency":{
-		"tags":{
-			"IV_bp":0.995, #there's something fucky going on here, it's 100% IV hulls if you make this 1.0 or remove it.
-		},
 		"hulls":{
 			"drg_bombardier":10,
 			"drg_gila":10,
@@ -45,15 +42,15 @@
 			"drg_flamingo":10,
 			"drg_peregrine":10,
 			"drg_equality":10,
-			"drg_scute":10,
-		},
+			"drg_scute":10
+		}
 	},
 	"knownFighters":{
 		"fighters":[
 			"drg_khanjali_wing",
 			"drg_kukri_wing",
-			"drg_blaze_wing",
-		],
+			"drg_blaze_wing"
+		]
 	},
 	"knownWeapons":{
 		"weapons":[
@@ -66,8 +63,8 @@
 			"drg_plp",
 			"drg_arc_l",
 			"drg_flamer",
-			"drg_flamer_heavy",
-		],
-	},
-},
+			"drg_flamer_heavy"
+		]
+	}
+}
 

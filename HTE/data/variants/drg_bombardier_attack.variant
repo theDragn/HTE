@@ -1,6 +1,6 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 19,
     "fluxVents": 21,
     "goalVariant": true,
     "hullId": "drg_bombardier",
