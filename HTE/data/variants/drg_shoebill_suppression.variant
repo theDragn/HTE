@@ -1,0 +1,16 @@
+{
+    "displayName": "Suppression",
+    "fluxCapacitors": 11,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "drg_shoebill",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_shoebill_suppression",
+    "weaponGroups": [
+    ]
+}

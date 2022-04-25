@@ -4,7 +4,7 @@
 	"hullName":"Equality (CO)",
 	"descriptionId":"drg_equality",
 	"descriptionPrefix":"This prototype vessel is an advanced refit of an Equality-class battleship, clearly intended for covert operations in hostile space.",
-	"tags":[],
+	"tags":["no_dealer"],
 	"tech":"Covert Ops",
 	"fleetPoints":30,
 	"ordnancePoints":315,

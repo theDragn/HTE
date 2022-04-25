@@ -15,6 +15,7 @@ Bombardier,drg_bombardier,Cruiser,High Tech,forgevats,14,8000,700,10000,,750,138
 Tigershark,drg_tigershark,Cruiser,High Tech,plasmajets,17,7000,800,11000,,800,160,,75,55,55,30,30,1500,OMNI,,150,0.5,0.8,,,75,175,150,90,3,30,8,180000,4,20,420,0.25,30,30,COMBAT,"rare_bp, merc, hist1t",,0.4,2,2,1346
 Flamingo,drg_flamingo,Cruiser,High Tech,drg_rangeoverclock,15,9000,1000,12500,,900,180,,50,20,20,16,16,2000,OMNI,,180,0.4,0.6,,,100,250,200,100,4,25,8,200000,4,16,480,0.25,30,30,COMBAT,"rare_bp, merc, hist1t",,0.4,2,4,1347
 Gloom,drg_gloom,Phase Cruiser,High Tech,flarelauncher_active,17,7000,1300,10000,,750,90,,60,55,40,20,25,1350,PHASE,phasecloak,,,,0.05,0.05,100,200,250,200,5,40,8,200000,4,20,420,0.25,26,26,,rare_bp,,0.5,2,3,1356
+Shoebill,drg_shoebill,Heavy Cruiser,High Tech,drg_microvent,18,9000,1100,12500,,950,200,,40,40,25,15,15,2000,OMNI,,180,0.4,0.6,,,125,250,225,120,5,25,8,225000,4,20,480,0.25,34,34,COMBAT,rare_bp,,0.5,2,3,1312
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Aggressor,drg_aggressor,Battlecruiser,Low Tech,ammofeed,22,13000,1350,14500,,600,225,,40,50,25,10,10,2500,FRONT,,180,0.4,1,,,500,1000,200,300,10,30,8,300000,3,12,720,0.25,40,40,COMBAT,"rare_bp, hist1t",,0.4,2,4,1343

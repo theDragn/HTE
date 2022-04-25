@@ -4,7 +4,7 @@
 	"hullName":"Tigershark (CO)",
 	"descriptionId":"drg_tigershark",
 	"descriptionPrefix":"This prototype vessel is an advanced refit of a Tigershark-class cruiser, clearly intended for covert operations in hostile space.",
-	"tags":[],
+	"tags":["no_dealer"],
 	"tech":"Covert Ops",
 	"ordnancePoints":167,
 	"baseValueMult":2,

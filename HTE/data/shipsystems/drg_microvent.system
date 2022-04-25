@@ -1,0 +1,12 @@
+{
+	"id":"drg_microvent",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.drgFluxCompressAI",
+	
+	"statsScript":"data.shipsystems.scripts.drgMicroVent",
+	
+	"useSound":"system_plasma_jets",
+	"loopSound":"system_plasma_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+}

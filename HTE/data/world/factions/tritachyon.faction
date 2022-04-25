@@ -14,7 +14,8 @@
 			"drg_flamingo",
 			"drg_peregrine",
 			"drg_equality",
-			"drg_gloom"
+			"drg_gloom",
+			"drg_shoebill"
 		]
 	},
 	"priorityShips":{
@@ -42,7 +43,8 @@
 			"drg_flamingo":10,
 			"drg_peregrine":10,
 			"drg_equality":10,
-			"drg_scute":10
+			"drg_scute":10,
+			"drg_shoebill":10
 		}
 	},
 	"knownFighters":{
