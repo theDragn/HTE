@@ -1,0 +1,41 @@
+{
+	"id":"drg_fissure_missile_2",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/drg_fissure_missile.png",
+	"onHitEffect":"data.weapons.proj.drgFissureOnHit",
+	"size":[16,32],	
+	"center":[8,16],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,200,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	"flameoutTime":0.5, # fadeout duration
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+  	"engineSpec":{"turnAcc":50,
+				  "turnRate":60,
+				  "acc":150,
+				  "dec":125},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,200,25,255],
+						"glowSizeMult":3.5,
+						"contrailDuration":2,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":4.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":8, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[75,75,75,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":25.0,
+				    "angle":180.0},
+				    ]
+}

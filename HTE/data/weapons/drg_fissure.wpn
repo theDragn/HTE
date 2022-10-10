@@ -1,7 +1,7 @@
 {
   "id": "drg_fissure",
   "specClass": "projectile",
-  "projectileSpecId": "drg_fissure_loaded",
+  "projectileSpecId": "drg_fissure_missile",
   "type": "MISSILE",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/drg_fissure_turret.png",
@@ -11,20 +11,20 @@
     RENDER_LOADED_MISSILES
   ],
   "turretOffsets": [
-    15,
-    6,
-    15,
-    -6
+    12,
+    7,
+    12,
+    -7
   ],
   "turretAngleOffsets": [
     0,
     0
   ],
   "hardpointOffsets": [
-    19,
-    -6,
-    19,
-    6
+    16,
+    -7,
+    16,
+    7
   ],
   "hardpointAngleOffsets": [
     0,
@@ -32,16 +32,23 @@
   ],
   "barrelMode": "ALTERNATING",
   "animationType": "SMOKE",
-	"smokeSpec":{"particleSizeMin":12.0,
-				 "particleSizeRange":12.0,
-				 "cloudParticleCount":6,
-				 "cloudDuration":1.5,
-				 "cloudRadius":10.0,
-				 "blowbackParticleCount":4,
-				 "blowbackDuration":2.0,
-				 "blowbackLength":22.0,
-				 "blowbackSpread":15.0,
-				 "particleColor":[125,125,125,105]},
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      125,
+      125,
+      125,
+      105
+    ]
+  },
   "textureType": ROUGH,
   "fireSoundTwo": "atropos_fire"
 }
