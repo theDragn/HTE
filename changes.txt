@@ -1,0 +1,10 @@
+- Arc Emitters: Improved stats all around to make them a bit more useable. Better efficiency on all, shorter chargeup/cooldown time on small/medium.
+- Plasma Streamers: Increasd range (400->500 for small, 500->700 for large). Reduced ammo capacity and regeneration by 20%.
+- Tawa Standoff Torpedoes: Improved AI usage slightly.
+- Kukri (Tawa Bomber): Reduced OP cost (18 -> 15).
+- Tigershark: Reduced ballistic RoF and flux cost penalty (20% -> 15%).
+- Covops Refit: Missile regeneration now works like normal weapon reloading, instead of occuring every 50 seconds. Always reloads a full burst for missiles that fire more than one at a time. Also now works off of modified missile ammo, so you can increase it with missile spec or expanded racks. No longer rounds up regen since there's nothing to round up.
+New:
+- Husa: Bomber wing with a single-shot Plasma Lens Projector. Two per wing, 22 OP. 
+- Falcata: Cheap support drone that mounts a single Light Arc Emitter. Four per wing, 6 OP. 
+- Sheen: Fragile remnant bomber wing with single-shot Toroidal Plasma Railguns. Four per wing. 15 OP.
