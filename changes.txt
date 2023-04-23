@@ -3,7 +3,9 @@
 - Tawa Standoff Torpedoes: Improved AI usage slightly.
 - Kukri (Tawa Bomber): Reduced OP cost (18 -> 15).
 - Tigershark: Reduced ballistic RoF and flux cost penalty (20% -> 15%).
-- Covops Refit: Missile regeneration now works like normal weapon reloading, instead of occuring every 50 seconds. Always reloads a full burst for missiles that fire more than one at a time. Also now works off of modified missile ammo, so you can increase it with missile spec or expanded racks. No longer rounds up regen since there's nothing to round up.
+- Covops Refit: Now increases reloading speed of all missiles by 10% of their max ammo per minute. If missiles don't reload by default, they will gain a reload size equal to their burst size so you don't end up with less than a full burst in the mag. Also works off of max ammo, not base max ammo, so you can increase it with skills and hullmods.
+
+TODO:
 New:
 - Husa: Bomber wing with a single-shot Plasma Lens Projector. Two per wing, 22 OP. 
 - Falcata: Cheap support drone that mounts a single Light Arc Emitter. Four per wing, 6 OP. 
