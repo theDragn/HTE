@@ -4,7 +4,7 @@
 	"author":"theDragn",
 	"version":"1.4.12",
 	"description":"Adds a number of high-tech ships and weapons.",
-	"gameVersion":"0.95.1a-RC6",
+	"gameVersion":"0.96a-RC8",
 	"jars":["jars/HTE.jar"],
 	"dependencies": [
         {
