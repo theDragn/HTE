@@ -2,7 +2,7 @@
 	"id":"hte",
 	"name":"High Tech Expansion",
 	"author":"theDragn",
-	"version":"1.4.10",
+	"version":"1.4.12",
 	"description":"Adds a number of high-tech ships and weapons.",
 	"gameVersion":"0.95.1a-RC6",
 	"jars":["jars/HTE.jar"],

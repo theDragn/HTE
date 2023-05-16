@@ -1,7 +1,7 @@
 - Arc Emitters: Improved stats all around to make them a bit more useable. Better efficiency on all, shorter chargeup/cooldown time on small/medium.
 - Plasma Streamers: Increasd range (400->500 for small, 500->700 for large). Reduced ammo capacity and regeneration by 20%.
 - Tawa Standoff Torpedoes: Improved AI usage slightly.
-- Kukri (Tawa Bomber): Reduced OP cost (18 -> 15).
+- Kukri (Tawa bomber): Reduced OP cost (18 -> 15).
 - Tigershark: Reduced ballistic RoF and flux cost penalty (20% -> 15%).
 - Covops Refit: Now increases reloading speed of all missiles by 10% of their max ammo per minute. If missiles don't reload by default, they will gain a reload size equal to their burst size so you don't end up with less than a full burst in the mag. Also works off of max ammo, not base max ammo, so you can increase it with skills and hullmods.
 
