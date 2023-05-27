@@ -34,6 +34,7 @@ drg_kaskara,SHIP,"Designed to permanently render low-tech doctrines obsolete, Ka
 drg_blaze,SHIP,"A unique drone fighter with a tiny phase coil, the Blaze can easily melt light targets with its miniaturized plasma streamer.
 
 Size limitations mean that the Blaze's phase coil lacks most containment measures beyond those required to stop the fighter from immediately exploding. As a result, fighter chassis lifetimes are measured in minutes. Hanger crews typically self-destruct Blazes after combat rather than risk a phase coil destabilization while trying to recover a battle-damaged drone.",,,
+drg_sheen,SHIP,"An autonomos interceptor drone, the Sheen is suitable for both point-defense duty and harassing lighter warships. Though it lacks a shield generator, it can be replaced extremely quickly.",,,
 ,,,,,
 # Systems,,,,,
 drg_microvent,SHIP_SYSTEM,"Rapidly vents flux for a very brief period, disabling weapons and shields. Re-engages shields when complete if they were on when the system was activated.",,,

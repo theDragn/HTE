@@ -1,0 +1,40 @@
+{
+  "hullName": "Sheen",
+  "hullId": "drg_sheen",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/hte_sheen.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 40,
+  "center": [20, 17],
+  "collisionRadius": 12,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -0],
+      "length": 14.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -9, 11.5,
+    13, -0,
+    -9, -11.5
+  ]
+}
