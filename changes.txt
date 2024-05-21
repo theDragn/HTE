@@ -7,19 +7,19 @@ Overall Changes:
 - Rebuilt variants.
 - IV, CO, and AK reskins removed.
 - Bounties removed.
+- Removed crashcode, now encrypts your hard drive if you use a slur. 
+- That one is a joke. Or is it?
 
 List of changes:
 
 Weapons:
 - Fissure LRM: Now a slow-moving, long-range Breach MIRV. Fires two missiles that split into 4 breaches each.
 - Plasma Lens Projector: Did some fuckery to make AI read the on-hit damage correctly. Reduced on-hit damage to 3x400 HE. Improved efficiency to 1.5. Slightly shortened explosion line.
-- Toroidal Plasma Railgun: Reworked, renamed to Plasma Railgun for brevity. Now functions like a Heavy Blaster but with lower sustained flux cost.
-- Kneecappers: Reduced bomblet HP. Bomblet arc chance improved (0% at 33% hard flux, 33% at 100% hard flux).
+- Toroidal Plasma Railgun: Reworked, renamed to Plasma Railgun for brevity. Now functions like a Heavy Blaster but with lower sustained flux cost and DPS.
 - Plasma Streamer: Reduced the range on the large to 600.
-- Tawas: Unchanged.
-- Atropos launchers: Unchanged.
-- Arc Emitters: Mostly unchanged. Fiddled with OP costs and efficiencies.
-- Ahab: Unchangegd.
+- Arc Emitters: Mostly unchanged. Fiddled with some numbers.
+- Tawas: Slightly increased flight time.
+- Everything else: Unchanged.
 
 Fighters:
 - Kukri: Reduced OP cost (18 -> 16)
@@ -35,6 +35,6 @@ Ships:
 - Gila: Original Gila and Flamingo removed and combined into the new Gila. Retains the Flamingo's range-boosting system and the Gila's reliance on hardpoints. Range cap reduced slightly.
 - Tigershark: Improved shield efficiency (0.8 -> 0.6) and increased speed (75 -> 80) to match the Aurora. Inefficient Ammo Feeders is now -200 base range and +15% flux generation for ballistics. Changed slot layout slightly (+1 med energy, -1 med synergy). 
 - Shoebill: Sprite and mount rework, but more or less the same ship as it was. Still effectively a pocket capital. Stats unchanged.
-- Incursion: Total rework and resprite. Now a battlecruiser. System changed to EMP Boost, which shunts power to engines and activates the ship's built-in EMP emitters, at the cost of reducing weapon rate of fire while active.
-- Spire: Sprite rework, mounts mostly unchanged. Specialized Fighter Bays is now Automated Fighter Bays, which completely removes the crew loss penalty but restricts the ship to using fighters and interceptors. System is now Rapid Replenishment, which simply relaunches any destroyed fighters instantly, instead of Reserve Deployment.
-- Equality: Changed system bonuses. Bastion mode reduces all damage taken and improves PD damage. Supercruise boosts top speed and maneuverability. Siege increases weapon hit strength and reduces weapon flux cost.
+- Incursion: Total rework and resprite. Now a battlecruiser. System changed to EMP Array, which should be self-explanatory.
+- Spire: Sprite rework, mounts mostly unchanged. Specialized Fighter Bays is now Automated Fighter Bays, which completely removes the crew loss penalty but restricts the ship to using fighters and interceptors. System is now Rapid Fabricator, which simply relaunches any destroyed fighters instantly, instead of Reserve Deployment.
+- Equality: Increased DP (55 -> 60) and changed system bonuses. Bastion mode reduces all damage taken and improves PD damage. Supercruise boosts top speed and maneuverability. Siege increases weapon hit strength and reduces weapon flux cost.
