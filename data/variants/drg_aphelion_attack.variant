@@ -1,29 +1,17 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 14,
-    "fluxVents": 22,
     "goalVariant": true,
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
     "hullId": "drg_aphelion",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_aphelion_attack",
     "weaponGroups": [
-        {
-            "autofire": false,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS0007": "harpoon",
-                "WS0008": "harpoon"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS0005": "sabot",
-                "WS0006": "sabot"
-            }
-        },
         {
             "autofire": true,
             "mode": "LINKED",
@@ -33,22 +21,26 @@
             }
         },
         {
-            "autofire": true,
-            "mode": "LINKED",
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0009": "lrpdlaser",
-                "WS0010": "lrpdlaser"
+                "WS0005": "gorgon",
+                "WS0006": "gorgon",
+                "WS0007": "gorgon",
+                "WS0008": "gorgon"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "drg_arc_s",
-                "WS0004": "drg_arc_s",
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser",
                 "WS0017": "pdlaser"
             }
         }
     ],
-    "wings": ["drg_kaskara_wing"]
+    "wings": ["broadsword_wing"]
 }

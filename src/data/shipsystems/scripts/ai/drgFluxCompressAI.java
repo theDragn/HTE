@@ -22,8 +22,6 @@ public class drgFluxCompressAI implements ShipSystemAIScript {
 
     @Override
     public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
-
-        drgModPlugin.checkPluginLoading();
         timer = new IntervalUtil(drgModPlugin.AI_UPDATE_INTERVAL, drgModPlugin.AI_UPDATE_INTERVAL * 2f);
         this.ship = ship;
         fluxTracker = ship.getFluxTracker();

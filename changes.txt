@@ -1,12 +1,40 @@
-- Arc Emitters: Improved stats all around to make them a bit more useable. Better efficiency on all, shorter chargeup/cooldown time on small/medium.
-- Plasma Streamers: Increasd range (400->500 for small, 500->700 for large). Reduced ammo capacity and regeneration by 20%.
-- Tawa Standoff Torpedoes: Improved AI usage slightly.
-- Kukri (Tawa bomber): Reduced OP cost (18 -> 15).
-- Tigershark: Reduced ballistic RoF and flux cost penalty (20% -> 15%).
-- Covops Refit: Now increases reloading speed of all missiles by 10% of their max ammo per minute. If missiles don't reload by default, they will gain a reload size equal to their burst size so you don't end up with less than a full burst in the mag. Also works off of max ammo, not base max ammo, so you can increase it with skills and hullmods.
+High Tech Expansion 2.0
+Not save compatible with pre-2.0 versions. Can be safely added to existing saves.
 
-TODO:
-New:
-- Husa: Bomber wing with a single-shot Plasma Lens Projector. Two per wing, 22 OP. 
-- Falcata: Cheap support drone that mounts a single Light Arc Emitter. Four per wing, 6 OP. 
-- Sheen: Fragile remnant bomber wing with single-shot Toroidal Plasma Railguns. Four per wing. 15 OP.
+Overall Changes:
+- Full ship and weapon rebalance, and a fairly serious contraction in scope.
+- A number of new sprites.
+- Rebuilt variants.
+- IV, CO, and AK reskins removed.
+- Bounties removed.
+
+List of changes:
+
+Weapons:
+- Fissure LRM: Now a slow-moving, long-range Breach MIRV. Fires two missiles that split into 4 breaches each.
+- Plasma Lens Projector: Did some fuckery to make AI read the on-hit damage correctly. Reduced on-hit damage to 3x400 HE. Improved efficiency to 1.5. Slightly shortened explosion line.
+- Toroidal Plasma Railgun: Reworked, renamed to Plasma Railgun for brevity. Now functions like a Heavy Blaster but with lower sustained flux cost.
+- Kneecappers: Reduced bomblet HP. Bomblet arc chance improved (0% at 33% hard flux, 33% at 100% hard flux).
+- Plasma Streamer: Reduced the range on the large to 600.
+- Tawas: Unchanged.
+- Atropos launchers: Unchanged.
+- Arc Emitters: Mostly unchanged. Fiddled with OP costs and efficiencies.
+- Ahab: Unchangegd.
+
+Fighters:
+- Kukri: Reduced OP cost (18 -> 16)
+
+Ships:
+- Scute: Reduced DP (6 -> 5), removed built-in Harmonic Energy Projector hullmod, increased speed (110 -> 120), and changed system to HEF.
+- Moray: Reduced shield efficiency (0.6 -> 0.7)
+- Persephone: Reduced rear PD arc.
+- Iris: PD Specialization now blocks Safety Overrides.
+- Peregrine: Major rework. Gained a medium missile slot and much better PD arcs. Integrated Supercapacitors is now +50% damage and flux cost to all energy weapons. DP increased (20 -> 24), flux dissipation increased (600 -> 700), and speed increased (75 -> 85).
+- Bombardier: Reduced flux dissipation (750 -> 700) and increased speed (55 -> 60). Improved shield efficiency (0.9 -> 0.8). Increased OP (138 -> 140). Removed built-in EMR.
+- Gloom: Reduced to a destroyer; no longer has any weapons and counts as a civilian ship like the Phantom/Revenant. Increased effect of Drive Field Compressor, but the effect no longer stacks, so you only need a single ship for the maximum benefit.
+- Gila: Original Gila and Flamingo removed and combined into the new Gila. Retains the Flamingo's range-boosting system and the Gila's reliance on hardpoints. Range cap reduced slightly.
+- Tigershark: Improved shield efficiency (0.8 -> 0.6) and increased speed (75 -> 80) to match the Aurora. Inefficient Ammo Feeders is now -200 base range and +15% flux generation for ballistics. Changed slot layout slightly (+1 med energy, -1 med synergy). 
+- Shoebill: Sprite and mount rework, but more or less the same ship as it was. Still effectively a pocket capital. Stats unchanged.
+- Incursion: Total rework and resprite. Now a battlecruiser. System changed to EMP Boost, which shunts power to engines and activates the ship's built-in EMP emitters, at the cost of reducing weapon rate of fire while active.
+- Spire: Sprite rework, mounts mostly unchanged. Specialized Fighter Bays is now Automated Fighter Bays, which completely removes the crew loss penalty but restricts the ship to using fighters and interceptors. System is now Rapid Replenishment, which simply relaunches any destroyed fighters instantly, instead of Reserve Deployment.
+- Equality: Changed system bonuses. Bastion mode reduces all damage taken and improves PD damage. Supercruise boosts top speed and maneuverability. Siege increases weapon hit strength and reduces weapon flux cost.

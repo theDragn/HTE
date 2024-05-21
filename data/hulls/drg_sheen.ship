@@ -2,7 +2,7 @@
   "hullName": "Sheen",
   "hullId": "drg_sheen",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/hte_sheen.png",
+  "spriteName": "graphics/ships/drg_sheen.png",
   "style": "HIGH_TECH",
   "height": 34,
   "width": 40,

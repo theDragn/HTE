@@ -2,7 +2,7 @@
   "hullName": "Scute",
   "hullId": "drg_scute",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/scute.png",
+  "spriteName": "graphics/ships/drg_scute.png",
   "style": "HIGH_TECH",
   "height": 105,
   "width": 66,
@@ -11,9 +11,6 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 68.5,
   "viewOffset": 0,
-  "builtInMods": [
-    "drg_harmproj"
-  ],
   "weaponSlots": [
     {
       "id": "WS0001",

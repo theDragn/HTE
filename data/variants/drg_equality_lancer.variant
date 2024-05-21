@@ -1,0 +1,65 @@
+{
+    "displayName": "Lancer",
+    "goalVariant": true,
+    "fluxCapacitors": 20,
+    "fluxVents": 50,
+    "hullId": "drg_equality",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter",
+        "advancedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_equality_lancer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "tachyonlance",
+                "WS0002": "tachyonlance",
+                "WS0003": "tachyonlance",
+                "WS0004": "tachyonlance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "sabotpod",
+                "WS0016": "sabotpod",
+                "WS0017": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "guardian",
+                "WS0006": "guardian"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s",
+                "WS0011": "drg_arc_s",
+                "WS0012": "drg_arc_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0010": "pdburst",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

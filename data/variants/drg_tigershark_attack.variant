@@ -1,0 +1,45 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 14,
+    "fluxVents": 30,
+    "hullId": "drg_tigershark",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_tigershark_attack",
+    "goalVariant": true,
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "multineedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "breachpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "drg_tpr_m",
+                "WS0002": "drg_tpr_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "drg_arc_s",
+                "WS0006": "drg_arc_s",
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s",
+                "WS0009": "drg_arc_s"
+            }
+        }
+    ]
+}

@@ -6,7 +6,7 @@ import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 public class drgRangeOverclock extends BaseShipSystemScript {
 
 	public static final float 
-		NEW_RANGE = 1600f,
+		NEW_RANGE = 1500f,
 		SPEED_PENALTY = 0.66f;
 	
     @Override

@@ -1,51 +1,15 @@
 {
 	"knownShips":{
-		"tags":["IV_bp"],
 		"hulls":[
-			"drg_aphelion",
 			"drg_bombardier",
 			"drg_gila",
 			"drg_incursion",
-			"drg_iris",
-			"drg_moray",
 			"drg_spire",
 			"drg_tigershark",
-			"drg_persephone",
-			"drg_flamingo",
-			"drg_peregrine",
 			"drg_equality",
 			"drg_gloom",
 			"drg_shoebill"
 		]
-	},
-	"priorityShips":{
-		"hulls":[
-			"drg_equality",
-			"drg_spire",
-			"drg_incursion",
-			"drg_equality_iv",
-			"drg_spire_iv",
-			"drg_incursion_iv",
-			"drg_paragon_iv",
-			"drg_odyssey_iv"
-		]
-	},
-	"hullFrequency":{
-		"hulls":{
-			"drg_bombardier":10,
-			"drg_gila":10,
-			"drg_incursion":7,
-			"drg_iris":10,
-			"drg_moray":10,
-			"drg_spire":5,
-			"drg_tigershark":10,
-			"drg_persephone":10,
-			"drg_flamingo":10,
-			"drg_peregrine":10,
-			"drg_equality":10,
-			"drg_scute":10,
-			"drg_shoebill":10
-		}
 	},
 	"knownFighters":{
 		"fighters":[
@@ -66,6 +30,15 @@
 			"drg_arc_l",
 			"drg_flamer",
 			"drg_flamer_heavy"
+		]
+	},
+	# gotta have this for capitals
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"drg_spire",
+			"drg_equality",
+			"drg_incursion"
 		]
 	}
 }

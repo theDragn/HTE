@@ -1,0 +1,23 @@
+{
+    "displayName": "Torpedo",
+    "goalVariant": true,
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "drg_scute",
+    "hullMods": ["frontemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_scute_torpedo",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "drg_tpr_m"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "drg_alecto"}
+        }
+    ]
+}

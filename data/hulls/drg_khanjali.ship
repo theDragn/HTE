@@ -2,7 +2,7 @@
   "hullName": "Khanjali",
   "hullId": "drg_khanjali",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/khanjali.png",
+  "spriteName": "graphics/ships/drg_khanjali.png",
   "style": "HIGH_TECH",
   "height": 37,
   "width": 32,

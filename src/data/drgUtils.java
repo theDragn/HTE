@@ -20,6 +20,20 @@ import java.util.List;
 
 public class drgUtils
 {
+    public static float lerp(float a, float b, float amount)
+    {
+        return a*(1f-amount) + b*amount;
+    }
+
+    public static Vector2f lerp(Vector2f a, Vector2f b, float amount)
+    {
+        return new Vector2f(lerp(a.x, b.x, amount), lerp(a.y, b.y, amount));
+    }
+
+    public static float randBetween(float a, float b)
+    {
+        return lerp(a, b, Misc.random.nextFloat());
+    }
     /**
      * Draws an arc explosion thingy.
      * @param source projectile to draw arcs from

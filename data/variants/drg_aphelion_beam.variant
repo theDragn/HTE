@@ -1,0 +1,50 @@
+{
+    "displayName": "Beam",
+    "fluxCapacitors": 6,
+    "fluxVents": 26,
+    "hullId": "drg_aphelion",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_aphelion_beam",
+    "goalVariant": true,
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gravitonbeam",
+                "WS0002": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "breach",
+                "WS0006": "breach",
+                "WS0007": "breach",
+                "WS0008": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0009": "taclaser",
+                "WS0010": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0017": "pdlaser"}
+        }
+    ],
+    "wings": ["drg_kukri_wing"]
+}

@@ -2,7 +2,7 @@
   "hullName": "Iris",
   "hullId": "drg_iris",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/iris.png",
+  "spriteName": "graphics/ships/drg_iris.png",
   "style": "HIGH_TECH",
   "height": 119,
   "width": 112,

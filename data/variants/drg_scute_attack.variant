@@ -1,13 +1,10 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 7,
-    "fluxVents": 10,
     "goalVariant": true,
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
     "hullId": "drg_scute",
-    "hullMods": [
-        "fluxdistributor",
-        "extendedshieldemitter"
-    ],
+    "hullMods": ["hardenedshieldemitter"],
     "permaMods": [],
     "sMods": [],
     "variantId": "drg_scute_attack",
@@ -20,7 +17,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0001": "drg_alecto"}
+            "weapons": {"WS0001": "breachpod"}
         }
     ]
 }

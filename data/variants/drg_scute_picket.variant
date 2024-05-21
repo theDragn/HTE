@@ -1,0 +1,26 @@
+{
+    "displayName": "Picket",
+    "goalVariant": true,
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "hullId": "drg_scute",
+    "hullMods": [
+        "magazines",
+        "frontemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_scute_picket",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ionpulser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "typhoon"}
+        }
+    ]
+}

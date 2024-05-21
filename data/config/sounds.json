@@ -18,5 +18,9 @@
 	"drg_flamer_loop":
 	[
 		{"file":"sounds/weapon/drg_flamer_loop.ogg","pitch":1,"volume":1.0}
+	],
+	"drg_incursion_windup":
+	[
+		{"file":"sounds/system/incursion_windup.ogg","pitch":1,"volume":1.0}
 	]
 }

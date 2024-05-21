@@ -2,7 +2,7 @@
   "hullName": "Kaskara",
   "hullId": "drg_kaskara",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/kaskara.png",
+  "spriteName": "graphics/ships/drg_kaskara.png",
   "style": "HIGH_TECH",
   "height": 37,
   "width": 28,

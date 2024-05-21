@@ -1,63 +1,65 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 15,
-    "fluxVents": 50,
     "goalVariant": true,
+    "fluxCapacitors": 34,
+    "fluxVents": 50,
     "hullId": "drg_incursion",
     "hullMods": [
         "targetingunit",
-        "hardenedshieldemitter"
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter",
+        "advancedshieldemitter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_incursion_assault",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0018": "plasma",
-                "WS0019": "plasma"
+                "WS0013": "drg_tpr_l",
+                "WS0014": "drg_tpr_l"
             }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0005": "annihilatorpod",
-                "WS0006": "annihilatorpod",
-                "WS0007": "annihilatorpod",
-                "WS0008": "annihilatorpod",
-                "WS0020": "annihilatorpod",
-                "WS0021": "annihilatorpod"
+                "WS0017": "drg_kneecapper_s",
+                "WS0018": "drg_kneecapper_s",
+                "WS0019": "drg_kneecapper_s",
+                "WS0020": "drg_kneecapper_s"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "gravitonbeam",
-                "WS0002": "gravitonbeam",
-                "WS0003": "ionbeam",
-                "WS0004": "ionbeam",
-                "WS0009": "ionbeam",
-                "WS0012": "taclaser",
-                "WS0013": "taclaser"
+                "WS0009": "drg_flamer",
+                "WS0010": "drg_flamer"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0017": "guardian"}
+            "weapons": {
+                "WS0011": "gravitonbeam",
+                "WS0012": "gravitonbeam"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0010": "pdlaser",
-                "WS0011": "pdlaser",
-                "WS0014": "pdlaser",
-                "WS0015": "pdlaser",
-                "WS0016": "pdlaser"
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
             }
         }
     ]

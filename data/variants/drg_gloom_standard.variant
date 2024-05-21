@@ -1,0 +1,16 @@
+{
+    "displayName": "Standard",
+    "goalVariant": true,
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "hullId": "drg_gloom",
+    "hullMods": [
+        "efficiency_overhaul",
+        "auxiliary_fuel_tanks",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_gloom_standard",
+    "weaponGroups": []
+}

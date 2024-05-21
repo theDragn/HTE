@@ -2,18 +2,17 @@
   "hullName": "Bombardier",
   "hullId": "drg_bombardier",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/bombardier.png",
+  "spriteName": "graphics/ships/drg_bombardier.png",
   "style": "HIGH_TECH",
   "height": 154,
   "width": 282,
   "center": [141, 94],
   "collisionRadius": 140.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 144,
+  "shieldRadius": 165,
   "viewOffset": 0,
   "builtInMods": [
     "eccm",
-    "missleracks"
   ],
   "weaponSlots": [
     {

@@ -12,7 +12,7 @@ import com.fs.starfarer.api.PluginPick
 import com.fs.starfarer.api.combat.MissileAIPlugin
 import data.weapons.proj.ai.drgKneecapperMissileAI
 import com.fs.starfarer.api.campaign.CampaignPlugin
-import data.weapons.proj.ai.drgFissureMissileAI
+import data.weapons.proj.ai.drgFakeBreachAI
 import kotlin.Throws
 import java.io.IOException
 import org.json.JSONException
@@ -27,27 +27,31 @@ class drgModPlugin : BaseModPlugin()
         if (!hasLazyLib) throw RuntimeException(
             "HTE requires LazyLib.\nGet it at http://fractalsoftworks.com/forum/index.php?topic=5444"
         )
-        // doesn't actually *need* MagicLib, but you should probably have it.
-        //val hasMagicLib = Global.getSettings().modManager.isModEnabled("MagicLib")
-        //if (!hasMagicLib) throw RuntimeException(
-        //    "HTE requires MagicLib.\nGet it at http://fractalsoftworks.com/forum/index.php?topic=13718"
-        //)
 
-        // cool kids use class detection
-        // try changing the mod id now, fucko
-        // fash b gone 2: electric boogaloo
+
+        val hasMagicLib = Global.getSettings().modManager.isModEnabled("MagicLib")
+        if (!hasMagicLib) throw RuntimeException(
+            "HTE requires MagicLib.\nGet it at http://fractalsoftworks.com/forum/index.php?topic=13718"
+        )
+
+        // old crashcode preserved for posterity
+        // I guess ngo is basically dead and buried so there's not much reason to continue dying on this hill
+        // rip matt damon, the john brown of starsector modding
+        /*
         var b = false
         try
         {
-            Global.getSettings().scriptClassLoader.loadClass(xd("ZGF0YS5zY3JpcHRzLk5HT01vZFBsdWdpbg=="))
-            b = true
+            Global.getSettings().scriptClassLoader.loadClass(xd("ZGF0YS5zY3JpcHRzLk5HT01vZFBsdWdpbg==")) // tries loading target mod plugin class
+            b = true // if it's not there, it'll throw an error and won't reach this line
         } catch (e: ClassNotFoundException)
         {
         }
-        if (b)
+        if (b) // b is only true if it could successfully load the targeted mod plugin
         {
             throw RuntimeException(xd("SFRFIGVycm9yOiBUaGlzIG1vZCBpcyBub3QgY29tcGF0aWJsZSB3aXRoIE5HTy4gUGxlYXNlIGRpc2FibGUgSFRFIG9yIHRoZSBjb25mbGljdGluZyBtb2QgYW5kIHJlc3RhcnQgeW91ciBnYW1lLg=="))
         }
+        */
+
         try
         {
             loadHTEsettings()
@@ -82,7 +86,7 @@ class drgModPlugin : BaseModPlugin()
         return when (missile.projectileSpecId)
         {
             "drg_kneecapper_rocket" -> return PluginPick(drgKneecapperMissileAI(missile, launchingShip), CampaignPlugin.PickPriority.MOD_SPECIFIC)
-            "drg_fissure_missile" -> return PluginPick(drgFissureMissileAI(missile, launchingShip), CampaignPlugin.PickPriority.MOD_SPECIFIC)
+            "drg_fake_breach" -> PluginPick(drgFakeBreachAI(missile, launchingShip), CampaignPlugin.PickPriority.MOD_SPECIFIC)
             else -> null
         }
     }
@@ -156,20 +160,7 @@ class drgModPlugin : BaseModPlugin()
             HULL_WEIGHTS[ShipAPI.HullSize.CAPITAL_SHIP] = hullWeightData.getDouble("capital").toFloat()
         }
 
-        // plugin is responsible for lots of things now
-        // disabling it will do weird things
-        // and I know at least one guy disabled it, so here's an error just for you
-        // but also, in general, better to crash early and notify the user rather than allowing weirdness
-        @JvmStatic
-        fun checkPluginLoading()
-        {
-            if (!loaded)
-            {
-                throw RuntimeException("HTE error: mod plugin was never loaded. Something has probably gone horribly wrong if you're seeing this.")
-            }
-        }
-
-        // Obfuscation really isn't useful at this point, but it was a pain in the ass to write so I'm not gonna let it go to waste
+        // String de-obfuscator. Just decodes a base64 string.
         fun xd(q: String): String
         {
             var q = q

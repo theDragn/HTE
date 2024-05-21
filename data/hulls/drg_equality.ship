@@ -2,7 +2,7 @@
   "hullName": "Equality",
   "hullId": "drg_equality",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/equality.png",
+  "spriteName": "graphics/ships/drg_equality.png",
   "style": "HIGH_TECH",
   "height": 310,
   "width": 278,
@@ -12,9 +12,9 @@
   "shieldRadius": 200,
   "viewOffset": 0,
   "builtInMods": [
-    "drg_harmproj",
     "drg_adaptivesystems",
-    "drg_heavyenergyintegration"
+    "drg_heavyenergyintegration",
+    "drg_harmproj"
   ],
   "weaponSlots": [
     {

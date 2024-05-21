@@ -1,10 +1,10 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 13,
-    "fluxVents": 20,
     "goalVariant": true,
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
     "hullId": "drg_persephone",
-    "hullMods": ["targetingunit"],
+    "hullMods": ["missleracks"],
     "permaMods": [],
     "sMods": [],
     "variantId": "drg_persephone_attack",
@@ -13,27 +13,23 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "pulselaser",
-                "WS0002": "pulselaser"
+                "WS0001": "ionpulser",
+                "WS0002": "ionpulser"
             }
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0007": "drg_alecto"}
+            "weapons": {"WS0007": "typhoon"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "ioncannon",
-                "WS0004": "ioncannon"
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
             }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0005": "pdburst"}
         }
     ]
 }

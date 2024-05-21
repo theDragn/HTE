@@ -1,0 +1,31 @@
+{
+    "displayName": "Skirmish",
+    "goalVariant": true,
+    "fluxCapacitors": 16,
+    "fluxVents": 20,
+    "hullId": "drg_moray",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_moray_skirmish",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pulselaser",
+                "WS0002": "pulselaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "breachpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "pdburst"}
+        }
+    ]
+}

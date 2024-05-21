@@ -1,37 +1,35 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 32,
-    "fluxVents": 50,
+    "fluxCapacitors": 1,
     "goalVariant": true,
+    "fluxVents": 50,
     "hullId": "drg_spire",
-    "hullMods": [
-        "targetingunit",
-        "stabilizedshieldemitter"
-    ],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_spire_attack",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0013": "tachyonlance",
-                "WS0014": "tachyonlance"
+                "WS0013": "hil",
+                "WS0014": "hil"
             }
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0015": "squall"}
+            "weapons": {"WS0015": "drg_fissure"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "pulselaser",
-                "WS0004": "pulselaser",
-                "WS0005": "pulselaser",
-                "WS0006": "pulselaser"
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam",
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam"
             }
         },
         {
@@ -44,16 +42,25 @@
                 "WS0008": "pdlaser",
                 "WS0009": "pdlaser",
                 "WS0010": "pdlaser",
-                "WS0011": "pdlaser",
-                "WS0012": "pdlaser",
-                "WS0016": "pdlaser"
+                "WS0016": "pdlaser",
+                "WS0017": "pdlaser",
+                "WS0018": "pdlaser",
+                "WS0019": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "heavyburst",
+                "WS0012": "heavyburst"
             }
         }
     ],
     "wings": [
-        "thunder_wing",
-        "thunder_wing",
-        "thunder_wing",
-        "thunder_wing"
+        "drg_blaze_wing",
+        "drg_blaze_wing",
+        "drg_khanjali_wing",
+        "drg_khanjali_wing"
     ]
 }

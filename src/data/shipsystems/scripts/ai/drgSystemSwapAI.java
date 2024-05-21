@@ -25,8 +25,6 @@ public class drgSystemSwapAI implements ShipSystemAIScript
 
     @Override
     public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
-        // load things from settings
-        drgModPlugin.checkPluginLoading();
         // longer AI interval than normal, because we want to let modes actually kick in before recalculating
         timer = new IntervalUtil(drgModPlugin.AI_UPDATE_INTERVAL, drgModPlugin.AI_UPDATE_INTERVAL * 2f);
 

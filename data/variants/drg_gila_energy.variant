@@ -1,0 +1,48 @@
+{
+    "displayName": "Energy",
+    "fluxCapacitors": 12,
+    "fluxVents": 30,
+    "hullId": "drg_gila",
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_gila_energy",
+    "goalVariant": true,
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "autopulse",
+                "WS0002": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "drg_tpr_m",
+                "WS0005": "drg_tpr_m",
+                "WS0007": "drg_tpr_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdburst",
+                "WS0006": "pdburst",
+                "WS0008": "pdburst",
+                "WS0009": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "drg_arc_m"}
+        }
+    ]
+}

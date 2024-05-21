@@ -45,5 +45,16 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../LazyLib/jars/LazyLib-Kotlin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../LazyLib/jars/LazyLib-Kotlin.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

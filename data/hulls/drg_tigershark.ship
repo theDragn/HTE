@@ -2,7 +2,7 @@
   "hullName": "Tigershark",
   "hullId": "drg_tigershark",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/tigershark.png",
+  "spriteName": "graphics/ships/drg_tigershark.png",
   "style": "HIGH_TECH",
   "height": 291,
   "width": 196,
@@ -18,7 +18,7 @@
     {
       "id": "WS0001",
       "size": "MEDIUM",
-      "type": "SYNERGY",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 120,
       "angle": 35,
@@ -27,7 +27,7 @@
     {
       "id": "WS0002",
       "size": "MEDIUM",
-      "type": "SYNERGY",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 130,
       "angle": -40,
@@ -36,7 +36,7 @@
     {
       "id": "WS0003",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,

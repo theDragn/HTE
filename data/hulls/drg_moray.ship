@@ -2,7 +2,7 @@
   "hullName": "Moray",
   "hullId": "drg_moray",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/moray.png",
+  "spriteName": "graphics/ships/drg_moray.png",
   "style": "HIGH_TECH",
   "height": 128,
   "width": 88,

@@ -1,0 +1,20 @@
+{
+	"id":"drg_incursionsys",
+	"type":"STAT_MOD",
+	"aiType":"EMP",
+	"aiScript":"data.shipsystems.scripts.ai.drgIncursionSysAI",
+	
+	"statsScript":"data.shipsystems.scripts.drgIncursionSys",
+	
+	"useSound":"drg_incursion_windup",
+	"loopSound":"system_emp_emitter_loop",
+	"impactSound":"system_emp_emitter_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1000,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":90,
+	}
+}

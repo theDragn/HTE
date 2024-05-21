@@ -1,10 +1,10 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 11,
-    "fluxVents": 20,
     "goalVariant": true,
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
     "hullId": "drg_moray",
-    "hullMods": ["missleracks"],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "sMods": [],
     "variantId": "drg_moray_attack",
@@ -13,8 +13,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "pulselaser",
-                "WS0002": "pulselaser"
+                "WS0001": "drg_tpr_m",
+                "WS0002": "drg_tpr_m"
             }
         },
         {

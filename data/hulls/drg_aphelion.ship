@@ -2,7 +2,7 @@
   "hullName": "Aphelion",
   "hullId": "drg_aphelion",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/aphelion.png",
+  "spriteName": "graphics/ships/drg_aphelion.png",
   "style": "HIGH_TECH",
   "height": 274,
   "width": 132,

@@ -1,0 +1,34 @@
+{
+    "displayName": "Arc",
+    "goalVariant": true,
+    "fluxCapacitors": 8,
+    "fluxVents": 20,
+    "hullId": "drg_iris",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_iris_arc",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "lightac",
+                "WS0005": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "drg_arc_l"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 27,
+    "fluxVents": 50,
+    "hullId": "drg_incursion",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "advancedshieldemitter",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_incursion_attack",
+    "goalVariant": true,
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "plasma",
+                "WS0014": "plasma"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0017": "drg_kneecapper_s",
+                "WS0018": "drg_kneecapper_s",
+                "WS0019": "drg_kneecapper_s",
+                "WS0020": "drg_kneecapper_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "gravitonbeam",
+                "WS0010": "gravitonbeam",
+                "WS0011": "gravitonbeam",
+                "WS0012": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser",
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
+            }
+        }
+    ]
+}

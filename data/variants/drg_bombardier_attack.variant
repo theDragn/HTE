@@ -1,19 +1,20 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 19,
-    "fluxVents": 21,
-    "goalVariant": true,
+    "fluxCapacitors": 11,
+    "fluxVents": 25,
     "hullId": "drg_bombardier",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_bombardier_attack",
+    "goalVariant": true,
     "weaponGroups": [
         {
-            "autofire": true,
-            "mode": "LINKED",
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0009": "pulselaser",
-                "WS0010": "pulselaser"
+                "WS0007": "amblaster",
+                "WS0008": "amblaster"
             }
         },
         {
@@ -31,15 +32,15 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0015": "drg_arc_m"}
+            "weapons": {
+                "WS0009": "pulselaser",
+                "WS0010": "pulselaser"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "WS0007": "drg_arc_s",
-                "WS0008": "drg_arc_s"
-            }
+            "weapons": {"WS0015": "drg_arc_m"}
         },
         {
             "autofire": true,

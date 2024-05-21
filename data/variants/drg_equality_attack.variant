@@ -1,14 +1,14 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 27,
-    "fluxVents": 50,
     "goalVariant": true,
+    "fluxCapacitors": 25,
+    "fluxVents": 50,
     "hullId": "drg_equality",
     "hullMods": [
+        "magazines",
         "targetingunit",
         "stabilizedshieldemitter",
-        "fluxdistributor",
-        "magazines"
+        "hardenedshieldemitter"
     ],
     "permaMods": [],
     "sMods": [],
@@ -26,9 +26,9 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0015": "harpoonpod",
-                "WS0016": "harpoonpod",
-                "WS0017": "harpoonpod"
+                "WS0015": "typhoon",
+                "WS0016": "typhoon",
+                "WS0017": "typhoon"
             }
         },
         {
@@ -43,20 +43,26 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "drg_arc_l",
-                "WS0006": "drg_arc_l"
+                "WS0005": "guardian",
+                "WS0006": "guardian"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "pdlaser",
-                "WS0008": "pdlaser",
-                "WS0009": "pdlaser",
-                "WS0010": "pdlaser",
-                "WS0011": "pdlaser",
-                "WS0012": "pdlaser",
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s",
+                "WS0011": "drg_arc_s",
+                "WS0012": "drg_arc_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0010": "pdburst",
                 "WS0013": "pdlaser",
                 "WS0014": "pdlaser"
             }

@@ -1,20 +1,26 @@
 {
     "displayName": "Lancer",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 16,
     "fluxVents": 30,
-    "goalVariant": true,
     "hullId": "drg_tigershark",
     "hullMods": [
-        "hardenedshieldemitter",
-        "targetingunit"
+        "targetingunit",
+        "stabilizedshieldemitter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "drg_tigershark_lancer",
+    "goalVariant": true,
     "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "plasma"}
+        },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0004": "multineedler"}
+            "weapons": {"WS0003": "sabotpod"}
         },
         {
             "autofire": true,
@@ -27,17 +33,12 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0003": "ionbeam"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
             "weapons": {
                 "WS0005": "drg_arc_s",
                 "WS0006": "drg_arc_s",
-                "WS0007": "pdlaser",
-                "WS0008": "pdlaser",
-                "WS0009": "pdlaser"
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s",
+                "WS0009": "drg_arc_s"
             }
         }
     ]

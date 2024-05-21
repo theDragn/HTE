@@ -1,6 +1,6 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 drg_khanjali_wing,drg_khanjali_fighter,"fighter6, fighter, high, rare_bp, hist1t, merc",3,0.25,7,20,V,4000,500,,2,FIGHTER,Strike Fighter,15,10000,,,,,,,,,,,,,1
-drg_kukri_wing,drg_kukri_bomber,"bomber6, bomber, high, rare_bp, hist1t, merc",3,0.25,8,18,V,4000,2000,300,2,BOMBER,Bomber,18,15000,,,,,,,,,,,,,2
+drg_kukri_wing,drg_kukri_bomber,"bomber6, bomber, high, rare_bp, hist1t, merc",3,0.25,8,18,V,4000,2000,300,2,BOMBER,Bomber,16,15000,,,,,,,,,,,,,2
 drg_kaskara_wing,drg_kaskara_fighter,"fighter6, fighter, high, hightech_bp, merc",1,0.5,6,17,V,4000,500,-200,2,FIGHTER,Assault,15,9000,,,,,,,,,,,,,3
 drg_blaze_wing,drg_blaze_drone,"fighter5, fighter, high, hightech_bp, merc, auto_fighter",1,0.5,4,13,CLAW,4000,400,,3,FIGHTER,Fighter Drone,12,7500,,,,,,,,,,,,,4
-drg_sheen,drg_sheen_drone,"no_sell, interceptor, remnant, interceptor6, auto_fighter, merc",3,,5,9,BOX,4000,200,600,4,INTERCEPTOR,Interceptor Drone,6,6000,,,,,,,,,,,,,5
+drg_sheen_wing,drg_sheen_drone,"no_sell, interceptor, remnant, interceptor6, auto_fighter, merc",3,,5,9,BOX,4000,200,600,4,INTERCEPTOR,Interceptor Drone,6,6000,,,,,,,,,,,,,5

@@ -34,7 +34,6 @@ public class drgRangeOverclockAI implements ShipSystemAIScript {
     @Override
     public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
         // load things from settings
-        drgModPlugin.checkPluginLoading();
         timer = new IntervalUtil(drgModPlugin.AI_UPDATE_INTERVAL, drgModPlugin.AI_UPDATE_INTERVAL * 2f);
 
         // initialize variables

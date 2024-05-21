@@ -77,15 +77,16 @@ public class drgFleetStatManager implements EveryFrameScript
                 shouldGetProfileBonus = false;
             }
         }
-
-        int numBoosters = 0;
+        boolean isBoosted = false;
         for (FleetMemberAPI member : fleet.getFleetData().getMembersListCopy())
         {
-            if (member.getVariant().hasHullMod("drg_drivefield"))
-                numBoosters++;
+            if (member.getVariant().hasHullMod("drg_drivefield")) {
+                isBoosted = true;
+                break;
+            }
         }
-        float accelBonus = Math.min(numBoosters * drgDriveField.ACCELERATION_BONUS, drgDriveField.ACCELERATION_CAP);
-        float profileBonus = Math.min(numBoosters * drgDriveField.PROFILE_BONUS, drgDriveField.PROFILE_CAP);
+        float accelBonus = isBoosted ? drgDriveField.ACCELERATION_BONUS : 0;
+        float profileBonus = isBoosted ? drgDriveField.PROFILE_BONUS : 0;
         if (accelBonus > 0)
         {
             fleet.getStats().getAccelerationMult().modifyMult("drg_drivefield", 1f + accelBonus, "Drive Field Compressor");

@@ -2,7 +2,7 @@
   "hullName": "Persephone",
   "hullId": "drg_persephone",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/persephone.png",
+  "spriteName": "graphics/ships/drg_persephone.png",
   "style": "HIGH_TECH",
   "height": 165,
   "width": 89,
@@ -53,7 +53,7 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 360,
+      "arc": 200,
       "angle": 180,
       "locations": [-35, 0]
     },

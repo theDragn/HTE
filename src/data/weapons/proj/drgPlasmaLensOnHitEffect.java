@@ -22,7 +22,7 @@ import org.lazywizard.lazylib.MathUtils;
 public class drgPlasmaLensOnHitEffect implements OnHitEffectPlugin {
 
     private static final float 
-        EXPLOSION_DISTANCE = 52f, // distance of each explosion from the previous
+        EXPLOSION_DISTANCE = 45f, // distance of each explosion from the previous
         //EXPLOSION_DAMAGE = 500f, // now uses base projectile damage
         LENS_FLARE_THICKNESS = 10f,
         LENS_FLARE_LENGTH = 400f;
@@ -63,7 +63,7 @@ public class drgPlasmaLensOnHitEffect implements OnHitEffectPlugin {
             if (sourceShip != null) {
 
                 WeaponAPI weaponFrom = projectile.getWeapon();
-                float explosionDamage = projectile.getDamageAmount() / 2f;
+                float explosionDamage = projectile.getDamageAmount() * 0.4f * 0.5f; // halved again because we doubled it when fired, and this procs first
                 if (weaponFrom != null && !shieldHit) {
 
                     // get projectile location and velocity, normalize it

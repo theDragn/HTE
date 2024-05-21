@@ -1,0 +1,52 @@
+{
+    "displayName": "Harasser",
+    "fluxCapacitors": 9,
+    "fluxVents": 30,
+    "hullId": "drg_bombardier",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_bombardier_harasser",
+    "goalVariant": true,
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "drg_tpr_m",
+                "WS0010": "drg_tpr_m",
+                "WS0015": "pulselaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gazer",
+                "WS0002": "gazer",
+                "WS0003": "gazer",
+                "WS0004": "gazer",
+                "WS0005": "gazer",
+                "WS0006": "gazer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "drg_arc_s",
+                "WS0008": "drg_arc_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser"
+            }
+        }
+    ]
+}

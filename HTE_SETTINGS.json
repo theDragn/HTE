@@ -35,9 +35,9 @@
     # ships that have one or more of these tags will be sold at Svarog
     # you can add more tags here if you want
     # if a ship has multiple tags it'll use whichever one gives it the highest weighting
-    # you could always add in rare_bp, just for fun
+    # you could always add in rare_bp, just for fun (I did :3)
     "svarogTagWeights":{
-        "IV_bp":5,
+        "rare_bp":2,
         "XIV_bp":2,
         "hightech_bp":2,
         "midline_bp":1

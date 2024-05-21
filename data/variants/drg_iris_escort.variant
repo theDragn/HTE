@@ -1,0 +1,37 @@
+{
+    "displayName": "Escort",
+    "goalVariant": true,
+    "fluxCapacitors": 6,
+    "fluxVents": 18,
+    "hullId": "drg_iris",
+    "hullMods": [
+        "advancedoptics",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "drg_iris_escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "guardian"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "drg_kneecapper_s",
+                "WS0005": "drg_kneecapper_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pdburst",
+                "WS0003": "pdburst"
+            }
+        }
+    ]
+}
