@@ -1,12 +1,7 @@
 variant id
-drg_aggressor_sniper
-drg_incursion_assault
-drg_spire_strike
-drg_equality_suppression
-drg_flamingo_assault
-drg_peregrine_skirmish
-drg_bombardier_attack
-drg_aphelion_strike
-drg_persephone_strike
-drg_moray_attack
-drg_scute_attack
+drg_tigershark_attack
+drg_aphelion_attack
+drg_bombardier_harasser
+drg_persephone_skirmish
+drg_scute_torpedo
+drg_scute_picket

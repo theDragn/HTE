@@ -4,11 +4,11 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/drg_tigershark.png",
   "style": "HIGH_TECH",
-  "height": 291,
+  "height": 290,
   "width": 196,
-  "center": [98, 145.5],
-  "collisionRadius": 122,
-  "shieldCenter": [0, 0],
+  "center": [98, 144],
+  "collisionRadius": 127,
+  "shieldCenter": [1, -0],
   "shieldRadius": 169,
   "viewOffset": 0,
   "builtInMods": [
@@ -21,7 +21,7 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 120,
-      "angle": 35,
+      "angle": 0,
       "locations": [26, 37]
     },
     {
@@ -30,8 +30,8 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 130,
-      "angle": -40,
-      "locations": [26, -35]
+      "angle": 0,
+      "locations": [26, -36]
     },
     {
       "id": "WS0003",
@@ -40,7 +40,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-46, 10]
+      "locations": [-46, 9]
     },
     {
       "id": "WS0004",
@@ -49,7 +49,7 @@
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
-      "locations": [110, 1]
+      "locations": [111, -0]
     },
     {
       "id": "WS0005",
@@ -57,8 +57,8 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 130,
-      "angle": -90,
-      "locations": [-4, -39]
+      "angle": -25,
+      "locations": [-5, -40]
     },
     {
       "id": "WS0006",
@@ -66,8 +66,8 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 130,
-      "angle": 90,
-      "locations": [-4, 41]
+      "angle": 25,
+      "locations": [-5, 41]
     },
     {
       "id": "WS0007",
@@ -76,7 +76,7 @@
       "mount": "TURRET",
       "arc": 130,
       "angle": 90,
-      "locations": [-57, 34]
+      "locations": [-57, 33]
     },
     {
       "id": "WS0008",
@@ -85,7 +85,7 @@
       "mount": "TURRET",
       "arc": 130,
       "angle": -110,
-      "locations": [-57, -31]
+      "locations": [-57, -33]
     },
     {
       "id": "WS0009",
@@ -94,12 +94,12 @@
       "mount": "TURRET",
       "arc": 235,
       "angle": 180,
-      "locations": [-106, 1]
+      "locations": [-106, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-78, 48],
+      "location": [-76.5, 48],
       "length": 30,
       "width": 10,
       "angle": 180,
@@ -107,7 +107,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-78, -46],
+      "location": [-76.5, -46],
       "length": 19,
       "width": 6,
       "angle": 180,
@@ -115,7 +115,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-70, -57],
+      "location": [-68.5, -57],
       "length": 36.833153,
       "width": 13.048986,
       "angle": -168,
@@ -123,7 +123,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-69.5, 60],
+      "location": [-68, 60],
       "length": 36.833153,
       "width": 13.048986,
       "angle": 170,
@@ -132,15 +132,15 @@
     }
   ],
   "bounds": [
-    -124.5, 13,
-    -79, 45,
-    -71.5, 75.5,
-    -15.5, 67.5,
-    122, 25,
-    122, -25,
-    -15.5, -67.5,
-    -71.5, -75.5,
-    -79, -45,
-    -124.5, -13
+    -123, 13,
+    -77.5, 45,
+    -70, 75.5,
+    -14, 67.5,
+    123.5, 25,
+    123.5, -25,
+    -14, -67.5,
+    -70, -75.5,
+    -77.5, -45,
+    -123, -13
   ]
 }

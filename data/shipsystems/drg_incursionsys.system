@@ -1,7 +1,7 @@
 {
 	"id":"drg_incursionsys",
 	"type":"STAT_MOD",
-	"aiType":"EMP",
+	"aiType":"CUSTOM",
 	"aiScript":"data.shipsystems.scripts.ai.drgIncursionSysAI",
 	
 	"statsScript":"data.shipsystems.scripts.drgIncursionSys",
