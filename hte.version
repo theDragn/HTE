@@ -6,7 +6,7 @@
     {
         "major":2,
         "minor":0,
-        "patch":0
+        "patch":1
     },
     #Link towards a direct download, fetched from the online version file
 	"directDownloadURL":"https://github.com/theDragn/HTE/releases/latest/",
