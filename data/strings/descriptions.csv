@@ -36,7 +36,7 @@ drg_fluxcompressor,SHIP_SYSTEM,"Compresses a portion of the ship's flux and rout
 drg_hvb_system,SHIP_SYSTEM,Increases ballistic and energy weapon fire rates by 50% and reduces flux costs by 33%. Increases missile rate of fire by 100%.,,,
 drg_subsystemrealignment,SHIP_SYSTEM,"Switches subsystem mode between Supercruise, Siege, and Bastion.",,,
 drg_incursionsys,SHIP_SYSTEM,Rapidly strikes the target ship with powerful EMP arcs. Has a limited firing arc and prevents weapons use while active.,,,
-drg_spiresys,SHIP_SYSTEM,"Instantly fabricates and launches replacement fighters, returning any wings to full strength.",,,
+drg_spiresys,SHIP_SYSTEM,"Instantly fabricates and launches replacement fighters, returning any wings to full strength. Generates soft flux on use.",,,
 ,,,,,
 # Weapons,,,,,
 drg_nyx,WEAPON,"Quad launcher capable of firing Atropos-class guided torpedoes with a quick reloading time. Less dangerous than Reaper salvos, but far more reliable. Carries generous ammunition to make up for its sub-par strike damage.

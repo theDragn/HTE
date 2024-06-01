@@ -10,4 +10,8 @@
     },
     #Link towards a direct download, fetched from the online version file
 	"directDownloadURL":"https://github.com/theDragn/HTE/releases/latest/",
+    
+    #Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
+	#The menu will highlight any line that beginns with "Version"
+	"changelogURL":"https://raw.githubusercontent.com/theDragn/HTE/main/changes.txt",
 }

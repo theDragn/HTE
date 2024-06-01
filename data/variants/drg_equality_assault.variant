@@ -1,64 +1,64 @@
 {
     "displayName": "Assault",
-    "goalVariant": true,
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 26,
     "fluxVents": 50,
     "hullId": "drg_equality",
     "hullMods": [
         "targetingunit",
+        "magazines",
         "stabilizedshieldemitter",
         "hardenedshieldemitter",
-        "missleracks"
+        "advancedshieldemitter"
     ],
     "permaMods": [],
     "sMods": [],
     "variantId": "drg_equality_assault",
+        "goalVariant": true,
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "drg_tpr_l",
-                "WS0002": "drg_tpr_l",
-                "WS0003": "drg_tpr_l",
-                "WS0004": "drg_tpr_l"
+                "WS0013": "drg_flamer_heavy",
+                "WS0014": "drg_flamer_heavy"
             }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0015": "drg_alecto",
-                "WS0016": "drg_alecto",
-                "WS0017": "drg_alecto"
+                "WS0015": "phasecl",
+                "WS0016": "phasecl"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "drg_tpr_l",
+                "WS0012": "drg_tpr_l"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "guardian",
-                "WS0006": "guardian"
+                "WS0009": "guardian",
+                "WS0010": "guardian"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "drg_arc_s",
-                "WS0008": "drg_arc_s",
-                "WS0011": "drg_arc_s",
-                "WS0012": "drg_arc_s"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0009": "pdburst",
-                "WS0010": "pdburst",
-                "WS0013": "pdlaser",
-                "WS0014": "pdlaser"
+                "WS0001": "pdburst",
+                "WS0002": "pdburst",
+                "WS0003": "pdburst",
+                "WS0004": "pdburst",
+                "WS0005": "pdburst",
+                "WS0006": "pdburst",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
             }
         }
     ]

@@ -12,7 +12,8 @@
   "shieldRadius": 125.5,
   "viewOffset": 0,
   "builtInMods": [
-    "advancedshieldemitter"
+    "advancedshieldemitter",
+    "drg_harmproj"
   ],
   "weaponSlots": [
     {

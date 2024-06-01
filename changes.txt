@@ -1,4 +1,11 @@
-High Tech Expansion 2.0
+Version 2.0.1
+Not save compatible, unless you don't have any fitted Equalities in your save (or in NPC fleets). 
+
+Changes:
+- Equality resprite. It lost one medium missile in exchange for a better sprite and some front-facing PD.
+- Harmonic Energy Projector removed from the Equality and added to the Shoebill. Maximum range bonus reduced to 20%.
+
+Version 2.0.0
 Not save compatible with pre-2.0 versions. Can be safely added to existing saves.
 
 Overall Changes:
@@ -7,8 +14,6 @@ Overall Changes:
 - Rebuilt variants.
 - IV, CO, and AK reskins removed.
 - Bounties removed.
-- Removed crashcode, now encrypts your hard drive if you use a slur. 
-- That one is a joke. Or is it?
 
 List of changes:
 

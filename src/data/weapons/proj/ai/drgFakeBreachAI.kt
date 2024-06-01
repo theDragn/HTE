@@ -111,7 +111,7 @@ class drgFakeBreachAI(val missile: MissileAPI, val launchingShip: ShipAPI): Miss
     private var timer = 0f
     private var check = 0f
     private var lead: Vector2f? = Vector2f()
-    private var offset = 0f
+    private var side_offset = 0f
     private val WAVE_TIME_CONST = 2f * MathUtils.FPI / WAVE_TIME
 
     override fun advance(amount: Float)
@@ -133,9 +133,6 @@ class drgFakeBreachAI(val missile: MissileAPI, val launchingShip: ShipAPI): Miss
             return
         }
 
-        // pick lateral offset
-        if (offset == 0f) offset = (Misc.random.nextFloat() - 0.5f) * 2f
-
         timer += amount
         // do expensive angle and distance calculations on a timer
         val targetDist = MathUtils.getDistanceSquared(missile.location, target!!.location)
@@ -156,12 +153,10 @@ class drgFakeBreachAI(val missile: MissileAPI, val launchingShip: ShipAPI): Miss
                 var offset_mult = 1f
                 if (SPREAD_SHRINK_FACTOR > 0)
                     offset_mult = lerp(SPREAD_SHRINK_FACTOR, 1f, min(sqrt(targetDist) / SPREAD_SHRINK_DIST, 1f))
-                offset_mult *= SPREAD_AMOUNT
-                val real_offset = offset_mult * target!!.collisionRadius
-                val angle = VectorUtils.getAngle(missile.location, target!!.location) + 90f
-                val offset_vec = Misc.getUnitVectorAtDegreeAngle(angle)
-                offset_vec.scale(real_offset)
-                targetLoc = target!!.location + offset_vec
+
+                targetLoc = Vector2f(0f, side_offset * offset_mult).rotate(VectorUtils.getAngle(missile.location, target!!.location))
+                Vector2f.add(target!!.location, targetLoc, targetLoc)
+                //engine.addSmoothParticle(targetLoc, Misc.ZERO, 10f, 1f, 0.1f, Color.CYAN)
             }
             lead = if (PREDICTIVE_INTERCEPT)
             {
@@ -231,7 +226,13 @@ class drgFakeBreachAI(val missile: MissileAPI, val launchingShip: ShipAPI): Miss
     override fun setTarget(newTarget: CombatEntityAPI?)
     {
         target = newTarget
+        if (target !is ShipAPI || SPREAD_AMOUNT <= 0) return
+        // yeah look I had an NPE here and don't want to deal with it
+        target ?: return
+
+        side_offset = (2f * Misc.random.nextFloat() - 1f) * target!!.collisionRadius * SPREAD_AMOUNT
     }
+
 
 
 }

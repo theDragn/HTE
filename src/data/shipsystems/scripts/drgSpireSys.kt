@@ -18,17 +18,21 @@ class drgSpireSys: BaseShipSystemScript()
     {
         val ship = stats?.entity as ShipAPI
         ship ?: return
-
-        for (bay in ship.launchBaysCopy)
+        if (!runOnce)
         {
-            bay.makeCurrentIntervalFast()
-            bay.fastReplacements = 6
+            for (bay in ship.launchBaysCopy)
+            {
+                bay.makeCurrentIntervalFast()
+                val toReplace = bay.wing.spec.numFighters - bay.wing.wingMembers.size
+                bay.fastReplacements = toReplace
+            }
+            runOnce = true
         }
-
     }
 
     override fun unapply(stats: MutableShipStatsAPI?, id: String?)
     {
+        runOnce = false
         super.unapply(stats, id)
     }
 }

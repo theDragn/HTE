@@ -5,4 +5,4 @@ Weapon Overdrive,drg_hvb_system,,,,,,,,,,,5,,15,,,,,,,,,,,graphics/icons/hullsys
 Subsystem Realignment,drg_subsystemrealignment,,,,,,,,3,,0.15,,,0.15,,,,,,,,,,,graphics/icons/buffs/drg_systemswapbuff.png
 Microvent Actuators,drg_microvent,,,,,,,,2,0.1,0,0,0.66,0,,,,,TRUE,,,,TRUE,,graphics/icons/tactical/venting_flux.png
 EMP Array,drg_incursionsys,1,,,,,0.2,,,,1,1,0.5,6,,,,,TRUE,,,,,,graphics/icons/hullsys/emp_emitter.png
-Rapid Fabricator,drg_spiresys,,,,,,,,,,,3,17,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Rapid Fabricator,drg_spiresys,,,,,,0.15,,,,,3,17,,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png

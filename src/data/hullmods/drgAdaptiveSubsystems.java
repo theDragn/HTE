@@ -214,7 +214,7 @@ public class drgAdaptiveSubsystems extends BaseHullMod
         //text.addPara("+" + (int)Math.ceil((SIEGE_DAMAGE_MULT - 1f) * 100f) + "%% damage and flux cost for non-missile projectile weapons.", 0, Color.GREEN, "+" + (int)Math.ceil((SIEGE_DAMAGE_MULT - 1f) * 100f) + "%");
         //text.addPara("+" + (int)Math.ceil((SIEGE_DAMAGE_MULT- 1f) * 0.5f * 100f) + "%% damage for beam weapons.", 0, Color.GREEN, "+" + (int)Math.ceil((SIEGE_DAMAGE_MULT- 1f) * 0.5f * 100f) + "%");
         text.addPara("+" + (int)Math.ceil((SIEGE_DAMAGE_MULT - 1f) * 100f) + "%% hit strength for armor damage reduction calculation.", 0, Color.GREEN, "+" + (int)Math.ceil((SIEGE_DAMAGE_MULT - 1f) * 100f) + "%");
-        text.addPara("" + (int)Math.floor((1f-SIEGE_FLUX_MULT) * 100f) + "%% reduced weapon flux costs.", 0, Color.GREEN, "-" + (int)Math.floor((1f-SIEGE_FLUX_MULT) * 100f) + "%");
+        text.addPara("" + (int)Math.round((1f-SIEGE_FLUX_MULT) * 100f) + "%% reduced weapon flux costs.", 0, Color.GREEN, "-" + (int)Math.floor((1f-SIEGE_FLUX_MULT) * 100f) + "%");
         //text.addPara("Zero-flux boost disabled.", 0, Color.RED, "disabled.");
         text.addPara("-" + (int)((1f-SIEGE_SPEED_MULT) * 100f) + "%% zero-flux boost.", 0, Color.RED, "-" + (int)((1f-SIEGE_SPEED_MULT) * 100f) + "%");
         tooltip.addImageWithText(pad);
