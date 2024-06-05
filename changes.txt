@@ -3,7 +3,7 @@ Not save compatible, unless you don't have any fitted Equalities in your save (o
 
 Changes:
 - Equality resprite. It lost one medium missile in exchange for a better sprite and some front-facing PD.
-- Harmonic Energy Projector removed from the Equality and added to the Shoebill. Maximum range bonus reduced to 20%.
+- Harmonic Energy Projector removed from the Equality and added to the Shoebill.
 
 Version 2.0.0
 Not save compatible with pre-2.0 versions. Can be safely added to existing saves.

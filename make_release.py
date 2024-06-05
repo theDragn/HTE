@@ -5,7 +5,7 @@ modname = "HTE"
 
 src = curdir
 temp = curdir + "\\temp\\" + modname
-toIgnore = shutil.ignore_patterns('*.gitignore', '.idea', '.run', 'out', 'src', '*.iml','*.py','*.md','.git','temp', '*.zip')
+toIgnore = shutil.ignore_patterns('*.gitignore', '.idea', '.run', 'out', 'src', '*.iml','*.py','*.md','.git','temp', '*.zip','hte_lineup.png')
 print("\nDid you update the version number in BOTH the mod_info and the .version?\n")
 print("Copying to temp directory...")
 shutil.copytree(src, temp, ignore = toIgnore)
