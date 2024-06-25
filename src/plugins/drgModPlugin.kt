@@ -34,6 +34,7 @@ class drgModPlugin : BaseModPlugin()
             "HTE requires MagicLib.\nGet it at http://fractalsoftworks.com/forum/index.php?topic=13718"
         )
 
+
         // old crashcode preserved for posterity
         // I guess ngo is basically dead and buried so there's not much reason to continue dying on this hill
         // rip matt damon, the john brown of starsector modding

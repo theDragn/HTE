@@ -23,7 +23,7 @@ public class drgFighterBays extends BaseHullMod {
 
     @Override
     public void applyEffectsToFighterSpawnedByShip(ShipAPI fighter, ShipAPI ship, String id) {
-        fighter.getMutableStats().getCrewLossMult().modifyPercent(id, CREW_LOSS_REDUCTION * -1f);
+        fighter.getMutableStats().getCrewLossMult().modifyMult(id, 0f);
     }
 
     @Override

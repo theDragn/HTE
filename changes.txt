@@ -1,3 +1,9 @@
+Version 2.0.2 (upcoming, probably soonish)
+- Added normal maps for all ships and weapons, and lighting data for most weapons and projectiles. This will significantly improve visuals and double the VRAM footprint for players using graphicslib. If you don't use graphicslib, or have graphicslib shaders turned off, there should be no change in performance or VRAM usage.
+- Peregrine: Reduced DP to 22.
+- Tigershark: Reduced DP to 28. Removed ballistic flux penalty from built-in.
+- Fixed the version file to work with mod managers
+
 Version 2.0.1
 Not save compatible, unless you don't have any fitted Equalities in your save (or in NPC fleets). 
 
