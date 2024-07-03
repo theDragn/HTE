@@ -13,6 +13,8 @@ import com.fs.starfarer.api.combat.MissileAIPlugin
 import data.weapons.proj.ai.drgKneecapperMissileAI
 import com.fs.starfarer.api.campaign.CampaignPlugin
 import data.weapons.proj.ai.drgFakeBreachAI
+import org.dark.shaders.light.LightData
+import org.dark.shaders.util.TextureData
 import kotlin.Throws
 import java.io.IOException
 import org.json.JSONException
@@ -34,6 +36,11 @@ class drgModPlugin : BaseModPlugin()
             "HTE requires MagicLib.\nGet it at http://fractalsoftworks.com/forum/index.php?topic=13718"
         )
 
+        if (Global.getSettings().modManager.isModEnabled("shaderLib"))
+        {
+            TextureData.readTextureDataCSV("data/config/hte_texture_data.csv")
+            LightData.readLightDataCSV("data/config/hte_light_data.csv")
+        }
 
         // old crashcode preserved for posterity
         // I guess ngo is basically dead and buried so there's not much reason to continue dying on this hill

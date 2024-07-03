@@ -6,10 +6,10 @@
     {
         "major":2,
         "minor":0,
-        "patch":1
+        "patch":2
     },
     #Link towards a direct download, fetched from the online version file
-	"directDownloadURL":"https://github.com/theDragn/HTE/releases/download/2.0.1/HTE_v2.0.1.zip",
+	"directDownloadURL":"https://github.com/theDragn/ApexDesignCollective/releases/latest/download/HTE.zip",
     
     #Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
 	#The menu will highlight any line that beginns with "Version"
