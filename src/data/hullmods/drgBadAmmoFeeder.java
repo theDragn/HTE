@@ -12,7 +12,7 @@ public class drgBadAmmoFeeder extends BaseHullMod {
 
     public static final float
             BALLISTIC_RANGE_MOD = -200f,
-            BALLISTIC_FLUX_INCREASE = 15f;
+            BALLISTIC_FLUX_INCREASE = 0f;
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {

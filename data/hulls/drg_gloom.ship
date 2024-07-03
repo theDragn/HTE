@@ -15,7 +15,8 @@
     "phasefield",
     "delicate",
     "drg_drivefield",
-    "high_maintenance"
+    "high_maintenance",
+    "repair_gantry"
   ],
   "weaponSlots": [
     {
