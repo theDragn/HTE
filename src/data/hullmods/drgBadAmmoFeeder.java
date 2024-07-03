@@ -10,14 +10,7 @@ import com.fs.starfarer.api.combat.listeners.WeaponBaseRangeModifier;
 
 public class drgBadAmmoFeeder extends BaseHullMod {
 
-    public static final float
-            BALLISTIC_RANGE_MOD = -200f,
-            BALLISTIC_FLUX_INCREASE = 0f;
-
-    @Override
-    public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getBallisticWeaponFluxCostMod().modifyPercent(id, BALLISTIC_FLUX_INCREASE);
-    }
+    public static final float BALLISTIC_RANGE_MOD = -200f;
 
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id)
@@ -28,8 +21,6 @@ public class drgBadAmmoFeeder extends BaseHullMod {
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0)
-            return (int)BALLISTIC_FLUX_INCREASE + "%";
-        if (index == 1)
             return (int)-BALLISTIC_RANGE_MOD + "";
         return null;
     }

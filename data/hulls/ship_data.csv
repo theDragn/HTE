@@ -19,7 +19,7 @@ Shoebill,drg_shoebill,Heavy Cruiser,High Tech,drg_microvent,18,9000,1100,12500,,
 #Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Equality,drg_equality,Adaptive Battleship,High Tech,drg_subsystemrealignment,28,11000,1100,21000,,1150,300,,35,12,18,8,8,2200,OMNI,,180,0.35,0.7,,,300,400,225,200,8,25,7,400000,5,20,720,0.25,60,60,COMBAT,"rare_bp, hist1t",,0.4,2,2,1351
 Spire,drg_spire,Battlecarrier,High Tech,drg_spiresys,29,11000,1000,25000,,1050,300,4,40,12,12,5,5,2500,OMNI,,180,0.4,0.8,,,400,800,250,200,8,25,7,400000,4,20,720,0.25,55,55,COMBAT,"rare_bp, merc, hist1t",,0.4,2,2,1349
-Incursion,drg_incursion,Battlecruiser,High Tech,drg_incursionsys,30,17000,1000,22000,,1100,300,,60,25,25,12,20,3000,FRONT,,180,0.4,0.8,,,400,1000,300,300,10,30,7,550000,4,20,720,0.25,50,50,COMBAT,"rare_bp, merc, hist1t",,0.6,2,4,1234
+Incursion,drg_incursion,Battlecruiser,High Tech,drg_incursionsys,30,17000,1000,22000,,1100,300,,60,25,25,12,20,3000,FRONT,,180,0.4,0.8,,,400,1000,300,300,10,30,8,550000,4,20,720,0.25,50,50,COMBAT,"rare_bp, merc, hist1t",,0.6,2,4,1234
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Khanjali,drg_khanjali,,High Tech,flarelauncher_active,,350,75,550,,125,0,,190,300,250,150,240,40,FRONT,,220,0,1,,,2,2,,,,,,,,,,,,,,,,0,,,1352
