@@ -1,4 +1,4 @@
-Version 2.0.2
+Version 2.0.2. Save compatible.
 - Added normal maps for all ships and weapons, and lighting data for weapons and projectiles. This will significantly improve visuals (and double the VRAM footprint) for players using graphicslib.
 - Peregrine: Reduced DP to 22.
 - Tigershark: Reduced DP to 28. Removed ballistic flux penalty from built-in.
