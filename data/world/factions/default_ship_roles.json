@@ -1,47 +1,47 @@
 {
 	"combatCapital":{
-		"drg_equality_attack":4,
-		"drg_equality_assault":4,
-		"drg_incursion_assault":4,
-		"drg_incursion_attack":4
+		"drg_equality_attack":3,
+		"drg_equality_assault":3,
+		"drg_incursion_assault":3,
+		"drg_incursion_attack":3
 	},
 	"combatLarge":{
-		"drg_aphelion_attack":4,
-		"drg_aphelion_beam":4,
-		"drg_bombardier_attack":4,
-		"drg_bombardier_harasser":4,
-		"drg_gila_attack":4,
-		"drg_gila_energy":4,
-		"drg_peregrine_assault":4,
-		"drg_peregrine_attack":4,
-		"drg_shoebill_attack":4,
-		"drg_shoebill_plasma":4,
-		"drg_tigershark_assault":4,
-		"drg_tigershark_attack":4,
-		"drg_tigershark_lancer":4
+		"drg_aphelion_attack":2,
+		"drg_aphelion_beam":2,
+		"drg_bombardier_attack":2,
+		"drg_bombardier_harasser":2,
+		"drg_gila_attack":2,
+		"drg_gila_energy":2,
+		"drg_peregrine_assault":3,
+		"drg_peregrine_attack":3,
+		"drg_shoebill_attack":2,
+		"drg_shoebill_plasma":2,
+		"drg_tigershark_assault":1,
+		"drg_tigershark_attack":1,
+		"drg_tigershark_lancer":1
 	},
 	"combatMedium":{
-		"drg_iris_arc":4,
-		"drg_iris_escort":4,
-		"drg_moray_attack":4,
-		"drg_moray_skirmish":4,
-		"drg_persephone_attack":4,
-		"drg_persephone_skirmish":4,		
+		"drg_iris_arc":1,
+		"drg_iris_escort":1,
+		"drg_moray_attack":2,
+		"drg_moray_skirmish":2,
+		"drg_persephone_attack":2,
+		"drg_persephone_skirmish":2,		
 	},
 	"combatSmall":{
-		"drg_scute_attack":4,
+		"drg_scute_attack":2,
 		"drg_scute_beam":2,
-		"drg_scute_picket":4,
-		"drg_scute_torpedo":4
+		"drg_scute_picket":2,
+		"drg_scute_torpedo":2
 	},
 	"combatSmallForSmallFleet":{
-		"drg_scute_attack":4,
-		"drg_scute_picket":4,
-		"drg_scute_torpedo":4
+		"drg_scute_attack":2,
+		"drg_scute_picket":2,
+		"drg_scute_torpedo":2
 	},
 	"carrierLarge":{
-		"drg_spire_suppression":3,
-		"drg_spire_attack":3
+		"drg_spire_suppression":2,
+		"drg_spire_attack":2
 	},
 	"freighterMedium":{
 		"drg_gloom_standard":2

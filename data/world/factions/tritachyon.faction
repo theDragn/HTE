@@ -32,7 +32,9 @@
 			"drg_flamer_heavy"
 		]
 	},
-	# gotta have this for capitals
+	# gotta have this for capitals since
+	# their other capital hulls are marked as priority
+	# so modded ones will almost never show up if you don't mark em as priority too
 	"priorityShips":{
 		"tags":[],
 		"hulls":[

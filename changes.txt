@@ -1,3 +1,9 @@
+Version 2.0.4. Save compatible.
+Apparently a lot of the hull and weapon tags were missing or messed up, causing some ships/weapons from the mod to appear in incorrect factions, at incorrect rates, or not at all. Unsure how long this has been a problem for, but it's fixed now.
+
+Version 2.0.3. Save compatible.
+Fixed an error with the Tigershark's hullmod and the Incursion having burn 7 when its description implied it had burn 8.
+
 Version 2.0.2. Save compatible.
 - Added normal maps for all ships and weapons, and lighting data for weapons and projectiles. This will significantly improve visuals (and double the VRAM footprint) for players using graphicslib.
 - Peregrine: Reduced DP to 22.

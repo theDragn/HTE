@@ -4,7 +4,7 @@ High Tech Expansion is by theDragn, and is licensed under a Creative Commons Att
 
 What this means: Do whatever you like as long as you don't sell it, you give me credit, and you keep the license the same.
 
-Some sprites are free to use in your own mods without regard to the license (ie, you don't have to credit me/the artist because I got them off spiral arms in the first place): Iris, Moray, Persephone, Aphelion Plasma Streamer.
+Some sprites are free to use in your own mods without regard to the license (ie, you don't have to credit me/the artist because I got them off spiral arms in the first place): Iris, Moray, Persephone, Aphelion, Plasma Streamer.
 
 Sprite credits: 
 Me (thedragn): Equality, Scute, Gloom, all weapons and fighters minus plasma streamer.
