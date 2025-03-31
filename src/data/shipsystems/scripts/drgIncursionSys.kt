@@ -57,6 +57,7 @@ class drgIncursionSys: BaseShipSystemScript()
                     arcpoints.add(slot)
             }
         }
+        if (target!!.isPhased) return
         val amount = Global.getCombatEngine().elapsedInLastFrame
         for (i in 0..4)
         {
@@ -116,7 +117,7 @@ class drgIncursionSys: BaseShipSystemScript()
     {
         ship ?: return false
         ship.shipTarget ?: return false
-        if (!ship.shipTarget.isAlive || ship.shipTarget.owner == ship.owner) return false
+        if (!ship.shipTarget.isAlive || ship.shipTarget.owner == ship.owner || ship.isPhased) return false
         val is_in_range = MathUtils.isWithinRange(ship, ship.shipTarget, ship.mutableStats.systemRangeBonus.computeEffective(RANGE))
         val is_in_arc = Misc.isInArc(ship.facing, 90f, ship.location, ship.shipTarget.location)
         return is_in_range && is_in_arc

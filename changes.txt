@@ -1,3 +1,6 @@
+Version 2.0.5. Just a version number update.
+- Minor fix: Incursion's system can no longer zap phased targets.
+
 Version 2.0.4. Save compatible.
 Apparently a lot of the hull and weapon tags were missing or messed up, causing some ships/weapons from the mod to appear in incorrect factions, at incorrect rates, or not at all. Unsure how long this has been a problem for, but it's fixed now.
 
