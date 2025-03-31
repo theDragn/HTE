@@ -15,5 +15,6 @@ Axlemc131: Moray
 Helmut: Plasma Streamer
 Vinya: Aphelion
 Undisclosed: Iris
+tuprewm: original Shoebill design
 
 Source code is available at https://github.com/theDragn/HTE
